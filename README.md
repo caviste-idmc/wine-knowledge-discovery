@@ -32,3 +32,25 @@ Features:
 
 Grapevine (Vitis vinifera L.) harvest date information for 27 regions in France, Switzerland, Italy, Spain and Luxemburg. The 27 regional composite grape harvest date (GHD) series are derived from 380 individual vinyard locations. Harvest dates are presented as the number of days after 31 August.
 
+
+## de Azambuja, R. X., Morais, A. J., & Filipe, V. (2023). X-Wines: A Wine Dataset for Recommender Systems and Machine Learning. Big Data and Cognitive Computing, 7(1), Article 20. https://doi.org/10.3390/bdcc7010020.
+[https://github.com/rogerioxavier/X-Wines/tree/main/Dataset](https://github.com/rogerioxavier/X-Wines/tree/main/Dataset)
+
+* 0   WineID      100646 non-null  int64  
+* 1   WineName    100646 non-null  object 
+* 2   Type        100646 non-null  object 
+* 3   Elaborate   100646 non-null  object 
+* 4   Grapes      100646 non-null  object 
+* 5   ABV         100646 non-null  float64
+* 6   Body        100646 non-null  object 
+* 7   Acidity     100646 non-null  object 
+* 8   Harmonize   100646 non-null  object 
+* 9   Vintages    100646 non-null  object 
+* 10  Code        100646 non-null  object 
+* 11  Country     100646 non-null  object 
+* 12  RegionID    100646 non-null  int64  
+* 13  RegionName  100646 non-null  object 
+* 14  WineryID    100646 non-null  int64  
+* 15  WineryName  100646 non-null  object 
+* 16  Website     82679 non-null   object 
+
