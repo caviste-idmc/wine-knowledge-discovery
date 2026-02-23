@@ -36,21 +36,22 @@ Grapevine (Vitis vinifera L.) harvest date information for 27 regions in France,
 ## de Azambuja, R. X., Morais, A. J., & Filipe, V. (2023). X-Wines: A Wine Dataset for Recommender Systems and Machine Learning. Big Data and Cognitive Computing, 7(1), Article 20. https://doi.org/10.3390/bdcc7010020.
 [https://github.com/rogerioxavier/X-Wines/tree/main/Dataset](https://github.com/rogerioxavier/X-Wines/tree/main/Dataset)
 
-* 0   WineID      100646 non-null  int64  
-* 1   WineName    100646 non-null  object 
-* 2   Type        100646 non-null  object 
-* 3   Elaborate   100646 non-null  object 
-* 4   Grapes      100646 non-null  object 
-* 5   ABV         100646 non-null  float64
-* 6   Body        100646 non-null  object 
-* 7   Acidity     100646 non-null  object 
-* 8   Harmonize   100646 non-null  object 
-* 9   Vintages    100646 non-null  object 
-* 10  Code        100646 non-null  object 
-* 11  Country     100646 non-null  object 
-* 12  RegionID    100646 non-null  int64  
-* 13  RegionName  100646 non-null  object 
-* 14  WineryID    100646 non-null  int64  
-* 15  WineryName  100646 non-null  object 
-* 16  Website     82679 non-null   object 
-
+* WineID: Integer. The wine primary key identification;
+* WineName: String. The textual wine identification presented in the label;
+* Type: String. The categorical type classification: Red, white or rosé for still wines, gasified sparkling or dessert for sweeter and fortified wines. Dessert/Port is a sub classification for liqueur dessert wines;
+* Elaborate: String. Categorical classification between varietal or assemblage/blend. The most famous blends are also considered, such as Bordeaux red and white blend,Valpolicella blend and Portuguese red and white blend;
+* Grapes: String list. It contains the grape varieties used in the wine elaboration. The
+original names found have been kept;
+* Harmonize: String list. It contains the main dishes set that pair with the wine item. These are provided by producers but openly recommended on the internet by sommeliers and even consumers;
+* ABV: Float. The alcohol by volume (ABV) percentage. According to [1], the value shown on the label may vary, and a tolerance of 0.5% per 100 volume is allowed, reaching 0.8% for some wines;
+* Body: String. The categorical body classification: Very light-bodied, light-bodied, medium-bodied, full-bodied or very full-bodied based on wine viscosity [37];
+* Acidity: String. The categorical acidity classification: Low, medium, or high, based on potential hydrogen (pH) score [38];
+* Code: String. It contains the categorical international acronym of origin country of
+the wine production (ISO-3166);
+* Country: String. The categorical origin country identification of the wine production (ISO-3166);
+* RegionID: Integer. The foreign key of the wine production region;
+* RegionName: String. The textual wine region identification. The appellation region name wasretained when identified;
+* WineryID: Integer. The foreign key of the wine production winery;
+* WineryName: String. The textual winery identification;
+* Website: String. The winery’s URL, when identified;
+* Vintages: String list. It contains the list of integers that represent the vintage years orthe abbreviation “N.V.” referring to “non-vintage
