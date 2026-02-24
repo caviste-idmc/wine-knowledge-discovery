@@ -1,0 +1,6 @@
+premise,conclusion,support,delta_stability,premise_len,conclusion_len,interesting_score
+{'food::Beef'},{'avg_harvest_start_to_2007_missing'},53,4,1,1,71.55
+{'Type_Red'},{'avg_harvest_start_to_2007_missing'},53,4,1,1,71.55
+{'abv_num_low'},{'avg_harvest_start_to_2007_missing'},49,9,1,1,66.14999999999999
+{'Acidity_High'},{'avg_harvest_start_to_2007_missing'},45,10,1,1,60.74999999999999
+{'food::Game Meat'},"{'avg_harvest_start_to_2007_missing', 'Type_Red'}",39,2,1,2,58.5

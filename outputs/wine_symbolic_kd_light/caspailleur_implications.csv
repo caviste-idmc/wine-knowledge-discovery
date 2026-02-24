@@ -1,0 +1,331 @@
+premise,conclusion,support,delta_stability
+{'Style_Savoury & Full Bodied'},{'Type_Red'},154,1
+{'Type_Rosé'},{'harvest_for_vintage_missing'},124,1
+{'avg_harvest_start_to_2007_low'},{'Country_France'},171,2
+{'region_clean_Other'},{'harvest_for_vintage_missing'},724,8
+{'Style_Fresh & Elegant '},{'harvest_for_vintage_missing'},95,2
+{'Style_Light & Elegant'},{'harvest_for_vintage_missing'},104,2
+{'Style_Rich & Toasty'},{'harvest_for_vintage_missing'},141,3
+{'Style_Ripe & Rounded'},{'harvest_for_vintage_missing'},91,1
+{'Closure_Screwcap'},{'harvest_for_vintage_missing'},414,13
+{'price_num_low'},{'harvest_for_vintage_missing'},450,19
+{'abv_num_high'},{'harvest_for_vintage_missing'},265,15
+{'vintage_year_high'},{'harvest_for_vintage_missing'},330,26
+{'vintage_year_mid'},{'harvest_for_vintage_missing'},265,32
+{'vintage_year_missing'},{'harvest_for_vintage_missing'},178,1
+{'avg_harvest_start_to_2007_missing'},{'harvest_for_vintage_missing'},1111,395
+{'grape::Chardonnay'},{'harvest_for_vintage_missing'},237,17
+{'grape::Pinot Noir'},{'harvest_for_vintage_missing'},116,26
+{'grape::Sauvignon Blanc'},{'harvest_for_vintage_missing'},102,2
+{'char::Vanilla'},{'harvest_for_vintage_missing'},259,24
+{'char::Peach'},{'harvest_for_vintage_missing'},245,37
+{'char::Green Apple'},{'harvest_for_vintage_missing'},244,3
+{'char::Citrus Fruit'},{'harvest_for_vintage_missing'},239,17
+{'char::Red Fruit'},{'harvest_for_vintage_missing'},205,13
+{'char::Lemon'},{'harvest_for_vintage_missing'},202,2
+{'char::Raspberry'},{'harvest_for_vintage_missing'},190,16
+{'char::Strawberry'},{'harvest_for_vintage_missing'},170,22
+{'char::Black Plum'},{'harvest_for_vintage_missing'},165,3
+{'char::Blackberry'},{'harvest_for_vintage_missing'},160,1
+{'char::Black Fruit'},{'harvest_for_vintage_missing'},150,1
+"{'Style_Other', 'Type_Red'}",{'harvest_for_vintage_missing'},199,6
+"{'price_num_mid', 'Type_Red'}",{'harvest_for_vintage_missing'},189,30
+"{'abv_num_mid', 'Type_Red'}",{'harvest_for_vintage_missing'},258,45
+{'grape::Cabernet Sauvignon'},"{'harvest_for_vintage_missing', 'Type_Red'}",87,17
+{'Style_Crisp & Zesty'},"{'Type_White', 'harvest_for_vintage_missing'}",98,3
+"{'price_num_high', 'Type_White'}",{'harvest_for_vintage_missing'},175,20
+"{'Type_White', 'abv_num_low'}",{'harvest_for_vintage_missing'},374,54
+{'Country_Australia'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",96,18
+{'region_clean_Bordeaux'},"{'Country_France', 'avg_harvest_start_to_2007_low'}",67,2
+{'Country_Italy'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",147,5
+{'Country_New Zealand'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",91,3
+{'Country_Other'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",213,23
+{'Country_Spain'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",113,22
+{'Country_USA'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",51,1
+{'region_clean_Unknown'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",166,32
+"{'price_num_high', 'Style_Other'}",{'harvest_for_vintage_missing'},125,7
+"{'Style_Other', 'abv_num_low'}",{'harvest_for_vintage_missing'},256,7
+"{'price_num_high', 'abv_num_mid'}",{'harvest_for_vintage_missing'},114,29
+"{'price_num_mid', 'abv_num_low'}",{'harvest_for_vintage_missing'},175,48
+"{'char::Spice', 'price_num_mid'}",{'harvest_for_vintage_missing'},65,4
+"{'char::Spice', 'abv_num_mid'}",{'harvest_for_vintage_missing'},74,4
+{'grape::Grenache'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",82,7
+"{'Country_France', 'Style_Savoury & Full Bodied'}",{'Closure_Natural Cork'},54,1
+"{'Country_France', 'price_num_high', 'Type_Red'}",{'Closure_Natural Cork'},60,1
+"{'Country_France', 'char::Black Plum'}",{'Type_Red'},46,2
+"{'Style_Light & Elegant', 'region_clean_Other'}",{'Type_Red'},55,2
+{'Style_Bold & Spicy'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing', 'Type_Red'}",113,34
+"{'Style_Light & Elegant', 'vintage_year_low'}",{'Type_Red'},56,15
+"{'grape::Pinot Noir', 'Style_Light & Elegant'}",{'Type_Red'},72,23
+"{'char::Red Fruit', 'Style_Light & Elegant'}",{'Type_Red'},50,6
+"{'char::Strawberry', 'Style_Light & Elegant'}",{'Type_Red'},41,8
+"{'price_num_mid', 'Style_Savoury & Full Bodied'}",{'harvest_for_vintage_missing'},49,6
+"{'Style_Savoury & Full Bodied', 'abv_num_mid'}",{'harvest_for_vintage_missing'},67,6
+"{'price_num_low', 'char::Black Plum'}",{'Type_Red'},53,3
+"{'price_num_low', 'char::Blackberry'}",{'Type_Red'},51,3
+"{'price_num_low', 'char::Black Fruit'}",{'Type_Red'},59,2
+"{'price_num_mid', 'char::Black Plum'}",{'Type_Red'},51,2
+"{'price_num_mid', 'char::Blackberry'}",{'Type_Red'},60,4
+"{'char::Black Fruit', 'price_num_mid'}",{'Type_Red'},48,2
+"{'char::Red Fruit', 'abv_num_high'}",{'Type_Red'},59,1
+"{'char::Spice', 'abv_num_high'}",{'Type_Red'},78,2
+"{'char::Blackberry', 'abv_num_high'}",{'Type_Red'},73,1
+"{'grape::Pinot Noir', 'abv_num_mid'}",{'Type_Red'},51,3
+"{'char::Black Plum', 'abv_num_mid'}",{'Type_Red'},69,9
+"{'char::Blackberry', 'abv_num_mid'}",{'Type_Red'},73,5
+"{'char::Black Fruit', 'abv_num_mid'}",{'Type_Red'},71,4
+"{'char::Black Plum', 'vintage_year_low'}",{'Type_Red'},100,16
+"{'char::Black Fruit', 'vintage_year_low'}",{'Type_Red'},95,6
+"{'char::Red Fruit', 'char::Vanilla'}",{'Type_Red'},66,1
+"{'char::Black Plum', 'char::Vanilla'}",{'Type_Red'},59,1
+"{'char::Blackberry', 'char::Vanilla'}",{'Type_Red'},52,2
+"{'char::Spice', 'char::Red Fruit'}",{'Type_Red'},40,3
+"{'char::Black Fruit', 'char::Red Fruit'}",{'Type_Red'},87,2
+"{'char::Spice', 'char::Black Fruit'}",{'Type_Red'},47,2
+"{'char::Black Plum', 'char::Blackberry'}",{'Type_Red'},94,4
+"{'Type_Rosé', 'vintage_year_high'}",{'Style_Other'},54,1
+"{'char::Peach', 'Type_Rosé'}",{'Style_Other'},60,1
+"{'Closure_Natural Cork', 'Type_Rosé'}",{'avg_harvest_start_to_2007_missing'},79,3
+"{'price_num_high', 'Type_Rosé'}",{'avg_harvest_start_to_2007_missing'},44,3
+"{'vintage_year_missing', 'Type_Rosé'}",{'avg_harvest_start_to_2007_missing'},40,2
+"{'Country_France', 'Style_Fresh & Elegant '}",{'Type_White'},50,15
+"{'Country_France', 'Style_Ripe & Rounded'}",{'Type_White'},48,9
+"{'Country_France', 'grape::Sauvignon Blanc'}",{'Type_White'},40,6
+"{'vintage_year_high', 'Style_Fresh & Elegant '}",{'Type_White'},51,11
+"{'char::Lemon', 'Style_Fresh & Elegant '}",{'Type_White'},38,9
+"{'abv_num_mid', 'Style_Rich & Toasty'}",{'Type_White'},40,1
+"{'char::Vanilla', 'Style_Rich & Toasty'}",{'Type_White'},59,2
+"{'char::Peach', 'Style_Rich & Toasty'}",{'Type_White'},61,3
+"{'char::Green Apple', 'Style_Rich & Toasty'}",{'Type_White'},55,3
+"{'char::Citrus Fruit', 'Style_Rich & Toasty'}",{'Type_White'},39,1
+"{'char::Lemon', 'Style_Rich & Toasty'}",{'Type_White'},42,3
+"{'Style_Ripe & Rounded', 'abv_num_low'}",{'Type_White'},40,16
+"{'Style_Ripe & Rounded', 'abv_num_mid'}",{'Type_White'},42,11
+"{'Style_Ripe & Rounded', 'grape::Chardonnay'}",{'Type_White'},46,13
+"{'Style_Ripe & Rounded', 'char::Peach'}",{'Type_White'},47,14
+"{'Style_Ripe & Rounded', 'char::Lemon'}",{'Type_White'},38,8
+"{'grape::Chardonnay', 'Closure_Screwcap'}",{'Type_White'},45,8
+"{'Closure_Screwcap', 'char::Green Apple'}",{'Type_White'},114,2
+"{'char::Lemon', 'Closure_Screwcap'}",{'Type_White'},114,8
+"{'price_num_high', 'char::Green Apple'}",{'Type_White'},68,8
+"{'price_num_low', 'char::Lemon'}",{'Type_White'},73,4
+"{'price_num_mid', 'grape::Sauvignon Blanc'}",{'Type_White'},47,3
+"{'price_num_mid', 'char::Lemon'}",{'Type_White'},85,31
+"{'grape::Chardonnay', 'abv_num_mid'}",{'Type_White'},66,20
+"{'grape::Sauvignon Blanc', 'abv_num_mid'}",{'Type_White'},42,1
+"{'char::Green Apple', 'abv_num_mid'}",{'Type_White'},64,4
+"{'grape::Chardonnay', 'vintage_year_high'}",{'Type_White'},42,14
+"{'grape::Sauvignon Blanc', 'vintage_year_high'}",{'Type_White'},64,1
+"{'char::Green Apple', 'vintage_year_high'}",{'Type_White'},100,3
+"{'char::Lemon', 'vintage_year_high'}",{'Type_White'},97,17
+"{'grape::Chardonnay', 'vintage_year_low'}",{'Type_White'},77,11
+"{'char::Lemon', 'vintage_year_low'}",{'Type_White'},48,15
+"{'vintage_year_mid', 'grape::Chardonnay'}",{'Type_White'},49,14
+"{'vintage_year_mid', 'char::Green Apple'}",{'Type_White'},44,7
+"{'grape::Chardonnay', 'char::Vanilla'}",{'Type_White'},78,19
+"{'char::Peach', 'grape::Chardonnay'}",{'Type_White'},98,29
+"{'grape::Sauvignon Blanc', 'char::Green Apple'}",{'Type_White'},75,3
+"{'char::Citrus Fruit', 'grape::Sauvignon Blanc'}",{'Type_White'},46,4
+"{'char::Lemon', 'grape::Sauvignon Blanc'}",{'Type_White'},47,2
+"{'char::Peach', 'char::Vanilla'}",{'Type_White'},60,4
+"{'char::Green Apple', 'char::Vanilla'}",{'Type_White'},39,2
+"{'char::Lemon', 'char::Vanilla'}",{'Type_White'},44,2
+"{'char::Peach', 'char::Green Apple'}",{'Type_White'},57,4
+"{'char::Lemon', 'char::Green Apple'}",{'Type_White'},107,14
+{'region_clean_South Australia'},"{'avg_harvest_start_to_2007_missing', 'Country_Australia', 'harvest_for_vintage_missing'}",56,14
+{'region_clean_Burgundy'},"{'Country_France', 'avg_harvest_start_to_2007_low', 'harvest_for_vintage_missing'}",104,11
+{'region_clean_Loire'},"{'Country_France', 'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",59,13
+{'region_clean_Rhône'},"{'Country_France', 'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",49,3
+"{'Country_France', 'Style_Rich & Toasty'}",{'Closure_Natural Cork'},87,3
+"{'Country_France', 'price_num_high', 'vintage_year_low'}",{'Closure_Natural Cork'},114,1
+"{'price_num_high', 'avg_harvest_start_to_2007_low'}",{'Closure_Natural Cork'},80,1
+"{'avg_harvest_start_to_2007_low', 'abv_num_mid'}",{'Closure_Natural Cork'},71,1
+{'region_clean_Marlborough'},"{'Country_New Zealand', 'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",65,2
+{'Country_South Africa'},"{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing', 'region_clean_Other'}",77,35
+"{'Style_Ripe & Rounded', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},42,1
+"{'price_num_high', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},159,21
+"{'abv_num_high', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},160,17
+"{'vintage_year_missing', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},58,8
+"{'grape::Chardonnay', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},79,7
+"{'char::Vanilla', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},179,43
+"{'char::Green Apple', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},102,2
+"{'char::Lemon', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},83,2
+"{'char::Raspberry', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},112,16
+"{'char::Spice', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},111,9
+"{'char::Strawberry', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},106,20
+"{'char::Black Plum', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},88,2
+"{'Style_Other', 'char::Vanilla'}",{'avg_harvest_start_to_2007_missing'},68,6
+"{'Style_Other', 'char::Red Fruit'}",{'avg_harvest_start_to_2007_missing'},92,12
+"{'char::Spice', 'Style_Other'}","{'avg_harvest_start_to_2007_missing', 'harvest_for_vintage_missing'}",40,2
+"{'Style_Other', 'char::Black Plum'}",{'avg_harvest_start_to_2007_missing'},55,3
+"{'Style_Other', 'char::Blackberry'}",{'avg_harvest_start_to_2007_missing'},42,1
+"{'char::Black Fruit', 'Style_Other'}",{'avg_harvest_start_to_2007_missing'},63,1
+"{'price_num_high', 'Closure_Screwcap'}",{'avg_harvest_start_to_2007_missing'},46,12
+"{'Closure_Screwcap', 'abv_num_high'}",{'avg_harvest_start_to_2007_missing'},42,5
+"{'grape::Sauvignon Blanc', 'Closure_Screwcap'}",{'avg_harvest_start_to_2007_missing'},71,2
+"{'char::Raspberry', 'Closure_Screwcap'}",{'avg_harvest_start_to_2007_missing'},44,10
+"{'char::Spice', 'Closure_Screwcap'}",{'avg_harvest_start_to_2007_missing'},41,6
+"{'char::Strawberry', 'Closure_Screwcap'}",{'avg_harvest_start_to_2007_missing'},41,8
+"{'price_num_high', 'vintage_year_missing'}",{'avg_harvest_start_to_2007_missing'},99,6
+"{'price_num_low', 'vintage_year_missing'}",{'avg_harvest_start_to_2007_missing'},44,5
+"{'price_num_low', 'char::Raspberry'}",{'avg_harvest_start_to_2007_missing'},65,12
+"{'price_num_low', 'char::Strawberry'}",{'avg_harvest_start_to_2007_missing'},61,14
+"{'char::Black Fruit', 'abv_num_high'}",{'avg_harvest_start_to_2007_missing'},64,1
+"{'char::Raspberry', 'vintage_year_missing'}",{'avg_harvest_start_to_2007_missing'},40,2
+"{'Country_Australia', 'abv_num_high'}",{'Type_Red'},43,8
+"{'char::Black Plum', 'Country_Australia'}",{'Type_Red'},43,9
+"{'char::Blackberry', 'Country_Australia'}",{'Type_Red'},45,9
+"{'vintage_year_low', 'avg_harvest_start_to_2007_low', 'Type_Red'}",{'Closure_Natural Cork'},75,1
+"{'Style_Other', 'region_clean_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},164,49
+"{'Style_Savoury & Full Bodied', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},95,12
+"{'abv_num_low', 'region_clean_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},53,15
+"{'vintage_year_mid', 'region_clean_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},100,33
+"{'grape::Cabernet Sauvignon', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},49,11
+"{'char::Blackberry', 'region_clean_Other'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",72,28
+"{'char::Black Fruit', 'region_clean_Other'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",135,34
+"{'Style_Other', 'Closure_Screwcap', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},56,10
+"{'price_num_low', 'Style_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},108,17
+"{'price_num_mid', 'Style_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},55,5
+"{'Style_Other', 'abv_num_high', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},65,10
+"{'vintage_year_high', 'Style_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},43,6
+"{'Style_Other', 'vintage_year_mid', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},52,3
+"{'vintage_year_low', 'Closure_Screwcap', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},61,22
+"{'vintage_year_mid', 'Closure_Screwcap', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},43,11
+"{'char::Vanilla', 'Closure_Screwcap', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},42,16
+"{'char::Black Plum', 'Closure_Screwcap'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",50,16
+"{'char::Blackberry', 'Closure_Screwcap'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",69,30
+"{'char::Vanilla', 'abv_num_high', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},79,18
+"{'char::Red Fruit', 'vintage_year_low', 'abv_num_mid'}",{'Type_Red'},49,4
+"{'char::Black Plum', 'vintage_year_mid'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",40,12
+"{'char::Black Fruit', 'char::Vanilla'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",66,4
+"{'char::Spice', 'char::Black Plum'}","{'avg_harvest_start_to_2007_missing', 'Type_Red'}",54,13
+"{'Type_Rosé', 'region_clean_Other'}","{'Style_Other', 'avg_harvest_start_to_2007_missing'}",87,14
+"{'price_num_low', 'Type_Rosé'}","{'Style_Other', 'avg_harvest_start_to_2007_missing'}",48,7
+"{'grape::Grenache', 'Type_Rosé'}",{'Style_Other'},39,1
+"{'char::Raspberry', 'char::Peach'}","{'Style_Other', 'Type_Rosé'}",55,1
+"{'Country_France', 'Type_White', 'price_num_high'}",{'Closure_Natural Cork'},116,24
+"{'Country_France', 'price_num_mid', 'grape::Chardonnay'}",{'Type_White'},47,9
+"{'Country_France', 'char::Lemon', 'abv_num_low'}",{'Type_White'},54,17
+"{'char::Lemon', 'avg_harvest_start_to_2007_low'}",{'Type_White'},48,4
+"{'Country_France', 'grape::Chardonnay', 'char::Green Apple'}",{'Type_White'},52,6
+"{'Country_France', 'char::Citrus Fruit', 'grape::Chardonnay'}",{'Type_White'},45,2
+"{'Country_France', 'char::Lemon', 'grape::Chardonnay'}",{'Type_White'},59,10
+"{'Country_France', 'char::Citrus Fruit', 'char::Green Apple'}",{'Type_White'},50,6
+"{'Country_New Zealand', 'char::Green Apple'}",{'Type_White'},38,1
+"{'Style_Crisp & Zesty', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},42,5
+"{'Style_Rich & Toasty', 'region_clean_Other'}","{'Type_White', 'avg_harvest_start_to_2007_missing'}",49,5
+"{'Closure_Screwcap', 'Style_Crisp & Zesty'}",{'avg_harvest_start_to_2007_missing'},83,18
+"{'char::Lemon', 'char::Peach', 'abv_num_low'}",{'Type_White'},40,15
+"{'region_clean_Bordeaux', 'vintage_year_low'}",{'Closure_Natural Cork'},63,2
+"{'Country_France', 'Style_Other', 'vintage_year_missing'}",{'abv_num_low'},49,1
+"{'Country_France', 'price_num_high', 'abv_num_mid'}",{'Closure_Natural Cork'},56,13
+"{'Country_France', 'grape::Chardonnay', 'price_num_high'}",{'Closure_Natural Cork'},98,10
+"{'Country_France', 'grape::Pinot Noir', 'price_num_high'}",{'Closure_Natural Cork'},44,13
+"{'Country_France', 'char::Citrus Fruit', 'price_num_high'}",{'Closure_Natural Cork'},54,1
+"{'Country_France', 'abv_num_high', 'vintage_year_low'}",{'Closure_Natural Cork'},41,6
+"{'Country_France', 'vintage_year_missing', 'Closure_Natural Cork'}",{'abv_num_low'},77,1
+"{'Country_Italy', 'abv_num_mid'}",{'region_clean_Other'},40,5
+"{'price_num_mid', 'Country_New Zealand'}",{'Closure_Screwcap'},41,9
+"{'Country_New Zealand', 'abv_num_mid'}",{'Closure_Screwcap'},47,18
+"{'Country_New Zealand', 'vintage_year_high'}",{'Closure_Screwcap'},38,1
+"{'Country_New Zealand', 'grape::Sauvignon Blanc'}",{'Closure_Screwcap'},40,1
+"{'char::Red Fruit', 'Country_Other'}",{'region_clean_Other'},46,4
+"{'Style_Other', 'abv_num_low', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},172,78
+"{'vintage_year_high', 'Style_Other', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},117,46
+"{'price_num_low', 'Closure_Natural Cork', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},130,48
+"{'char::Red Fruit', 'Closure_Natural Cork', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},119,12
+"{'price_num_mid', 'Closure_Screwcap', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},56,24
+"{'price_num_mid', 'char::Red Fruit', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},47,4
+"{'abv_num_low', 'vintage_year_low', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},56,25
+"{'abv_num_low', 'vintage_year_mid', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},63,20
+"{'abv_num_low', 'char::Red Fruit', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},39,12
+"{'char::Red Fruit', 'vintage_year_low', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},90,2
+"{'Style_Other', 'Closure_Natural Cork', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},57,6
+"{'Style_Other', 'Closure_Natural Cork', 'char::Raspberry'}",{'avg_harvest_start_to_2007_missing'},85,20
+"{'Style_Other', 'char::Strawberry', 'Closure_Natural Cork'}",{'avg_harvest_start_to_2007_missing'},71,8
+"{'Style_Other', 'Closure_Screwcap', 'abv_num_low'}",{'avg_harvest_start_to_2007_missing'},81,15
+"{'Style_Other', 'Closure_Screwcap', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},64,8
+"{'price_num_high', 'Style_Other', 'char::Raspberry'}",{'avg_harvest_start_to_2007_missing'},38,3
+"{'price_num_low', 'Style_Other', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},81,10
+"{'Style_Other', 'vintage_year_mid', 'abv_num_low'}",{'avg_harvest_start_to_2007_missing'},43,9
+"{'vintage_year_high', 'Style_Other', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},46,6
+"{'grape::Chardonnay', 'vintage_year_missing'}","{'Closure_Natural Cork', 'avg_harvest_start_to_2007_missing'}",69,1
+"{'price_num_mid', 'Closure_Screwcap', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},53,23
+"{'price_num_mid', 'Closure_Screwcap', 'vintage_year_low'}",{'avg_harvest_start_to_2007_missing'},41,18
+"{'char::Vanilla', 'Closure_Screwcap', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},39,15
+"{'price_num_high', 'abv_num_high', 'char::Vanilla'}",{'avg_harvest_start_to_2007_missing'},48,3
+"{'char::Vanilla', 'abv_num_high', 'vintage_year_low'}",{'avg_harvest_start_to_2007_missing'},66,5
+"{'region_clean_Bordeaux', 'Type_Red'}","{'Closure_Natural Cork', 'vintage_year_low'}",55,1
+"{'char::Black Fruit', 'Country_Other'}","{'region_clean_Other', 'Type_Red'}",46,10
+"{'vintage_year_low', 'Country_Spain', 'Type_Red'}",{'Closure_Natural Cork'},46,1
+"{'price_num_low', 'vintage_year_low', 'region_clean_Other', 'Type_Red'}",{'avg_harvest_start_to_2007_missing'},54,14
+"{'price_num_low', 'char::Black Fruit', 'avg_harvest_start_to_2007_missing'}",{'region_clean_Other'},57,20
+"{'char::Red Fruit', 'Style_Savoury & Full Bodied', 'char::Vanilla'}",{'Closure_Natural Cork'},39,1
+"{'char::Black Plum', 'char::Blackberry', 'abv_num_high'}",{'avg_harvest_start_to_2007_missing'},53,10
+"{'char::Strawberry', 'char::Peach'}","{'Style_Other', 'Type_Rosé', 'char::Raspberry'}",54,1
+"{'grape::Chardonnay', 'region_clean_Burgundy'}",{'Type_White'},73,10
+"{'grape::Chardonnay', 'avg_harvest_start_to_2007_low'}","{'Type_White', 'region_clean_Burgundy'}",73,10
+"{'Country_France', 'Type_White', 'region_clean_Unknown'}",{'Closure_Natural Cork'},76,1
+"{'Country_France', 'price_num_high', 'char::Green Apple'}",{'Closure_Natural Cork'},38,7
+"{'Country_France', 'Type_White', 'vintage_year_missing'}","{'Closure_Natural Cork', 'abv_num_low'}",55,1
+"{'Country_New Zealand', 'Style_Crisp & Zesty'}",{'Closure_Screwcap'},40,4
+"{'Country_New Zealand', 'char::Lemon'}","{'Type_White', 'Closure_Screwcap'}",41,2
+"{'Type_White', 'abv_num_mid', 'vintage_year_high', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},43,14
+"{'region_clean_Unknown', 'char::Citrus Fruit', 'abv_num_low'}",{'Type_White'},49,3
+"{'char::Lemon', 'avg_harvest_start_to_2007_missing', 'Style_Crisp & Zesty'}",{'Closure_Screwcap'},54,7
+"{'char::Green Apple', 'Style_Crisp & Zesty', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},53,1
+"{'price_num_high', 'Type_White', 'Style_Other', 'abv_num_low'}",{'Closure_Natural Cork'},38,1
+"{'char::Peach', 'char::Vanilla', 'Style_Rich & Toasty'}",{'grape::Chardonnay'},44,3
+"{'price_num_high', 'Type_White', 'vintage_year_missing'}",{'Closure_Natural Cork'},64,4
+"{'price_num_low', 'Closure_Screwcap', 'char::Green Apple'}",{'avg_harvest_start_to_2007_missing'},67,11
+"{'Type_White', 'vintage_year_high', 'Closure_Screwcap', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},47,18
+"{'char::Lemon', 'grape::Sauvignon Blanc', 'avg_harvest_start_to_2007_missing'}",{'Closure_Screwcap'},45,1
+"{'price_num_low', 'Type_White', 'vintage_year_high', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},40,11
+"{'price_num_low', 'char::Green Apple', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},61,5
+"{'price_num_low', 'char::Lemon', 'char::Green Apple'}",{'avg_harvest_start_to_2007_missing'},40,5
+"{'char::Green Apple', 'grape::Sauvignon Blanc', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},52,11
+"{'char::Green Apple', 'char::Citrus Fruit', 'vintage_year_high'}",{'avg_harvest_start_to_2007_missing'},39,13
+"{'price_num_high', 'region_clean_Burgundy'}",{'Closure_Natural Cork'},50,13
+"{'Country_France', 'region_clean_Unknown', 'price_num_high'}",{'Closure_Natural Cork'},94,3
+"{'Country_France', 'region_clean_Unknown', 'grape::Chardonnay'}",{'Closure_Natural Cork'},65,1
+"{'grape::Sauvignon Blanc', 'region_clean_Marlborough'}",{'Closure_Screwcap'},38,1
+"{'abv_num_low', 'Closure_Natural Cork', 'char::Citrus Fruit', 'region_clean_Other'}",{'avg_harvest_start_to_2007_missing'},44,10
+"{'price_num_high', 'region_clean_Unknown', 'Style_Rich & Toasty'}",{'Closure_Natural Cork'},56,1
+"{'region_clean_Unknown', 'abv_num_low', 'Style_Rich & Toasty'}",{'Closure_Natural Cork'},56,1
+"{'price_num_high', 'region_clean_Unknown', 'abv_num_low'}",{'Closure_Natural Cork'},93,2
+"{'region_clean_Unknown', 'grape::Chardonnay', 'abv_num_low'}",{'Closure_Natural Cork'},66,2
+"{'price_num_low', 'Style_Other', 'Closure_Natural Cork', 'abv_num_mid'}",{'avg_harvest_start_to_2007_missing'},43,6
+"{'price_num_high', 'vintage_year_missing', 'abv_num_low'}",{'Closure_Natural Cork'},85,21
+"{'price_num_high', 'char::Citrus Fruit', 'grape::Chardonnay', 'abv_num_low'}",{'Closure_Natural Cork'},45,1
+"{'Style_Savoury & Full Bodied', 'region_clean_Bordeaux'}","{'Closure_Natural Cork', 'vintage_year_low'}",51,1
+"{'Style_Savoury & Full Bodied', 'avg_harvest_start_to_2007_low'}","{'Closure_Natural Cork', 'region_clean_Bordeaux', 'vintage_year_low'}",51,1
+"{'Country_Other', 'vintage_year_low', 'Closure_Natural Cork', 'Type_Red'}",{'region_clean_Other'},38,14
+"{'Style_Savoury & Full Bodied', 'Country_Spain'}","{'Closure_Natural Cork', 'region_clean_Other'}",41,3
+"{'char::Black Fruit', 'Style_Other', 'Closure_Natural Cork', 'Type_Red'}",{'region_clean_Other'},41,11
+"{'char::Black Fruit', 'Style_Other', 'char::Red Fruit'}",{'region_clean_Other'},42,10
+"{'price_num_high', 'region_clean_Other', 'char::Vanilla', 'Type_Red'}",{'Closure_Natural Cork'},39,4
+"{'char::Red Fruit', 'Closure_Natural Cork', 'avg_harvest_start_to_2007_missing', 'char::Vanilla'}",{'region_clean_Other'},56,6
+"{'char::Black Fruit', 'char::Red Fruit', 'avg_harvest_start_to_2007_missing', 'abv_num_mid'}",{'region_clean_Other'},42,10
+"{'Country_France', 'char::Strawberry', 'char::Raspberry', 'abv_num_low', 'Style_Other'}",{'Type_Rosé'},46,1
+"{'char::Lemon', 'region_clean_Burgundy'}","{'Type_White', 'grape::Chardonnay'}",44,9
+"{'Country_France', 'char::Citrus Fruit', 'price_num_high', 'abv_num_low'}",{'Type_White'},48,4
+"{'char::Lemon', 'region_clean_Marlborough'}","{'Type_White', 'Closure_Screwcap'}",39,4
+"{'char::Lemon', 'Style_Crisp & Zesty', 'char::Green Apple'}","{'Closure_Screwcap', 'avg_harvest_start_to_2007_missing'}",47,8
+"{'Country_France', 'region_clean_Unknown', 'Style_Other'}","{'Closure_Natural Cork', 'abv_num_low'}",40,2
+"{'Country_France', 'region_clean_Unknown', 'vintage_year_missing'}","{'Closure_Natural Cork', 'abv_num_low'}",67,4
+"{'region_clean_Unknown', 'Closure_Natural Cork', 'grape::Chardonnay', 'Style_Rich & Toasty'}",{'price_num_high'},42,1
+"{'price_num_high', 'grape::Chardonnay', 'vintage_year_missing'}",{'abv_num_low'},59,15
+"{'price_num_high', 'char::Citrus Fruit', 'vintage_year_missing'}","{'Closure_Natural Cork', 'abv_num_low'}",41,2
+"{'char::Citrus Fruit', 'Closure_Natural Cork', 'grape::Chardonnay', 'avg_harvest_start_to_2007_missing', 'price_num_high'}",{'abv_num_low'},42,1
+"{'char::Red Fruit', 'Style_Savoury & Full Bodied', 'avg_harvest_start_to_2007_missing', 'char::Vanilla'}",{'region_clean_Other'},38,1
+"{'char::Black Fruit', 'char::Red Fruit', 'Closure_Natural Cork', 'char::Vanilla'}",{'region_clean_Other'},45,3
+"{'char::Black Fruit', 'char::Red Fruit', 'char::Vanilla', 'vintage_year_low'}",{'region_clean_Other'},43,1
+"{'Country_France', 'region_clean_Unknown', 'char::Citrus Fruit'}","{'Type_White', 'Closure_Natural Cork', 'abv_num_low'}",44,1
+"{'char::Lemon', 'grape::Sauvignon Blanc', 'Closure_Screwcap', 'char::Green Apple'}",{'Style_Crisp & Zesty'},39,5
+"{'char::Lemon', 'grape::Sauvignon Blanc', 'avg_harvest_start_to_2007_missing', 'char::Green Apple'}",{'Style_Crisp & Zesty'},39,5
+"{'Country_France', 'region_clean_Unknown', 'grape::Chardonnay', 'Style_Rich & Toasty'}",{'price_num_high'},41,1
+"{'Country_France', 'vintage_year_missing', 'price_num_high'}","{'region_clean_Unknown', 'Closure_Natural Cork', 'abv_num_low'}",63,17
+"{'Country_France', 'grape::Chardonnay', 'avg_harvest_start_to_2007_missing', 'abv_num_low', 'price_num_high'}",{'region_clean_Unknown'},62,10
+"{'Country_France', 'grape::Chardonnay', 'vintage_year_missing'}","{'region_clean_Unknown', 'abv_num_low'}",45,2
+"{'region_clean_Unknown', 'abv_num_low', 'grape::Chardonnay', 'Style_Rich & Toasty'}",{'price_num_high'},41,1
+"{'price_num_high', 'region_clean_Unknown', 'char::Citrus Fruit'}","{'Country_France', 'Type_White', 'Closure_Natural Cork', 'abv_num_low'}",43,11

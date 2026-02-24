@@ -1,0 +1,6 @@
+premise,conclusion,support,delta_stability,premise_len,conclusion_len,interesting_score
+{'food::Game Meat'},{'Type_Red'},39,2,1,1,52.64999999999999
+{'food::Lamb'},{'food::Beef'},36,2,1,1,48.599999999999994
+{'vintage_span_high'},{'oldest_vintage_low'},33,8,1,1,44.55
+{'oldest_vintage_high'},{'vintage_span_low'},30,7,1,1,40.49999999999999
+"{'Body_Full-bodied', 'food::Beef'}",{'Type_Red'},24,1,2,1,37.199999999999996

@@ -1,0 +1,1705 @@
+premise,conclusion,support,delta_stability
+{'Type_Red'},{'avg_harvest_start_to_2007_missing'},53,4
+{'Type_Rosé'},{'avg_harvest_start_to_2007_missing'},8,2
+{'Type_White'},{'avg_harvest_start_to_2007_missing'},19,2
+{'Elaborate_Assemblage/Blend'},{'avg_harvest_start_to_2007_missing'},25,9
+{'Country_France'},{'region_clean_Other'},19,1
+{'Country_Italy'},{'avg_harvest_start_to_2007_missing'},25,6
+{'Country_Portugal'},{'avg_harvest_start_to_2007_missing'},14,4
+{'Country_United States'},{'avg_harvest_start_to_2007_missing'},13,2
+{'food::Pork'},{'region_clean_Other'},14,1
+{'Body_Full-bodied'},{'avg_harvest_start_to_2007_missing'},32,6
+{'Body_Very full-bodied'},{'avg_harvest_start_to_2007_missing'},12,2
+{'Acidity_High'},{'avg_harvest_start_to_2007_missing'},45,10
+{'abv_num_low'},{'avg_harvest_start_to_2007_missing'},49,9
+{'abv_num_mid'},{'avg_harvest_start_to_2007_missing'},22,5
+{'latest_vintage_mid'},{'avg_harvest_start_to_2007_missing'},41,7
+{'oldest_vintage_high'},{'vintage_span_low'},30,1
+{'oldest_vintage_low'},{'avg_harvest_start_to_2007_missing'},40,7
+{'oldest_vintage_mid'},{'avg_harvest_start_to_2007_missing'},30,3
+{'vintage_span_mid'},{'avg_harvest_start_to_2007_missing'},32,6
+{'has_non_vintage'},{'avg_harvest_start_to_2007_missing'},10,3
+{'grape::Pinot Noir'},{'avg_harvest_start_to_2007_missing'},15,2
+{'grape::Chardonnay'},{'avg_harvest_start_to_2007_missing'},9,1
+{'grape::Syrah/Shiraz'},{'avg_harvest_start_to_2007_missing'},7,1
+{'food::Beef'},{'avg_harvest_start_to_2007_missing'},53,4
+{'food::Poultry'},{'avg_harvest_start_to_2007_missing'},38,6
+{'food::Veal'},{'avg_harvest_start_to_2007_missing'},26,1
+{'food::Pasta'},{'avg_harvest_start_to_2007_missing'},21,5
+{'food::Appetizer'},{'avg_harvest_start_to_2007_missing'},18,2
+{'food::Shellfish'},{'avg_harvest_start_to_2007_missing'},17,2
+{'food::Snack'},{'avg_harvest_start_to_2007_missing'},14,2
+{'food::Maturated Cheese'},{'avg_harvest_start_to_2007_missing'},14,2
+"{'abv_num_high', 'Type_Dessert'}",{'region_clean_Other'},4,1
+{'Type_Dessert/Port'},"{'avg_harvest_start_to_2007_missing', 'abv_num_high'}",5,1
+{'food::Game Meat'},"{'avg_harvest_start_to_2007_missing', 'Type_Red'}",39,2
+{'Type_Sparkling'},"{'abv_num_low', 'avg_harvest_start_to_2007_missing'}",7,1
+{'Elaborate_Varietal/>75%'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",5,1
+{'Country_Chile'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",4,1
+{'Country_Other'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",18,6
+{'grape::Touriga Nacional'},"{'avg_harvest_start_to_2007_missing', 'Country_Portugal'}",5,1
+{'grape::Touriga Franca'},"{'avg_harvest_start_to_2007_missing', 'Country_Portugal'}",5,1
+"{'food::Vegetarian', 'Body_Medium-bodied'}",{'region_clean_Other'},16,1
+"{'food::Vegetarian', 'Acidity_Medium'}",{'region_clean_Other'},9,1
+"{'abv_num_high', 'vintage_span_low'}",{'region_clean_Other'},11,1
+{'grape::Cabernet Sauvignon'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",11,1
+{'grape::Cabernet Franc'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",5,1
+{'latest_vintage_high'},"{'avg_harvest_start_to_2007_missing', 'has_non_vintage'}",6,1
+{'vintage_span_high'},"{'avg_harvest_start_to_2007_missing', 'oldest_vintage_low'}",33,8
+{'food::Lamb'},"{'food::Beef', 'avg_harvest_start_to_2007_missing'}",36,2
+"{'Acidity_Medium', 'Type_Dessert'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",4,1
+"{'Type_Red', 'Country_United States'}",{'food::Beef'},10,1
+"{'Body_Full-bodied', 'food::Beef'}",{'Type_Red'},24,1
+"{'food::Veal', 'Body_Medium-bodied'}",{'Type_Red'},14,1
+"{'food::Veal', 'Acidity_Medium'}",{'Type_Red'},15,1
+"{'abv_num_mid', 'Type_Red'}",{'food::Beef'},17,4
+"{'abv_num_mid', 'food::Beef'}",{'Type_Red'},17,4
+"{'food::Veal', 'oldest_vintage_mid'}",{'Type_Red'},11,1
+"{'food::Veal', 'vintage_span_mid'}",{'Type_Red'},10,1
+"{'food::Beef', 'food::Veal'}",{'Type_Red'},23,2
+"{'food::Veal', 'food::Poultry'}",{'Type_Red'},15,1
+"{'Type_Rosé', 'Elaborate_Assemblage/Blend'}",{'abv_num_low'},4,1
+"{'region_clean_Other', 'Type_Rosé'}",{'latest_vintage_mid'},6,1
+"{'latest_vintage_mid', 'Type_Rosé'}",{'region_clean_Other'},6,1
+"{'Type_Rosé', 'Acidity_High'}",{'Body_Medium-bodied'},4,1
+"{'vintage_span_low', 'Type_Rosé'}",{'oldest_vintage_high'},5,1
+"{'Type_White', 'Acidity_High'}",{'abv_num_low'},11,2
+"{'Type_White', 'oldest_vintage_low'}",{'abv_num_low'},5,1
+"{'Type_White', 'food::Appetizer'}",{'abv_num_low'},8,2
+"{'grape::Chardonnay', 'latest_vintage_low'}",{'Type_White'},5,1
+"{'Type_White', 'vintage_span_low'}",{'oldest_vintage_high'},7,1
+"{'Country_Italy', 'Elaborate_Assemblage/Blend'}",{'region_clean_Other'},6,2
+"{'Country_Portugal', 'Acidity_High'}",{'Elaborate_Assemblage/Blend'},4,1
+"{'latest_vintage_mid', 'Country_Portugal'}",{'Elaborate_Assemblage/Blend'},4,1
+"{'has_non_vintage', 'Elaborate_Assemblage/Blend'}",{'Country_Portugal'},5,1
+"{'Country_Portugal', 'has_non_vintage'}",{'Elaborate_Assemblage/Blend'},5,1
+"{'abv_num_mid', 'Elaborate_Assemblage/Blend'}",{'region_clean_Other'},4,1
+"{'Elaborate_Assemblage/Blend', 'food::Shellfish'}",{'abv_num_low'},6,1
+"{'food::Pasta', 'Elaborate_Assemblage/Blend'}",{'latest_vintage_mid'},4,1
+"{'food::Maturated Cheese', 'Elaborate_Assemblage/Blend'}",{'food::Beef'},5,1
+"{'Body_Medium-bodied', 'Country_United States'}",{'Elaborate_Varietal/100%'},7,2
+"{'abv_num_mid', 'Country_United States'}",{'Elaborate_Varietal/100%'},5,1
+"{'food::Poultry', 'Country_United States'}",{'Elaborate_Varietal/100%'},6,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%'}","{'region_clean_Other', 'Body_Medium-bodied'}",12,1
+"{'Elaborate_Varietal/100%', 'food::Pork'}",{'Body_Medium-bodied'},11,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'Acidity_Medium'}",{'region_clean_Other'},11,1
+"{'abv_num_mid', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},9,3
+"{'Elaborate_Varietal/100%', 'food::Appetizer'}",{'abv_num_low'},8,1
+"{'vintage_span_low', 'Country_France'}",{'oldest_vintage_high'},4,1
+{'grape::Grenache'},"{'region_clean_Other', 'avg_harvest_start_to_2007_missing', 'Country_France'}",5,2
+"{'Country_Italy', 'oldest_vintage_mid'}",{'region_clean_Other'},8,1
+"{'Country_Italy', 'food::Appetizer'}",{'abv_num_low'},9,1
+{'region_clean_Douro'},"{'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'Country_Portugal'}",4,1
+{'grape::Tinta Roriz'},"{'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'Country_Portugal'}",5,1
+"{'Acidity_Medium', 'Country_United States'}",{'food::Beef'},8,1
+"{'oldest_vintage_mid', 'Country_United States'}",{'food::Beef'},5,1
+"{'vintage_span_mid', 'Country_United States'}",{'food::Beef'},5,1
+"{'Body_Full-bodied', 'food::Maturated Cheese'}",{'region_clean_Other'},5,1
+{'Body_Light-bodied'},"{'abv_num_low', 'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",9,3
+"{'food::Pork', 'Acidity_Medium'}",{'Body_Medium-bodied'},7,1
+"{'abv_num_high', 'Body_Medium-bodied'}","{'region_clean_Other', 'latest_vintage_low'}",7,1
+"{'food::Vegetarian', 'latest_vintage_low'}","{'region_clean_Other', 'Body_Medium-bodied'}",7,1
+"{'latest_vintage_low', 'food::Pork'}",{'Body_Medium-bodied'},9,1
+"{'food::Pork', 'vintage_span_low'}",{'Body_Medium-bodied'},8,1
+"{'food::Snack', 'Body_Medium-bodied'}",{'region_clean_Other'},10,1
+"{'food::Vegetarian', 'food::Pork'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_high', 'oldest_vintage_high'}",{'region_clean_Other'},8,1
+"{'abv_num_high', 'food::Poultry'}",{'region_clean_Other'},8,1
+"{'food::Maturated Cheese', 'abv_num_high'}",{'region_clean_Other'},8,1
+"{'abv_num_low', 'grape::Pinot Noir'}",{'region_clean_Other'},8,1
+"{'abv_num_low', 'food::Veal'}",{'region_clean_Other'},12,1
+"{'latest_vintage_low', 'food::Veal'}",{'region_clean_Other'},16,1
+"{'food::Vegetarian', 'latest_vintage_mid'}",{'region_clean_Other'},10,1
+"{'latest_vintage_mid', 'food::Snack'}",{'region_clean_Other'},6,1
+"{'latest_vintage_mid', 'food::Maturated Cheese'}",{'region_clean_Other'},5,1
+"{'food::Vegetarian', 'oldest_vintage_high'}",{'region_clean_Other'},8,1
+"{'food::Vegetarian', 'vintage_span_low'}","{'region_clean_Other', 'oldest_vintage_high'}",8,1
+"{'food::Pasta', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'vintage_span_low', 'grape::Syrah/Shiraz'}",{'region_clean_Other'},5,1
+{'grape::Merlot'},"{'food::Beef', 'region_clean_Other', 'avg_harvest_start_to_2007_missing'}",9,1
+"{'grape::Chardonnay', 'food::Shellfish'}",{'region_clean_Other'},4,1
+"{'food::Vegetarian', 'food::Poultry'}",{'region_clean_Other'},5,1
+"{'food::Pasta', 'abv_num_mid'}",{'Body_Full-bodied'},5,1
+"{'vintage_span_low', 'Acidity_Medium', 'Body_Medium-bodied'}",{'oldest_vintage_high'},9,1
+"{'Acidity_Medium', 'grape::Pinot Noir'}",{'Body_Medium-bodied'},8,1
+"{'food::Appetizer', 'Body_Medium-bodied'}",{'abv_num_low'},12,2
+"{'food::Maturated Cheese', 'Body_Medium-bodied'}",{'latest_vintage_low'},5,1
+"{'latest_vintage_mid', 'grape::Pinot Noir'}",{'Body_Medium-bodied'},8,1
+"{'has_non_vintage', 'Body_Very full-bodied'}",{'abv_num_high'},4,1
+"{'food::Vegetarian', 'Acidity_High'}",{'abv_num_low'},9,1
+"{'food::Appetizer', 'has_non_vintage'}",{'Acidity_High'},4,1
+"{'Acidity_High', 'food::Snack'}",{'food::Appetizer'},10,1
+"{'has_non_vintage', 'Acidity_Medium'}",{'abv_num_high'},4,1
+"{'food::Appetizer', 'Acidity_Medium'}",{'abv_num_low'},7,2
+"{'grape::Syrah/Shiraz', 'food::Poultry'}",{'Acidity_Medium'},4,1
+"{'abv_num_high', 'oldest_vintage_low'}",{'vintage_span_high'},11,4
+"{'abv_num_high', 'vintage_span_mid'}",{'oldest_vintage_mid'},7,1
+"{'latest_vintage_low', 'food::Appetizer'}",{'abv_num_low'},7,1
+"{'latest_vintage_low', 'food::Snack'}",{'abv_num_low'},6,1
+"{'latest_vintage_mid', 'food::Shellfish'}",{'abv_num_low'},8,2
+"{'oldest_vintage_low', 'food::Shellfish'}",{'abv_num_low'},6,2
+"{'food::Appetizer', 'vintage_span_mid'}",{'abv_num_low'},6,1
+"{'food::Vegetarian', 'food::Appetizer'}",{'abv_num_low'},8,1
+"{'food::Vegetarian', 'food::Shellfish'}",{'abv_num_low'},6,1
+"{'food::Appetizer', 'food::Shellfish'}",{'abv_num_low'},6,1
+"{'latest_vintage_mid', 'oldest_vintage_mid'}",{'vintage_span_mid'},9,2
+"{'vintage_span_low', 'food::Shellfish'}",{'oldest_vintage_high'},6,1
+"{'food::Maturated Cheese', 'vintage_span_low'}",{'oldest_vintage_high'},6,1
+"{'oldest_vintage_low', 'has_non_vintage'}",{'vintage_span_high'},7,2
+"{'oldest_vintage_low', 'grape::Pinot Noir'}",{'vintage_span_high'},10,1
+"{'oldest_vintage_low', 'food::Snack'}",{'vintage_span_high'},5,1
+"{'Type_Dessert/Port', 'Country_Portugal'}",{'Body_Very full-bodied'},4,1
+"{'Type_Dessert/Port', 'Body_Very full-bodied'}",{'Country_Portugal'},4,1
+"{'Country_Portugal', 'Body_Very full-bodied'}","{'Type_Dessert/Port', 'abv_num_high'}",4,1
+"{'Type_Dessert/Port', 'oldest_vintage_low'}",{'vintage_span_high'},4,1
+"{'Type_Red', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'food::Beef'}",9,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'Type_Red'}",{'region_clean_Other'},12,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Type_Red'}",{'food::Beef'},11,1
+"{'Acidity_High', 'Type_Red', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},6,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Body_Medium-bodied'}",{'Type_Red'},15,1
+"{'food::Game Meat', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},16,2
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'Acidity_High'}",{'Type_Red'},4,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Acidity_High'}",{'Type_Red'},14,3
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'abv_num_high', 'avg_harvest_start_to_2007_missing'}",{'Type_Red'},10,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Beef'}",{'Type_Red'},19,3
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Type_Red'}",{'food::Beef'},11,3
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Beef'}",{'Type_Red'},11,3
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Type_Red'}",{'food::Beef'},15,2
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Beef'}",{'Type_Red'},15,2
+{'Country_Australia'},"{'food::Beef', 'region_clean_Other', 'avg_harvest_start_to_2007_missing', 'Type_Red'}",4,1
+"{'Country_France', 'Type_Red'}",{'food::Beef'},10,2
+"{'food::Beef', 'Country_France'}",{'Type_Red'},10,2
+"{'Country_Italy', 'Acidity_Medium', 'Type_Red'}",{'region_clean_Other'},6,2
+"{'Country_Italy', 'food::Veal'}","{'region_clean_Other', 'Type_Red'}",4,1
+"{'Country_Italy', 'Body_Full-bodied', 'latest_vintage_mid'}",{'Type_Red'},4,1
+"{'Country_Italy', 'oldest_vintage_low', 'Body_Full-bodied'}",{'Type_Red'},5,1
+"{'food::Pasta', 'Country_Italy', 'Body_Full-bodied'}",{'Type_Red'},7,1
+"{'Country_Italy', 'abv_num_high', 'Type_Red'}",{'food::Game Meat'},6,1
+"{'Country_Italy', 'food::Beef', 'Type_Red'}",{'food::Lamb'},9,2
+"{'Country_Other', 'Type_Red'}",{'food::Beef'},7,1
+"{'Country_Other', 'food::Beef'}",{'Type_Red'},7,1
+"{'Country_Portugal', 'Type_Red'}","{'Body_Full-bodied', 'Acidity_Medium'}",6,1
+"{'Body_Full-bodied', 'Country_Portugal'}","{'Acidity_Medium', 'Type_Red'}",6,1
+"{'food::Game Meat', 'Country_United States'}",{'food::Beef'},9,2
+"{'food::Veal', 'Country_United States'}","{'food::Beef', 'Type_Red'}",7,1
+"{'latest_vintage_low', 'Type_Red', 'Body_Medium-bodied'}",{'region_clean_Other'},11,1
+"{'abv_num_high', 'Acidity_Medium', 'Type_Red'}",{'region_clean_Other'},14,1
+"{'oldest_vintage_mid', 'abv_num_high', 'Type_Red'}",{'region_clean_Other'},8,1
+"{'abv_num_high', 'food::Veal'}","{'region_clean_Other', 'Type_Red'}",7,1
+"{'oldest_vintage_mid', 'latest_vintage_low', 'Type_Red'}",{'region_clean_Other'},13,2
+"{'vintage_span_mid', 'latest_vintage_low', 'Type_Red'}",{'region_clean_Other'},9,1
+"{'food::Pasta', 'latest_vintage_mid', 'Type_Red'}",{'region_clean_Other'},4,1
+"{'food::Maturated Cheese', 'Type_Red'}","{'region_clean_Other', 'food::Beef'}",11,2
+"{'region_clean_Other', 'food::Beef', 'food::Maturated Cheese'}",{'Type_Red'},11,2
+"{'food::Pork', 'Type_Red'}",{'food::Game Meat'},7,1
+"{'Body_Full-bodied', 'Type_Red', 'Acidity_High'}",{'food::Beef'},11,1
+"{'abv_num_low', 'Body_Full-bodied', 'Acidity_Medium'}",{'Type_Red'},5,1
+"{'Body_Full-bodied', 'vintage_span_low', 'Acidity_Medium'}",{'Type_Red'},8,1
+"{'Body_Full-bodied', 'Acidity_Medium', 'food::Poultry'}",{'Type_Red'},8,2
+"{'Body_Full-bodied', 'latest_vintage_low', 'food::Poultry'}",{'Type_Red'},7,1
+"{'Body_Full-bodied', 'oldest_vintage_low', 'food::Poultry'}",{'Type_Red'},6,1
+"{'Body_Full-bodied', 'food::Game Meat'}",{'food::Beef'},18,1
+"{'Body_Full-bodied', 'food::Lamb'}",{'Type_Red'},23,6
+"{'food::Beef', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'Type_Red'},5,1
+"{'food::Poultry', 'food::Beef', 'Body_Medium-bodied'}",{'Type_Red'},9,1
+"{'latest_vintage_mid', 'Type_Red', 'Acidity_High'}",{'food::Beef'},6,1
+"{'latest_vintage_mid', 'food::Beef', 'Acidity_High'}",{'Type_Red'},6,1
+"{'oldest_vintage_low', 'Type_Red', 'Acidity_High'}",{'food::Beef'},11,1
+"{'food::Beef', 'oldest_vintage_low', 'Acidity_High'}",{'Type_Red'},11,1
+"{'oldest_vintage_mid', 'food::Beef', 'Acidity_High'}",{'Type_Red'},6,1
+"{'vintage_span_mid', 'Type_Red', 'Acidity_High'}",{'food::Beef'},6,1
+"{'food::Beef', 'vintage_span_mid', 'Acidity_High'}",{'Type_Red'},6,1
+"{'food::Beef', 'Acidity_High', 'food::Poultry'}",{'Type_Red'},8,1
+"{'food::Beef', 'latest_vintage_low', 'Acidity_Medium'}",{'Type_Red'},18,2
+"{'latest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'Type_Red'},11,2
+"{'food::Beef', 'vintage_span_low', 'Acidity_Medium'}",{'Type_Red'},14,2
+"{'food::Pasta', 'abv_num_high'}","{'food::Game Meat', 'Type_Red'}",6,1
+"{'abv_num_low', 'vintage_span_low', 'Type_Red'}",{'latest_vintage_low'},5,1
+"{'abv_num_low', 'food::Game Meat'}",{'food::Beef'},10,1
+"{'abv_num_low', 'food::Beef', 'food::Poultry'}",{'Type_Red'},10,1
+"{'abv_num_low', 'food::Lamb'}",{'Type_Red'},8,2
+"{'abv_num_mid', 'food::Game Meat'}",{'food::Beef'},13,4
+"{'abv_num_mid', 'food::Lamb'}",{'Type_Red'},11,2
+"{'abv_num_mid', 'food::Veal'}","{'food::Beef', 'Type_Red'}",7,1
+"{'vintage_span_low', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},7,1
+"{'food::Beef', 'latest_vintage_low', 'food::Poultry'}",{'Type_Red'},13,1
+"{'latest_vintage_mid', 'vintage_span_mid', 'Type_Red'}",{'food::Beef'},6,1
+"{'latest_vintage_mid', 'food::Game Meat'}",{'food::Beef'},13,4
+"{'latest_vintage_mid', 'food::Beef', 'food::Poultry'}",{'Type_Red'},10,2
+"{'latest_vintage_mid', 'food::Lamb'}",{'Type_Red'},11,2
+"{'food::Beef', 'vintage_span_high'}",{'Type_Red'},18,3
+"{'oldest_vintage_low', 'food::Game Meat'}",{'food::Beef'},16,1
+"{'food::Beef', 'oldest_vintage_low', 'food::Poultry'}",{'Type_Red'},14,2
+"{'food::Lamb', 'oldest_vintage_low'}",{'Type_Red'},12,2
+"{'oldest_vintage_low', 'food::Veal'}","{'food::Beef', 'Type_Red'}",10,1
+"{'Type_Red', 'grape::Syrah/Shiraz'}","{'food::Lamb', 'food::Beef'}",5,1
+"{'food::Beef', 'grape::Syrah/Shiraz'}","{'food::Lamb', 'Type_Red'}",5,1
+"{'food::Lamb', 'grape::Syrah/Shiraz'}",{'Type_Red'},5,1
+"{'food::Pasta', 'food::Lamb'}",{'Type_Red'},10,1
+"{'food::Pasta', 'food::Beef', 'Type_Red'}",{'food::Lamb'},10,1
+"{'Acidity_Medium', 'Type_Rosé'}","{'region_clean_Other', 'latest_vintage_mid'}",4,1
+"{'Type_Sparkling', 'Acidity_High'}",{'region_clean_Other'},5,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'latest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'vintage_span_mid'}",{'region_clean_Other'},8,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'food::Shellfish'}",{'region_clean_Other'},6,1
+"{'grape::Chardonnay', 'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",{'Type_White'},5,1
+"{'grape::Chardonnay', 'Elaborate_Varietal/100%', 'Acidity_Medium'}",{'Type_White'},4,1
+"{'Type_White', 'Country_Italy'}","{'abv_num_low', 'food::Appetizer'}",6,1
+"{'food::Vegetarian', 'Type_White', 'region_clean_Other'}",{'Body_Medium-bodied'},10,1
+"{'food::Pasta', 'Type_White', 'region_clean_Other'}",{'latest_vintage_low'},4,1
+"{'food::Pasta', 'Type_White', 'latest_vintage_low'}",{'region_clean_Other'},4,1
+"{'Type_White', 'latest_vintage_low', 'food::Shellfish'}",{'region_clean_Other'},5,1
+"{'Type_White', 'food::Poultry'}","{'region_clean_Other', 'latest_vintage_mid'}",4,1
+"{'Type_White', 'oldest_vintage_mid'}","{'region_clean_Other', 'vintage_span_mid'}",7,1
+"{'Type_White', 'latest_vintage_low', 'Body_Medium-bodied'}",{'abv_num_low'},7,1
+"{'Type_White', 'vintage_span_mid', 'Body_Medium-bodied'}",{'abv_num_low'},7,1
+"{'grape::Chardonnay', 'abv_num_low', 'Type_White'}",{'Body_Medium-bodied'},5,1
+"{'food::Pasta', 'Type_White', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'food::Pasta', 'abv_num_low', 'Type_White'}",{'Body_Medium-bodied'},4,1
+"{'food::Shellfish', 'Type_White', 'Body_Medium-bodied'}",{'abv_num_low'},7,1
+"{'Type_White', 'vintage_span_mid', 'latest_vintage_mid'}",{'abv_num_low'},7,1
+"{'Country_Other', 'Elaborate_Assemblage/Blend'}",{'latest_vintage_mid'},4,1
+"{'Country_Portugal', 'Elaborate_Assemblage/Blend', 'abv_num_high'}",{'has_non_vintage'},4,1
+"{'food::Beef', 'oldest_vintage_low', 'Elaborate_Assemblage/Blend'}",{'region_clean_Other'},4,1
+"{'Body_Full-bodied', 'oldest_vintage_mid', 'Elaborate_Assemblage/Blend'}",{'vintage_span_mid'},4,1
+"{'Body_Full-bodied', 'vintage_span_mid', 'Elaborate_Assemblage/Blend'}",{'oldest_vintage_mid'},4,1
+"{'Acidity_Medium', 'Elaborate_Assemblage/Blend', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'latest_vintage_mid', 'Elaborate_Assemblage/Blend', 'Body_Medium-bodied'}",{'abv_num_low'},6,1
+"{'vintage_span_mid', 'Elaborate_Assemblage/Blend', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'latest_vintage_low', 'oldest_vintage_mid', 'Elaborate_Assemblage/Blend'}",{'Acidity_Medium'},4,1
+"{'food::Beef', 'vintage_span_mid', 'Elaborate_Assemblage/Blend'}",{'Acidity_Medium'},5,1
+"{'abv_num_low', 'vintage_span_low', 'Elaborate_Assemblage/Blend'}",{'oldest_vintage_high'},4,2
+"{'latest_vintage_low', 'vintage_span_low', 'Elaborate_Assemblage/Blend'}",{'food::Beef'},4,1
+"{'food::Beef', 'vintage_span_low', 'Elaborate_Assemblage/Blend'}",{'latest_vintage_low'},4,1
+"{'Acidity_Medium', 'Country_France', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'latest_vintage_low', 'Country_France', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied'}",{'Elaborate_Varietal/100%'},5,1
+"{'Country_Italy', 'vintage_span_mid', 'Acidity_High'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'Acidity_High', 'Country_United States'}",{'Body_Medium-bodied'},4,1
+"{'grape::Pinot Noir', 'Country_United States'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",5,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Acidity_Medium'}",{'region_clean_Other'},6,2
+"{'Elaborate_Varietal/100%', 'food::Snack'}","{'region_clean_Other', 'Body_Medium-bodied'}",6,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Acidity_High'}",{'region_clean_Other'},17,5
+"{'oldest_vintage_mid', 'Elaborate_Varietal/100%', 'Acidity_Medium'}",{'region_clean_Other'},8,2
+"{'Elaborate_Varietal/100%', 'vintage_span_mid', 'Acidity_Medium'}",{'region_clean_Other'},9,3
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'abv_num_low'}",{'region_clean_Other'},11,3
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'abv_num_low'}",{'region_clean_Other'},11,2
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'oldest_vintage_mid'}",{'region_clean_Other'},9,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'vintage_span_mid'}",{'region_clean_Other'},10,2
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'food::Poultry'}",{'region_clean_Other'},9,2
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'abv_num_low'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'food::Shellfish'}",{'region_clean_Other'},6,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_high'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'has_non_vintage'}","{'region_clean_Other', 'latest_vintage_high'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'oldest_vintage_mid'}",{'region_clean_Other'},11,4
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'vintage_span_mid'}",{'region_clean_Other'},8,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_mid', 'food::Poultry'}",{'region_clean_Other'},8,3
+"{'vintage_span_low', 'food::Veal'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",7,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'vintage_span_low'}",{'region_clean_Other'},4,1
+"{'food::Poultry', 'Acidity_High', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},6,1
+"{'abv_num_mid', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",6,2
+"{'food::Poultry', 'vintage_span_low', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'Acidity_High'}",{'latest_vintage_low'},7,1
+"{'food::Poultry', 'Acidity_High', 'grape::Pinot Noir'}",{'Elaborate_Varietal/100%'},5,1
+"{'abv_num_mid', 'latest_vintage_mid', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},5,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'abv_num_low'}",{'latest_vintage_low'},9,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'vintage_span_low'}",{'oldest_vintage_high'},5,1
+"{'oldest_vintage_low', 'Country_France'}",{'vintage_span_high'},9,3
+"{'oldest_vintage_mid', 'Country_France'}",{'vintage_span_mid'},6,1
+"{'vintage_span_mid', 'Country_France'}",{'oldest_vintage_mid'},6,1
+"{'Country_Italy', 'Acidity_High', 'Body_Medium-bodied'}",{'region_clean_Other'},5,1
+"{'Country_Italy', 'vintage_span_mid', 'Body_Medium-bodied'}",{'region_clean_Other'},6,1
+"{'food::Pasta', 'Country_Italy', 'Body_Medium-bodied'}",{'region_clean_Other'},5,1
+"{'Country_Italy', 'region_clean_Other', 'latest_vintage_mid'}",{'Acidity_Medium'},9,3
+"{'Country_Italy', 'Acidity_Medium', 'latest_vintage_mid'}",{'region_clean_Other'},9,3
+"{'Country_Italy', 'vintage_span_mid', 'Acidity_Medium'}",{'region_clean_Other'},6,2
+"{'Country_Italy', 'food::Beef', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'Country_Italy', 'Acidity_Medium', 'food::Poultry'}",{'region_clean_Other'},4,1
+"{'food::Pasta', 'Country_Italy', 'Acidity_Medium'}",{'region_clean_Other'},6,2
+"{'abv_num_low', 'Country_Italy', 'oldest_vintage_low'}",{'region_clean_Other'},5,1
+"{'abv_num_low', 'Country_Italy', 'vintage_span_mid'}",{'region_clean_Other'},6,1
+"{'food::Pasta', 'abv_num_low', 'Country_Italy'}",{'region_clean_Other'},4,1
+"{'food::Pasta', 'Country_Italy', 'vintage_span_mid'}",{'region_clean_Other'},5,1
+"{'Country_Italy', 'latest_vintage_low', 'Acidity_Medium'}",{'Body_Medium-bodied'},4,1
+"{'Country_Italy', 'vintage_span_low', 'Body_Medium-bodied'}",{'latest_vintage_low'},5,1
+"{'Country_Italy', 'abv_num_high', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'Country_Italy', 'food::Beef', 'Acidity_High'}",{'food::Lamb'},6,1
+"{'Country_Italy', 'vintage_span_low', 'Acidity_Medium'}",{'oldest_vintage_high'},4,1
+"{'food::Beef', 'Country_Italy', 'abv_num_high'}",{'food::Lamb'},5,1
+"{'abv_num_low', 'Country_Italy', 'vintage_span_low'}",{'oldest_vintage_high'},5,1
+"{'food::Beef', 'Country_Italy', 'latest_vintage_low'}",{'food::Lamb'},6,1
+"{'food::Pasta', 'food::Beef', 'oldest_vintage_low'}",{'Country_Italy'},4,1
+"{'food::Vegetarian', 'Country_Other'}",{'Body_Medium-bodied'},5,1
+"{'Country_Other', 'food::Pork'}",{'Body_Medium-bodied'},5,1
+"{'Country_Other', 'vintage_span_mid'}",{'abv_num_low'},4,1
+"{'Country_Other', 'food::Shellfish'}",{'abv_num_low'},4,1
+"{'Country_Other', 'food::Appetizer'}",{'food::Snack'},4,1
+"{'Country_Other', 'food::Snack'}",{'food::Appetizer'},4,1
+"{'Country_Portugal', 'oldest_vintage_high'}",{'latest_vintage_low'},4,1
+"{'Country_Portugal', 'vintage_span_low'}","{'latest_vintage_low', 'oldest_vintage_high'}",4,1
+"{'grape::Touriga Nacional', 'latest_vintage_low'}",{'grape::Tinta Roriz'},4,1
+"{'abv_num_high', 'Country_United States'}","{'region_clean_Other', 'food::Beef'}",7,1
+"{'food::Lamb', 'Country_United States'}",{'region_clean_Other'},6,1
+"{'Body_Full-bodied', 'abv_num_high', 'Acidity_Medium'}",{'region_clean_Other'},7,1
+"{'Body_Full-bodied', 'abv_num_high', 'latest_vintage_mid'}",{'region_clean_Other'},5,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'region_clean_Other', 'oldest_vintage_low', 'Body_Full-bodied'}",{'vintage_span_high'},10,2
+"{'region_clean_Other', 'Body_Full-bodied', 'vintage_span_mid'}",{'oldest_vintage_mid'},7,2
+"{'food::Pasta', 'Acidity_Medium', 'Body_Medium-bodied'}",{'region_clean_Other'},4,1
+"{'abv_num_high', 'food::Pork'}","{'latest_vintage_low', 'Body_Medium-bodied'}",5,1
+"{'abv_num_low', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'region_clean_Other'},10,1
+"{'abv_num_low', 'food::Poultry', 'Body_Medium-bodied'}",{'region_clean_Other'},9,2
+"{'food::Shellfish', 'region_clean_Other', 'Body_Medium-bodied'}",{'abv_num_low'},9,3
+"{'abv_num_low', 'food::Pork'}",{'Body_Medium-bodied'},5,1
+"{'latest_vintage_low', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'region_clean_Other'},9,2
+"{'food::Pasta', 'latest_vintage_low', 'Body_Medium-bodied'}",{'region_clean_Other'},5,1
+"{'food::Pork', 'oldest_vintage_high'}",{'Body_Medium-bodied'},6,1
+"{'food::Poultry', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'region_clean_Other'},6,1
+"{'food::Pasta', 'vintage_span_low', 'Body_Medium-bodied'}",{'region_clean_Other'},4,1
+"{'food::Poultry', 'vintage_span_mid', 'Body_Medium-bodied'}",{'region_clean_Other'},6,1
+"{'grape::Chardonnay', 'food::Vegetarian'}","{'region_clean_Other', 'Body_Medium-bodied'}",5,1
+"{'food::Pork', 'food::Poultry'}",{'Body_Medium-bodied'},6,1
+"{'food::Vegetarian', 'region_clean_Other', 'food::Snack'}",{'Body_Medium-bodied'},7,1
+"{'region_clean_Other', 'Body_Very full-bodied'}","{'food::Lamb', 'food::Beef'}",8,1
+"{'food::Beef', 'Body_Very full-bodied'}","{'region_clean_Other', 'food::Lamb'}",8,1
+"{'food::Lamb', 'Body_Very full-bodied'}",{'region_clean_Other'},8,1
+"{'oldest_vintage_mid', 'abv_num_low', 'Acidity_High'}",{'region_clean_Other'},11,1
+"{'abv_num_low', 'Acidity_High', 'food::Poultry'}",{'region_clean_Other'},7,2
+"{'region_clean_Other', 'Acidity_High', 'food::Shellfish'}",{'abv_num_low'},8,2
+"{'oldest_vintage_mid', 'latest_vintage_low', 'Acidity_High'}",{'region_clean_Other'},9,2
+"{'region_clean_Other', 'oldest_vintage_low', 'Acidity_High'}",{'vintage_span_high'},13,6
+"{'region_clean_Other', 'vintage_span_mid', 'Acidity_High'}",{'oldest_vintage_mid'},12,2
+"{'oldest_vintage_mid', 'Acidity_High', 'food::Poultry'}",{'region_clean_Other'},5,1
+"{'region_clean_Other', 'food::Appetizer', 'Acidity_High'}",{'food::Snack'},9,1
+"{'latest_vintage_mid', 'abv_num_high', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'food::Beef', 'abv_num_high', 'Acidity_Medium'}",{'region_clean_Other'},14,1
+"{'food::Pasta', 'abv_num_low', 'Acidity_Medium'}",{'region_clean_Other'},5,2
+"{'abv_num_mid', 'region_clean_Other', 'latest_vintage_low'}",{'Acidity_Medium'},7,1
+"{'abv_num_mid', 'region_clean_Other', 'oldest_vintage_mid'}",{'Acidity_Medium'},5,1
+"{'oldest_vintage_mid', 'abv_num_mid', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'abv_num_mid', 'region_clean_Other', 'vintage_span_low'}",{'Acidity_Medium'},5,1
+"{'abv_num_mid', 'region_clean_Other', 'vintage_span_mid'}",{'Acidity_Medium'},5,1
+"{'abv_num_mid', 'vintage_span_mid', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'region_clean_Other', 'oldest_vintage_low', 'vintage_span_mid'}",{'Acidity_Medium'},4,1
+"{'region_clean_Other', 'Acidity_Medium', 'grape::Syrah/Shiraz'}",{'vintage_span_low'},4,1
+"{'food::Pasta', 'vintage_span_mid', 'Acidity_Medium'}",{'region_clean_Other'},4,1
+"{'food::Pasta', 'region_clean_Other', 'food::Shellfish'}",{'Acidity_Medium'},4,1
+"{'food::Pasta', 'Acidity_Medium', 'food::Shellfish'}",{'region_clean_Other'},4,1
+"{'food::Beef', 'abv_num_high', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'abv_num_low', 'latest_vintage_low', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'food::Pasta', 'abv_num_low', 'latest_vintage_low'}",{'region_clean_Other'},4,1
+"{'abv_num_low', 'oldest_vintage_low', 'food::Beef'}",{'region_clean_Other'},7,1
+"{'abv_num_low', 'oldest_vintage_low', 'food::Poultry'}",{'region_clean_Other'},9,1
+"{'abv_num_low', 'region_clean_Other', 'food::Snack'}",{'food::Appetizer'},10,1
+"{'grape::Cabernet Sauvignon', 'oldest_vintage_mid'}",{'latest_vintage_low'},6,1
+"{'latest_vintage_low', 'oldest_vintage_mid', 'food::Poultry'}",{'region_clean_Other'},9,1
+"{'latest_vintage_low', 'vintage_span_mid', 'food::Poultry'}",{'region_clean_Other'},6,1
+"{'latest_vintage_mid', 'oldest_vintage_high'}",{'region_clean_Other'},7,2
+"{'latest_vintage_mid', 'vintage_span_low'}","{'region_clean_Other', 'oldest_vintage_high'}",7,2
+"{'food::Pasta', 'latest_vintage_mid', 'food::Beef'}",{'region_clean_Other'},4,1
+"{'grape::Cabernet Franc', 'vintage_span_low'}",{'oldest_vintage_high'},4,1
+"{'oldest_vintage_mid', 'food::Shellfish'}","{'region_clean_Other', 'vintage_span_mid'}",5,1
+"{'food::Pasta', 'food::Beef', 'vintage_span_mid'}",{'region_clean_Other'},4,1
+"{'abv_num_mid', 'Body_Full-bodied', 'Acidity_High'}",{'oldest_vintage_low'},6,1
+"{'abv_num_mid', 'Body_Full-bodied', 'oldest_vintage_low'}",{'Acidity_High'},6,1
+"{'Body_Full-bodied', 'vintage_span_mid', 'Acidity_Medium'}",{'oldest_vintage_mid'},5,1
+"{'latest_vintage_low', 'Acidity_High', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'grape::Chardonnay', 'abv_num_low', 'Acidity_Medium'}",{'Body_Medium-bodied'},4,1
+"{'food::Shellfish', 'Acidity_Medium', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'oldest_vintage_low', 'Acidity_Medium', 'Body_Medium-bodied'}",{'latest_vintage_mid'},9,2
+"{'food::Pasta', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'food::Shellfish', 'vintage_span_mid', 'Body_Medium-bodied'}",{'abv_num_low'},6,2
+"{'food::Pasta', 'food::Shellfish', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'food::Pasta', 'abv_num_low', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'food::Beef', 'vintage_span_low', 'Body_Medium-bodied'}",{'latest_vintage_low'},8,1
+"{'latest_vintage_low', 'oldest_vintage_low', 'Body_Very full-bodied'}",{'Acidity_Medium'},4,1
+"{'latest_vintage_low', 'Acidity_Medium', 'oldest_vintage_low'}",{'Body_Very full-bodied'},4,1
+"{'vintage_span_high', 'Body_Very full-bodied'}",{'abv_num_high'},5,1
+"{'food::Beef', 'abv_num_high', 'Acidity_High'}",{'food::Lamb'},6,1
+"{'food::Pasta', 'latest_vintage_mid', 'Acidity_High'}",{'abv_num_low'},4,1
+"{'vintage_span_mid', 'Acidity_High', 'food::Shellfish'}",{'abv_num_low'},5,1
+"{'abv_num_low', 'food::Appetizer', 'Acidity_High'}",{'food::Snack'},9,1
+"{'latest_vintage_low', 'Acidity_High', 'oldest_vintage_low'}",{'vintage_span_high'},7,1
+"{'food::Beef', 'vintage_span_low', 'Acidity_High'}",{'latest_vintage_low'},5,1
+"{'oldest_vintage_low', 'food::Appetizer', 'Acidity_High'}",{'vintage_span_high'},5,1
+"{'abv_num_low', 'oldest_vintage_low', 'Acidity_Medium'}",{'latest_vintage_mid'},10,1
+"{'abv_num_low', 'vintage_span_low', 'Acidity_Medium'}",{'oldest_vintage_high'},8,2
+"{'food::Pasta', 'vintage_span_low', 'Acidity_Medium'}",{'oldest_vintage_high'},5,1
+"{'abv_num_low', 'food::Beef', 'vintage_span_low'}",{'latest_vintage_low'},5,1
+"{'abv_num_low', 'oldest_vintage_low', 'vintage_span_mid'}",{'latest_vintage_mid'},5,1
+"{'food::Pasta', 'abv_num_low', 'oldest_vintage_low'}",{'latest_vintage_mid'},4,1
+"{'food::Pasta', 'latest_vintage_mid', 'oldest_vintage_low'}",{'abv_num_low'},4,1
+"{'oldest_vintage_high', 'food::Snack'}",{'abv_num_low'},5,1
+"{'vintage_span_low', 'food::Snack'}","{'abv_num_low', 'oldest_vintage_high'}",5,1
+"{'abv_num_low', 'oldest_vintage_mid', 'food::Poultry'}",{'vintage_span_mid'},6,1
+"{'food::Vegetarian', 'abv_num_low', 'food::Snack'}",{'food::Appetizer'},7,1
+"{'food::Snack', 'food::Shellfish'}","{'abv_num_low', 'food::Appetizer'}",4,1
+"{'oldest_vintage_low', 'latest_vintage_high'}",{'vintage_span_high'},4,1
+"{'Body_Full-bodied', 'food::Beef', 'Elaborate_Assemblage/Blend'}",{'food::Lamb'},7,1
+"{'food::Lamb', 'Acidity_Medium', 'Elaborate_Assemblage/Blend'}",{'Type_Red'},8,2
+"{'region_clean_Other', 'Elaborate_Varietal/100%', 'Country_Italy', 'Type_Red'}",{'food::Pasta'},4,1
+"{'Country_Italy', 'Type_Red', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'food::Game Meat'}",6,1
+"{'Country_Italy', 'food::Game Meat', 'Acidity_High'}",{'Elaborate_Varietal/100%'},6,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",{'region_clean_Other'},11,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'vintage_span_low', 'avg_harvest_start_to_2007_missing'}",{'Type_Red'},6,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Type_Red'}","{'region_clean_Other', 'food::Beef'}",10,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'abv_num_low'}","{'region_clean_Other', 'Type_Red'}",10,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Type_Red', 'food::Poultry'}",{'region_clean_Other'},10,2
+"{'Elaborate_Varietal/100%', 'food::Beef', 'vintage_span_low'}","{'region_clean_Other', 'Type_Red'}",11,2
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'vintage_span_low'}",{'region_clean_Other'},8,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Maturated Cheese'}","{'food::Beef', 'Type_Red'}",5,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'food::Beef'}","{'region_clean_Other', 'Type_Red'}",5,1
+"{'food::Pasta', 'food::Veal'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'Type_Red'}",5,2
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Acidity_High'}","{'food::Beef', 'Type_Red'}",7,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",5,1
+"{'food::Veal', 'Acidity_High', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},5,1
+"{'Elaborate_Varietal/100%', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},11,1
+"{'oldest_vintage_mid', 'Elaborate_Varietal/100%', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},6,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},10,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'Acidity_High'}",{'Type_Red'},9,3
+"{'latest_vintage_low', 'Type_Red', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'food::Beef'}",8,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'oldest_vintage_low'}","{'food::Beef', 'Type_Red'}",8,1
+"{'food::Beef', 'latest_vintage_low', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'Type_Red'}",8,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'latest_vintage_low'}",{'Type_Red'},11,3
+"{'latest_vintage_mid', 'food::Veal'}","{'Elaborate_Varietal/100%', 'food::Beef', 'Type_Red'}",8,2
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'Type_Red'}",{'food::Beef'},13,2
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'food::Beef'}","{'food::Lamb', 'Type_Red'}",7,1
+"{'food::Game Meat', 'Country_France'}",{'food::Beef'},8,1
+"{'food::Lamb', 'Country_France'}",{'Type_Red'},5,1
+"{'food::Veal', 'Country_France'}","{'food::Beef', 'Type_Red'}",8,1
+"{'Country_Italy', 'Body_Full-bodied', 'region_clean_Other'}","{'food::Pasta', 'Type_Red'}",4,1
+"{'Country_Italy', 'food::Game Meat', 'region_clean_Other'}",{'abv_num_high'},5,1
+"{'region_clean_Other', 'Country_Italy', 'latest_vintage_low', 'Type_Red'}",{'oldest_vintage_mid'},4,1
+"{'region_clean_Other', 'Country_Italy', 'vintage_span_mid', 'Type_Red'}",{'oldest_vintage_mid'},4,1
+"{'Country_Italy', 'food::Beef', 'Body_Full-bodied'}",{'food::Lamb'},7,1
+"{'Country_Italy', 'food::Lamb', 'vintage_span_mid'}",{'Type_Red'},4,1
+"{'Country_Italy', 'food::Beef', 'food::Game Meat'}",{'food::Lamb'},7,1
+"{'Country_Other', 'food::Lamb'}",{'Type_Red'},5,1
+"{'Country_Portugal', 'food::Poultry'}","{'Body_Full-bodied', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'latest_vintage_low', 'Type_Red', 'Country_United States'}",{'region_clean_Other'},6,1
+"{'food::Beef', 'latest_vintage_low', 'Country_United States'}","{'region_clean_Other', 'Type_Red'}",6,1
+"{'oldest_vintage_mid', 'Type_Red', 'Country_United States'}",{'food::Game Meat'},4,1
+"{'vintage_span_mid', 'Type_Red', 'Country_United States'}",{'food::Veal'},4,1
+"{'region_clean_Other', 'latest_vintage_low', 'Body_Full-bodied', 'Type_Red'}",{'food::Beef'},10,1
+"{'Body_Full-bodied', 'food::Veal'}","{'region_clean_Other', 'food::Beef', 'Type_Red'}",7,1
+"{'abv_num_low', 'Type_Red', 'Body_Medium-bodied'}","{'region_clean_Other', 'food::Beef'}",7,1
+"{'Type_Red', 'Body_Very full-bodied'}","{'food::Lamb', 'region_clean_Other', 'food::Beef'}",7,1
+"{'abv_num_low', 'Type_Red', 'Acidity_High'}","{'region_clean_Other', 'food::Beef'}",7,1
+"{'abv_num_low', 'region_clean_Other', 'food::Beef', 'Acidity_High'}",{'Type_Red'},7,1
+"{'vintage_span_low', 'Type_Red', 'Acidity_High'}","{'region_clean_Other', 'latest_vintage_low'}",4,1
+"{'region_clean_Other', 'latest_vintage_low', 'abv_num_high', 'Acidity_Medium', 'avg_harvest_start_to_2007_missing'}",{'Type_Red'},9,1
+"{'abv_num_high', 'food::Game Meat', 'Acidity_Medium'}",{'region_clean_Other'},11,1
+"{'oldest_vintage_mid', 'food::Veal', 'Acidity_Medium'}",{'region_clean_Other'},6,1
+"{'region_clean_Other', 'Acidity_Medium', 'Type_Red', 'vintage_span_low'}",{'food::Beef'},12,2
+"{'vintage_span_mid', 'food::Veal', 'Acidity_Medium'}",{'region_clean_Other'},6,1
+"{'region_clean_Other', 'Acidity_Medium', 'food::Maturated Cheese'}","{'food::Beef', 'Type_Red'}",8,1
+"{'food::Maturated Cheese', 'food::Beef', 'Acidity_Medium'}","{'region_clean_Other', 'Type_Red'}",8,1
+"{'region_clean_Other', 'abv_num_high', 'latest_vintage_low', 'oldest_vintage_mid'}",{'Type_Red'},7,1
+"{'abv_num_high', 'food::Game Meat', 'oldest_vintage_mid'}",{'region_clean_Other'},7,1
+"{'food::Pasta', 'region_clean_Other', 'food::Game Meat'}",{'abv_num_high'},5,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'Type_Red'}",{'food::Beef'},8,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'food::Beef'}",{'Type_Red'},8,1
+"{'abv_num_low', 'food::Veal', 'Type_Red'}",{'food::Beef'},11,2
+"{'vintage_span_low', 'oldest_vintage_mid'}","{'region_clean_Other', 'latest_vintage_low', 'Type_Red'}",5,1
+"{'food::Beef', 'latest_vintage_low', 'oldest_vintage_mid'}","{'region_clean_Other', 'Type_Red'}",11,1
+"{'latest_vintage_low', 'food::Game Meat', 'oldest_vintage_mid'}",{'region_clean_Other'},9,2
+"{'region_clean_Other', 'latest_vintage_low', 'vintage_span_low', 'food::Poultry'}",{'Type_Red'},5,1
+"{'food::Beef', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'Type_Red'}",8,1
+"{'latest_vintage_low', 'grape::Merlot'}",{'Type_Red'},7,1
+"{'region_clean_Other', 'latest_vintage_low', 'food::Maturated Cheese'}","{'food::Beef', 'Type_Red'}",6,1
+"{'region_clean_Other', 'oldest_vintage_low', 'Type_Red', 'latest_vintage_mid'}",{'vintage_span_high'},9,1
+"{'region_clean_Other', 'Type_Red', 'oldest_vintage_high'}",{'food::Beef'},11,2
+"{'region_clean_Other', 'food::Game Meat', 'vintage_span_mid'}",{'oldest_vintage_mid'},8,1
+"{'food::Pasta', 'vintage_span_mid', 'Type_Red'}","{'region_clean_Other', 'oldest_vintage_mid'}",4,1
+"{'food::Veal', 'oldest_vintage_mid', 'food::Poultry'}",{'region_clean_Other'},6,1
+"{'food::Veal', 'vintage_span_mid', 'food::Poultry'}",{'region_clean_Other'},5,1
+"{'grape::Cabernet Sauvignon', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",10,3
+"{'grape::Cabernet Sauvignon', 'food::Beef'}","{'food::Lamb', 'Type_Red'}",10,3
+"{'grape::Cabernet Sauvignon', 'food::Lamb'}",{'Type_Red'},10,3
+"{'food::Lamb', 'grape::Merlot'}",{'Type_Red'},7,1
+{'grape::Petit Verdot'},"{'region_clean_Other', 'food::Lamb', 'food::Beef', 'avg_harvest_start_to_2007_missing', 'Type_Red'}",5,1
+"{'food::Maturated Cheese', 'food::Game Meat'}","{'region_clean_Other', 'food::Beef'}",9,2
+"{'food::Lamb', 'food::Veal'}","{'region_clean_Other', 'Type_Red'}",11,3
+"{'food::Maturated Cheese', 'food::Lamb'}","{'region_clean_Other', 'Type_Red'}",8,2
+"{'food::Maturated Cheese', 'food::Veal'}","{'region_clean_Other', 'food::Beef', 'Type_Red'}",5,1
+"{'Body_Full-bodied', 'Acidity_Medium', 'oldest_vintage_high'}",{'Type_Red'},6,1
+"{'Body_Full-bodied', 'food::Beef', 'Acidity_Medium'}",{'food::Lamb'},13,3
+"{'Body_Full-bodied', 'abv_num_high', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",10,1
+"{'food::Beef', 'Body_Full-bodied', 'abv_num_high'}",{'food::Lamb'},10,1
+"{'abv_num_mid', 'Body_Full-bodied', 'Type_Red'}",{'food::Lamb'},9,2
+"{'abv_num_mid', 'Body_Full-bodied', 'food::Beef'}",{'food::Lamb'},9,2
+"{'Body_Full-bodied', 'food::Beef', 'latest_vintage_mid'}",{'food::Lamb'},8,2
+"{'oldest_vintage_mid', 'Body_Full-bodied', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",8,1
+"{'Body_Full-bodied', 'food::Beef', 'oldest_vintage_mid'}",{'food::Lamb'},8,1
+"{'Body_Full-bodied', 'food::Beef', 'vintage_span_low'}",{'food::Lamb'},8,1
+"{'Body_Full-bodied', 'vintage_span_mid', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",7,1
+"{'Body_Full-bodied', 'food::Beef', 'vintage_span_mid'}",{'food::Lamb'},7,1
+"{'food::Pasta', 'Body_Full-bodied', 'food::Beef'}",{'food::Lamb'},9,2
+"{'vintage_span_mid', 'Type_Red', 'Body_Medium-bodied'}","{'food::Veal', 'oldest_vintage_mid'}",5,1
+"{'food::Veal', 'vintage_span_mid', 'Body_Medium-bodied'}",{'oldest_vintage_mid'},5,1
+"{'abv_num_high', 'food::Game Meat', 'Acidity_High'}",{'latest_vintage_low'},5,1
+"{'latest_vintage_low', 'abv_num_high', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'abv_num_mid', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},7,1
+"{'abv_num_mid', 'food::Beef', 'Acidity_High'}",{'food::Game Meat'},7,1
+"{'food::Pasta', 'food::Game Meat', 'Acidity_High'}",{'latest_vintage_low'},6,1
+"{'food::Pasta', 'latest_vintage_low', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},6,1
+"{'vintage_span_high', 'Type_Red', 'Acidity_High'}",{'food::Beef'},10,1
+"{'oldest_vintage_low', 'Acidity_High', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",7,1
+"{'vintage_span_mid', 'food::Game Meat', 'Acidity_High'}",{'food::Beef'},5,1
+"{'food::Lamb', 'vintage_span_mid', 'Acidity_High'}",{'Type_Red'},5,1
+"{'food::Pasta', 'food::Beef', 'Acidity_High'}","{'food::Lamb', 'Type_Red'}",6,1
+"{'abv_num_low', 'latest_vintage_mid', 'Acidity_Medium', 'Type_Red'}",{'food::Poultry'},5,1
+"{'abv_num_low', 'latest_vintage_mid', 'Type_Red', 'food::Poultry'}",{'Acidity_Medium'},5,1
+"{'abv_num_mid', 'vintage_span_low', 'Type_Red'}",{'Acidity_Medium'},5,1
+"{'abv_num_mid', 'food::Beef', 'vintage_span_low'}",{'Acidity_Medium'},5,1
+"{'food::Lamb', 'latest_vintage_low', 'Acidity_Medium'}",{'Type_Red'},13,2
+"{'latest_vintage_mid', 'oldest_vintage_low', 'Acidity_Medium', 'Type_Red'}",{'vintage_span_high'},7,1
+"{'oldest_vintage_high', 'food::Beef', 'Acidity_Medium'}",{'Type_Red'},11,2
+"{'vintage_span_mid', 'food::Game Meat', 'Acidity_Medium'}",{'oldest_vintage_mid'},6,1
+"{'food::Game Meat', 'vintage_span_low', 'Acidity_Medium'}",{'food::Beef'},10,1
+"{'food::Lamb', 'vintage_span_low', 'Acidity_Medium'}",{'Type_Red'},10,2
+"{'abv_num_low', 'oldest_vintage_high', 'Type_Red'}",{'latest_vintage_low'},4,1
+"{'oldest_vintage_mid', 'abv_num_low', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",5,1
+"{'abv_num_low', 'food::Beef', 'oldest_vintage_mid'}","{'food::Lamb', 'Type_Red'}",5,1
+"{'abv_num_mid', 'oldest_vintage_low', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",5,1
+"{'abv_num_mid', 'vintage_span_mid', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",4,1
+"{'food::Game Meat', 'vintage_span_low', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'food::Lamb', 'latest_vintage_low', 'food::Poultry'}",{'Type_Red'},9,1
+"{'oldest_vintage_mid', 'latest_vintage_mid', 'Type_Red'}",{'food::Beef'},5,1
+"{'latest_vintage_mid', 'food::Beef', 'oldest_vintage_mid'}",{'Type_Red'},5,1
+"{'food::Game Meat', 'oldest_vintage_high'}",{'food::Beef'},10,1
+"{'food::Game Meat', 'vintage_span_high'}",{'food::Beef'},15,4
+"{'food::Lamb', 'vintage_span_high'}",{'Type_Red'},10,2
+"{'food::Game Meat', 'food::Veal', 'vintage_span_mid'}",{'oldest_vintage_mid'},6,1
+"{'Country_France', 'Type_Rosé'}","{'food::Vegetarian', 'latest_vintage_mid'}",4,1
+"{'food::Vegetarian', 'Type_Rosé'}","{'region_clean_Other', 'Country_France', 'latest_vintage_mid'}",4,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'Country_France'}",{'Type_Rosé'},4,1
+"{'Type_White', 'region_clean_Other', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},6,1
+"{'Type_White', 'food::Pork'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'Acidity_High'}",{'region_clean_Other'},8,1
+"{'Type_White', 'Acidity_Medium', 'latest_vintage_mid'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",4,1
+"{'Type_White', 'vintage_span_mid', 'Acidity_Medium'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low', 'food::Shellfish'}",{'Type_White'},4,1
+"{'grape::Chardonnay', 'vintage_span_mid'}","{'Elaborate_Varietal/100%', 'Type_White', 'region_clean_Other'}",4,1
+"{'food::Vegetarian', 'Type_White', 'Acidity_Medium'}",{'Body_Medium-bodied'},5,1
+"{'Type_White', 'Acidity_Medium', 'region_clean_Other', 'Body_Medium-bodied'}",{'food::Vegetarian'},5,1
+"{'Type_White', 'vintage_span_mid', 'region_clean_Other', 'food::Shellfish'}",{'oldest_vintage_mid'},4,1
+"{'Type_White', 'Acidity_Medium', 'oldest_vintage_high'}",{'Body_Medium-bodied'},4,1
+"{'Type_White', 'vintage_span_low', 'Acidity_Medium'}",{'Body_Medium-bodied'},4,1
+"{'grape::Chardonnay', 'latest_vintage_low', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'grape::Chardonnay', 'abv_num_low', 'latest_vintage_low'}",{'Body_Medium-bodied'},4,1
+"{'Type_White', 'latest_vintage_low', 'food::Appetizer'}",{'Body_Medium-bodied'},5,1
+"{'Type_White', 'latest_vintage_mid', 'food::Shellfish'}",{'Acidity_High'},4,1
+"{'abv_num_low', 'Type_White', 'vintage_span_mid', 'food::Shellfish'}",{'Acidity_High'},4,1
+"{'abv_num_low', 'Type_White', 'oldest_vintage_high'}",{'latest_vintage_low'},6,1
+"{'abv_num_low', 'Type_White', 'vintage_span_low'}",{'latest_vintage_low'},6,1
+"{'Type_White', 'latest_vintage_low', 'oldest_vintage_high'}",{'abv_num_low'},6,1
+"{'Type_White', 'latest_vintage_low', 'vintage_span_low'}",{'abv_num_low'},6,1
+"{'Type_White', 'food::Snack'}","{'food::Vegetarian', 'abv_num_low', 'food::Appetizer'}",5,1
+"{'Country_Portugal', 'vintage_span_high', 'Elaborate_Assemblage/Blend'}",{'has_non_vintage'},4,1
+"{'Body_Full-bodied', 'oldest_vintage_low', 'Elaborate_Assemblage/Blend'}","{'region_clean_Other', 'vintage_span_high'}",4,1
+"{'Body_Full-bodied', 'vintage_span_high', 'Elaborate_Assemblage/Blend'}",{'region_clean_Other'},4,1
+"{'region_clean_Other', 'vintage_span_mid', 'Acidity_Medium', 'Elaborate_Assemblage/Blend'}",{'food::Beef'},4,1
+"{'region_clean_Other', 'abv_num_high', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'food::Beef'}",4,1
+"{'food::Beef', 'abv_num_high', 'Elaborate_Assemblage/Blend'}","{'region_clean_Other', 'food::Lamb'}",4,1
+"{'food::Lamb', 'abv_num_high', 'Elaborate_Assemblage/Blend'}",{'region_clean_Other'},4,1
+"{'food::Beef', 'region_clean_Other', 'latest_vintage_low', 'Elaborate_Assemblage/Blend'}",{'food::Lamb'},4,1
+"{'oldest_vintage_low', 'Elaborate_Assemblage/Blend', 'Body_Medium-bodied'}","{'abv_num_low', 'latest_vintage_mid'}",5,2
+"{'abv_num_low', 'latest_vintage_mid', 'oldest_vintage_low', 'Elaborate_Assemblage/Blend'}",{'Body_Medium-bodied'},5,2
+"{'food::Shellfish', 'Elaborate_Assemblage/Blend', 'Body_Medium-bodied'}",{'latest_vintage_mid'},4,1
+"{'food::Snack', 'Elaborate_Assemblage/Blend'}","{'abv_num_low', 'food::Appetizer', 'Acidity_High'}",4,1
+"{'food::Appetizer', 'vintage_span_high', 'Elaborate_Assemblage/Blend'}",{'Acidity_High'},4,1
+"{'vintage_span_mid', 'Elaborate_Assemblage/Blend', 'food::Shellfish'}",{'latest_vintage_mid'},4,1
+"{'Elaborate_Varietal/100%', 'Country_France', 'Acidity_High'}",{'abv_num_low'},6,1
+"{'Elaborate_Varietal/100%', 'Country_France', 'food::Poultry'}",{'abv_num_low'},6,1
+"{'oldest_vintage_mid', 'Country_Italy', 'Acidity_High'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_low', 'region_clean_Other'}",{'food::Appetizer'},6,2
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_low', 'Body_Medium-bodied'}",{'food::Appetizer'},5,1
+"{'food::Pasta', 'Country_Italy', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",6,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High'}",{'Country_Italy'},6,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_low', 'Acidity_Medium'}",{'food::Appetizer'},4,1
+"{'Country_Other', 'latest_vintage_low', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},4,1
+"{'Country_Other', 'latest_vintage_low', 'vintage_span_low'}",{'Elaborate_Varietal/100%'},5,1
+"{'food::Poultry', 'region_clean_Other', 'Country_United States'}",{'food::Beef'},4,1
+"{'abv_num_mid', 'Body_Medium-bodied', 'Country_United States'}",{'grape::Pinot Noir'},4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'oldest_vintage_mid'}","{'region_clean_Other', 'latest_vintage_low'}",4,1
+"{'abv_num_high', 'Acidity_Medium', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},5,1
+"{'latest_vintage_low', 'food::Pork', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},5,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Body_Medium-bodied'}","{'region_clean_Other', 'latest_vintage_low'}",4,1
+"{'food::Pork', 'oldest_vintage_mid'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",6,1
+"{'oldest_vintage_mid', 'food::Pasta', 'Acidity_High'}",{'Elaborate_Varietal/100%'},4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'region_clean_Other', 'Acidity_High'}",{'oldest_vintage_mid'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'oldest_vintage_high'}",{'Acidity_Medium'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_Medium'}",{'region_clean_Other'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_mid'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'Acidity_Medium', 'food::Poultry'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'Acidity_Medium'}",{'region_clean_Other'},8,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'vintage_span_mid'}",{'region_clean_Other'},4,1
+"{'abv_num_high', 'oldest_vintage_mid', 'food::Poultry'}",{'Elaborate_Varietal/100%'},5,1
+"{'vintage_span_high', 'Elaborate_Varietal/100%', 'abv_num_low'}",{'region_clean_Other'},9,3
+"{'food::Pasta', 'latest_vintage_low', 'oldest_vintage_mid'}",{'Elaborate_Varietal/100%'},5,1
+"{'food::Veal', 'oldest_vintage_high'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",5,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'vintage_span_mid'}","{'region_clean_Other', 'oldest_vintage_mid'}",5,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'oldest_vintage_mid'}",{'region_clean_Other'},6,1
+"{'Elaborate_Varietal/100%', 'vintage_span_mid', 'Acidity_High', 'Body_Medium-bodied'}",{'oldest_vintage_mid'},7,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'latest_vintage_low'}","{'Acidity_Medium', 'Body_Medium-bodied'}",4,1
+"{'food::Maturated Cheese', 'Acidity_Medium', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Acidity_Medium', 'food::Poultry'}",{'Body_Medium-bodied'},7,1
+"{'abv_num_mid', 'vintage_span_low', 'Body_Medium-bodied'}",{'oldest_vintage_high'},4,1
+"{'latest_vintage_mid', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},5,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_high', 'Acidity_High'}",{'latest_vintage_low'},5,1
+"{'food::Poultry', 'latest_vintage_low', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'Acidity_High'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High', 'grape::Pinot Noir'}",{'food::Poultry'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'oldest_vintage_high'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'vintage_span_low'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'oldest_vintage_high'}",{'latest_vintage_low'},8,2
+"{'Acidity_High', 'Country_France', 'Body_Medium-bodied'}",{'abv_num_low'},5,2
+"{'latest_vintage_low', 'Country_France', 'Acidity_High'}",{'abv_num_low'},6,1
+"{'abv_num_low', 'latest_vintage_low', 'Country_France'}",{'Acidity_High'},6,1
+"{'Country_Italy', 'latest_vintage_low', 'vintage_span_low', 'region_clean_Other'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_low', 'Country_Italy', 'latest_vintage_mid'}","{'region_clean_Other', 'Acidity_Medium'}",6,2
+"{'Country_Italy', 'oldest_vintage_low', 'Acidity_Medium'}","{'region_clean_Other', 'latest_vintage_mid'}",5,1
+"{'food::Pasta', 'Country_Italy', 'latest_vintage_mid'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'food::Pasta', 'latest_vintage_mid', 'Acidity_Medium'}","{'Country_Italy', 'region_clean_Other'}",4,1
+"{'oldest_vintage_mid', 'Country_Italy', 'Acidity_Medium'}",{'vintage_span_mid'},4,1
+"{'Country_Italy', 'food::Snack'}","{'abv_num_low', 'region_clean_Other', 'food::Appetizer'}",5,1
+"{'Country_Italy', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'oldest_vintage_mid'}",4,1
+"{'Country_Italy', 'oldest_vintage_high', 'Body_Medium-bodied'}",{'latest_vintage_low'},4,1
+"{'Country_Italy', 'vintage_span_high', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'Country_Italy', 'latest_vintage_low', 'oldest_vintage_low'}","{'vintage_span_high', 'Acidity_High'}",4,1
+"{'Country_Italy', 'latest_vintage_low', 'vintage_span_high'}",{'Acidity_High'},4,1
+"{'Country_Other', 'Acidity_High', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'food::Poultry', 'Country_Other', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'Country_Other', 'oldest_vintage_mid'}","{'abv_num_low', 'Acidity_High'}",4,1
+"{'Country_Other', 'abv_num_high'}","{'oldest_vintage_low', 'vintage_span_high'}",5,1
+"{'abv_num_low', 'Country_Other', 'food::Poultry'}",{'latest_vintage_mid'},4,1
+"{'Acidity_Medium', 'grape::Touriga Franca'}","{'latest_vintage_low', 'grape::Tinta Roriz'}",4,1
+"{'grape::Tinta Roriz', 'Acidity_Medium'}",{'grape::Touriga Franca'},4,1
+"{'latest_vintage_low', 'grape::Touriga Franca'}","{'grape::Tinta Roriz', 'Acidity_Medium'}",4,1
+"{'grape::Tinta Roriz', 'grape::Touriga Franca'}",{'Acidity_Medium'},4,1
+"{'Body_Very full-bodied', 'Country_United States'}","{'food::Lamb', 'region_clean_Other', 'food::Beef'}",5,1
+"{'region_clean_Other', 'oldest_vintage_mid', 'Country_United States'}",{'abv_num_high'},4,1
+"{'Body_Full-bodied', 'oldest_vintage_low', 'Acidity_Medium'}","{'region_clean_Other', 'vintage_span_high'}",4,1
+"{'Body_Full-bodied', 'vintage_span_high', 'Acidity_Medium'}",{'region_clean_Other'},4,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'oldest_vintage_mid'}",5,1
+"{'Body_Full-bodied', 'vintage_span_high', 'latest_vintage_mid'}",{'region_clean_Other'},8,3
+"{'Acidity_Medium', 'Body_Light-bodied'}",{'latest_vintage_mid'},4,1
+"{'region_clean_Other', 'Acidity_High', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'abv_num_low'},6,2
+"{'food::Vegetarian', 'region_clean_Other', 'Acidity_High'}",{'Body_Medium-bodied'},8,2
+"{'vintage_span_high', 'Acidity_High', 'Body_Medium-bodied'}",{'region_clean_Other'},4,1
+"{'abv_num_low', 'food::Beef', 'Acidity_Medium', 'Body_Medium-bodied'}",{'region_clean_Other'},5,1
+"{'region_clean_Other', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'Acidity_Medium'},6,1
+"{'region_clean_Other', 'food::Beef', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'oldest_vintage_mid', 'Acidity_Medium', 'Body_Medium-bodied'}","{'region_clean_Other', 'vintage_span_mid'}",5,1
+"{'region_clean_Other', 'food::Beef', 'vintage_span_mid', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'food::Beef', 'vintage_span_mid', 'Acidity_Medium', 'Body_Medium-bodied'}",{'region_clean_Other'},4,1
+"{'grape::Chardonnay', 'region_clean_Other', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Vegetarian'},4,1
+"{'food::Vegetarian', 'avg_harvest_start_to_2007_missing', 'latest_vintage_low'}",{'abv_num_low'},6,1
+"{'abv_num_low', 'latest_vintage_low', 'food::Shellfish'}","{'region_clean_Other', 'Body_Medium-bodied'}",5,1
+"{'abv_num_low', 'vintage_span_high', 'Body_Medium-bodied'}",{'region_clean_Other'},7,1
+"{'food::Vegetarian', 'region_clean_Other', 'food::Appetizer'}",{'Body_Medium-bodied'},7,1
+"{'region_clean_Other', 'food::Appetizer', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_low', 'food::Snack', 'Body_Medium-bodied'}",{'food::Appetizer'},9,2
+"{'latest_vintage_low', 'vintage_span_mid', 'Body_Medium-bodied'}","{'region_clean_Other', 'oldest_vintage_mid'}",7,2
+"{'food::Lamb', 'Body_Medium-bodied'}","{'region_clean_Other', 'latest_vintage_low'}",4,1
+"{'food::Vegetarian', 'region_clean_Other', 'oldest_vintage_low'}","{'latest_vintage_mid', 'Body_Medium-bodied'}",5,1
+"{'food::Vegetarian', 'oldest_vintage_low', 'Body_Medium-bodied'}",{'latest_vintage_mid'},5,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'oldest_vintage_low'}",{'Body_Medium-bodied'},5,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'food::Snack'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_low', 'Acidity_High', 'grape::Pinot Noir'}",{'latest_vintage_low'},4,1
+"{'abv_num_low', 'latest_vintage_low', 'grape::Pinot Noir'}",{'Acidity_High'},4,1
+"{'region_clean_Other', 'latest_vintage_low', 'Acidity_High', 'grape::Pinot Noir'}",{'abv_num_low'},4,1
+"{'abv_num_mid', 'region_clean_Other', 'Acidity_High'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'vintage_span_mid', 'latest_vintage_low', 'Acidity_High'}","{'region_clean_Other', 'oldest_vintage_mid'}",7,2
+"{'food::Lamb', 'abv_num_high', 'Acidity_Medium'}",{'region_clean_Other'},11,1
+"{'abv_num_mid', 'latest_vintage_low', 'oldest_vintage_mid'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'abv_num_mid', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'food::Vegetarian', 'Acidity_Medium', 'food::Poultry'}",{'latest_vintage_mid'},4,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'food::Poultry'}",{'Acidity_Medium'},4,1
+"{'region_clean_Other', 'oldest_vintage_high', 'food::Poultry'}",{'Acidity_Medium'},4,1
+"{'avg_harvest_start_to_2007_missing', 'abv_num_high', 'oldest_vintage_high'}",{'food::Beef'},7,1
+"{'food::Beef', 'abv_num_high', 'vintage_span_mid'}",{'region_clean_Other'},5,1
+"{'food::Lamb', 'abv_num_high', 'oldest_vintage_mid'}",{'region_clean_Other'},6,1
+"{'food::Beef', 'abv_num_high', 'food::Poultry'}",{'food::Lamb'},6,1
+"{'abv_num_low', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'oldest_vintage_mid'}",6,1
+"{'region_clean_Other', 'latest_vintage_low', 'food::Snack'}",{'food::Appetizer'},5,1
+"{'latest_vintage_low', 'food::Appetizer', 'food::Snack'}",{'region_clean_Other'},5,1
+"{'abv_num_low', 'latest_vintage_mid', 'vintage_span_high'}",{'region_clean_Other'},8,2
+"{'food::Pasta', 'abv_num_low', 'oldest_vintage_high'}",{'region_clean_Other'},4,1
+"{'food::Pasta', 'abv_num_low', 'vintage_span_low'}","{'region_clean_Other', 'oldest_vintage_high'}",4,1
+"{'region_clean_Other', 'oldest_vintage_high', 'food::Shellfish'}",{'abv_num_low'},5,1
+"{'region_clean_Other', 'vintage_span_low', 'food::Shellfish'}",{'abv_num_low'},5,1
+"{'abv_num_low', 'oldest_vintage_high', 'food::Shellfish'}",{'region_clean_Other'},5,1
+"{'abv_num_low', 'vintage_span_low', 'food::Shellfish'}",{'region_clean_Other'},5,1
+"{'abv_num_low', 'vintage_span_high', 'food::Poultry'}",{'region_clean_Other'},8,1
+"{'abv_num_mid', 'region_clean_Other', 'oldest_vintage_low', 'latest_vintage_mid'}",{'vintage_span_high'},4,1
+"{'grape::Cabernet Sauvignon', 'vintage_span_mid'}","{'latest_vintage_low', 'oldest_vintage_mid'}",4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'oldest_vintage_low', 'Acidity_High'}",{'Body_Full-bodied'},4,1
+"{'abv_num_mid', 'Body_Full-bodied', 'vintage_span_high'}",{'Acidity_High'},5,1
+"{'abv_num_low', 'Body_Full-bodied', 'oldest_vintage_high'}",{'latest_vintage_low'},4,1
+"{'abv_num_low', 'Body_Full-bodied', 'vintage_span_low'}","{'latest_vintage_low', 'oldest_vintage_high'}",4,1
+"{'abv_num_low', 'food::Beef', 'Acidity_High', 'Body_Medium-bodied'}",{'latest_vintage_low'},4,1
+"{'food::Beef', 'latest_vintage_mid', 'oldest_vintage_low', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'food::Poultry', 'latest_vintage_mid', 'oldest_vintage_low', 'Body_Medium-bodied'}",{'Acidity_Medium'},6,1
+"{'food::Poultry', 'Acidity_Medium', 'grape::Pinot Noir'}",{'latest_vintage_mid'},6,1
+"{'food::Poultry', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'Acidity_Medium'},6,1
+"{'oldest_vintage_low', 'vintage_span_mid', 'Body_Medium-bodied'}","{'abv_num_low', 'latest_vintage_mid'}",4,1
+"{'food::Shellfish', 'oldest_vintage_low', 'Body_Medium-bodied'}",{'latest_vintage_mid'},4,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'food::Appetizer', 'oldest_vintage_high'}","{'abv_num_low', 'Body_Medium-bodied'}",6,1
+"{'food::Appetizer', 'vintage_span_low'}","{'abv_num_low', 'oldest_vintage_high', 'Body_Medium-bodied'}",6,1
+"{'food::Beef', 'oldest_vintage_high', 'Body_Medium-bodied'}",{'latest_vintage_low'},7,1
+"{'latest_vintage_low', 'oldest_vintage_high', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'latest_vintage_low', 'vintage_span_low', 'food::Shellfish'}",{'Body_Medium-bodied'},4,1
+"{'food::Poultry', 'vintage_span_high', 'Body_Medium-bodied'}",{'grape::Pinot Noir'},7,1
+"{'food::Vegetarian', 'food::Appetizer', 'Acidity_High'}",{'food::Snack'},5,1
+"{'oldest_vintage_high', 'food::Beef', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'oldest_vintage_low', 'food::Appetizer', 'food::Snack'}",{'Acidity_High'},4,1
+"{'food::Appetizer', 'vintage_span_high', 'food::Snack'}",{'Acidity_High'},4,1
+"{'vintage_span_mid', 'latest_vintage_mid', 'oldest_vintage_low', 'Acidity_Medium'}",{'abv_num_low'},4,1
+"{'abv_num_low', 'oldest_vintage_high', 'food::Poultry'}",{'Acidity_Medium'},4,2
+"{'abv_num_low', 'vintage_span_low', 'food::Poultry'}","{'oldest_vintage_high', 'Acidity_Medium'}",4,2
+"{'abv_num_low', 'food::Beef', 'oldest_vintage_high'}",{'latest_vintage_low'},4,1
+"{'Body_Full-bodied', 'Acidity_Medium', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",6,2
+"{'latest_vintage_mid', 'Type_Red', 'Elaborate_Assemblage/Blend'}",{'Body_Full-bodied'},4,1
+"{'latest_vintage_mid', 'food::Lamb', 'Elaborate_Assemblage/Blend'}",{'Body_Full-bodied'},4,1
+"{'food::Game Meat', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'Body_Full-bodied', 'food::Beef'}",5,1
+"{'latest_vintage_low', 'Type_Red', 'Elaborate_Assemblage/Blend'}",{'Acidity_Medium'},4,1
+"{'food::Beef', 'latest_vintage_low', 'Acidity_Medium', 'Elaborate_Assemblage/Blend'}",{'food::Lamb'},4,1
+"{'oldest_vintage_mid', 'Type_Red', 'Elaborate_Assemblage/Blend'}",{'Acidity_Medium'},5,1
+"{'food::Beef', 'oldest_vintage_mid', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'Acidity_Medium', 'Type_Red'}",5,1
+"{'food::Lamb', 'oldest_vintage_mid', 'Elaborate_Assemblage/Blend'}","{'Acidity_Medium', 'Type_Red'}",5,1
+"{'Type_Red', 'Elaborate_Assemblage/Blend', 'food::Poultry'}",{'Acidity_Medium'},5,2
+"{'food::Beef', 'Elaborate_Assemblage/Blend', 'food::Poultry'}","{'food::Lamb', 'Acidity_Medium', 'Type_Red'}",5,2
+"{'food::Lamb', 'Elaborate_Assemblage/Blend', 'food::Poultry'}","{'Acidity_Medium', 'Type_Red'}",5,2
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Beef'}","{'Body_Full-bodied', 'food::Lamb', 'Type_Red'}",6,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Lamb'}","{'Body_Full-bodied', 'Type_Red'}",6,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'Body_Full-bodied', 'Type_Red'}",{'food::Lamb'},6,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'food::Game Meat'}","{'Country_Italy', 'latest_vintage_low'}",6,1
+"{'Country_Italy', 'latest_vintage_low', 'food::Game Meat'}","{'food::Pasta', 'Elaborate_Varietal/100%'}",6,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'latest_vintage_low', 'Type_Red'}","{'food::Pasta', 'food::Game Meat'}",6,1
+"{'food::Pasta', 'Country_Italy', 'latest_vintage_low', 'Type_Red'}","{'Elaborate_Varietal/100%', 'food::Game Meat'}",6,1
+"{'Country_Other', 'latest_vintage_low', 'Type_Red'}",{'Elaborate_Varietal/100%'},4,1
+"{'food::Beef', 'Country_Other', 'latest_vintage_low'}",{'Elaborate_Varietal/100%'},4,1
+"{'food::Veal', 'Acidity_Medium', 'Country_United States'}",{'Elaborate_Varietal/100%'},4,1
+"{'abv_num_mid', 'Type_Red', 'Country_United States'}",{'food::Veal'},4,1
+"{'abv_num_mid', 'food::Beef', 'Country_United States'}",{'food::Veal'},4,1
+"{'vintage_span_low', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low'}",7,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Beef', 'Body_Medium-bodied'}",{'region_clean_Other'},8,1
+"{'latest_vintage_low', 'food::Game Meat', 'Body_Medium-bodied'}",{'region_clean_Other'},9,2
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_Medium', 'food::Beef'}",{'region_clean_Other'},10,3
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Game Meat', 'Acidity_Medium'}",{'region_clean_Other'},7,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'region_clean_Other'},6,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'Acidity_Medium', 'Type_Red'}",{'food::Beef'},9,2
+"{'Elaborate_Varietal/100%', 'vintage_span_mid', 'Acidity_Medium', 'Type_Red'}",{'food::Veal'},4,1
+"{'oldest_vintage_mid', 'Elaborate_Varietal/100%', 'abv_num_high', 'Type_Red'}",{'latest_vintage_low'},6,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'abv_num_high', 'oldest_vintage_mid'}",{'Type_Red'},6,1
+"{'latest_vintage_low', 'abv_num_high', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'Type_Red'}",5,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'food::Veal'}",{'latest_vintage_low'},5,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'abv_num_low'}",{'region_clean_Other'},7,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'abv_num_low'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'latest_vintage_low', 'food::Beef'}",{'region_clean_Other'},8,3
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Game Meat', 'food::Poultry'}",{'region_clean_Other'},7,2
+"{'Elaborate_Varietal/100%', 'oldest_vintage_high', 'Type_Red'}","{'region_clean_Other', 'food::Beef'}",8,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'oldest_vintage_high'}","{'region_clean_Other', 'Type_Red'}",8,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'oldest_vintage_low', 'Type_Red'}",{'food::Poultry'},10,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'oldest_vintage_low', 'food::Beef'}",{'food::Poultry'},10,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'vintage_span_low'}","{'region_clean_Other', 'Type_Red'}",7,2
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'oldest_vintage_low', 'Type_Red'}",{'Acidity_High'},6,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'oldest_vintage_low', 'food::Beef'}",{'Acidity_High'},6,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Type_Red'}",{'food::Lamb'},6,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Game Meat'},10,1
+"{'Elaborate_Varietal/100%', 'food::Veal', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Game Meat'},8,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'Acidity_Medium'}",{'Body_Medium-bodied'},8,1
+"{'abv_num_mid', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},6,2
+"{'abv_num_mid', 'food::Beef', 'Body_Medium-bodied'}",{'food::Game Meat'},6,2
+"{'Elaborate_Varietal/100%', 'food::Beef', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'food::Veal', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'food::Game Meat'},5,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'oldest_vintage_mid'}",{'Body_Medium-bodied'},5,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'food::Beef', 'Body_Medium-bodied'}",{'food::Game Meat'},8,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'food::Veal', 'Body_Medium-bodied'}",{'food::Game Meat'},9,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Acidity_High', 'food::Poultry'}",{'oldest_vintage_low'},6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Acidity_Medium', 'Type_Red'}",{'food::Poultry'},6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Acidity_Medium', 'food::Beef'}",{'food::Poultry'},6,1
+"{'abv_num_mid', 'food::Veal', 'food::Poultry'}",{'Elaborate_Varietal/100%'},4,1
+"{'latest_vintage_low', 'vintage_span_high', 'Type_Red'}","{'Elaborate_Varietal/100%', 'food::Beef'}",7,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'vintage_span_high'}","{'food::Beef', 'Type_Red'}",7,1
+"{'food::Beef', 'latest_vintage_low', 'vintage_span_high'}",{'Elaborate_Varietal/100%'},7,1
+"{'food::Lamb', 'latest_vintage_low', 'oldest_vintage_low'}",{'Elaborate_Varietal/100%'},5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'oldest_vintage_low', 'Type_Red'}",{'food::Poultry'},6,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Beef'}",{'food::Poultry'},6,1
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",10,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Veal'}",{'food::Poultry'},9,1
+"{'oldest_vintage_low', 'food::Veal', 'food::Poultry'}",{'Elaborate_Varietal/100%'},9,1
+"{'Type_Red', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'food::Beef', 'food::Game Meat', 'food::Veal'}",11,2
+"{'food::Beef', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'Type_Red'}",11,2
+"{'food::Game Meat', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'food::Beef', 'food::Veal'}",11,2
+"{'food::Veal', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'food::Beef', 'food::Game Meat', 'Type_Red'}",11,2
+"{'abv_num_low', 'Country_France', 'Type_Red'}",{'food::Veal'},7,1
+"{'abv_num_low', 'food::Beef', 'Country_France'}",{'food::Veal'},7,1
+"{'Country_France', 'Type_Red', 'food::Poultry'}",{'food::Game Meat'},7,1
+"{'food::Beef', 'Country_France', 'food::Poultry'}",{'food::Game Meat'},7,1
+"{'Country_Italy', 'food::Lamb', 'Acidity_Medium'}","{'region_clean_Other', 'Type_Red'}",4,1
+"{'food::Pasta', 'oldest_vintage_low', 'Type_Red'}","{'vintage_span_high', 'Country_Italy', 'Body_Full-bodied'}",4,1
+"{'food::Pasta', 'vintage_span_high', 'Type_Red'}","{'Country_Italy', 'Body_Full-bodied'}",4,1
+"{'vintage_span_high', 'Country_Italy', 'Body_Full-bodied'}","{'food::Pasta', 'Type_Red'}",4,1
+"{'food::Pasta', 'Country_Italy', 'vintage_span_high'}","{'Body_Full-bodied', 'Type_Red'}",4,1
+"{'food::Pasta', 'Body_Full-bodied', 'oldest_vintage_low'}","{'Country_Italy', 'vintage_span_high', 'Type_Red'}",4,1
+"{'food::Pasta', 'Body_Full-bodied', 'vintage_span_high'}","{'Country_Italy', 'Type_Red'}",4,1
+"{'Country_Italy', 'food::Game Meat', 'Body_Full-bodied'}",{'food::Lamb'},6,1
+"{'food::Pasta', 'Country_Italy', 'food::Lamb'}",{'Body_Full-bodied'},6,1
+"{'food::Pasta', 'Country_Italy', 'food::Beef', 'Type_Red'}",{'Body_Full-bodied'},6,1
+"{'Country_Italy', 'oldest_vintage_low', 'food::Game Meat'}",{'food::Lamb'},5,1
+"{'food::Lamb', 'Country_Italy', 'oldest_vintage_low'}",{'food::Game Meat'},5,1
+"{'food::Beef', 'Country_Italy', 'oldest_vintage_low', 'Type_Red'}",{'food::Game Meat'},5,1
+"{'latest_vintage_low', 'Acidity_Medium', 'Country_United States'}","{'region_clean_Other', 'Type_Red'}",5,1
+"{'abv_num_high', 'Type_Red', 'Country_United States'}",{'food::Game Meat'},6,1
+"{'food::Lamb', 'latest_vintage_low', 'Country_United States'}",{'Type_Red'},4,1
+"{'region_clean_Other', 'latest_vintage_low', 'Body_Full-bodied', 'food::Poultry'}",{'food::Beef'},5,1
+"{'Body_Full-bodied', 'vintage_span_high', 'food::Poultry'}","{'region_clean_Other', 'Type_Red'}",5,1
+"{'region_clean_Other', 'Body_Full-bodied', 'vintage_span_low'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",6,1
+"{'grape::Cabernet Sauvignon', 'Body_Full-bodied'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",7,2
+"{'Body_Full-bodied', 'grape::Merlot'}","{'food::Lamb', 'Type_Red'}",5,1
+"{'food::Beef', 'latest_vintage_low', 'Acidity_Medium', 'Body_Medium-bodied'}",{'region_clean_Other'},6,1
+"{'abv_num_low', 'food::Veal', 'Body_Medium-bodied'}",{'food::Beef'},6,1
+"{'oldest_vintage_mid', 'food::Poultry', 'Type_Red', 'Body_Medium-bodied'}",{'food::Veal'},4,1
+"{'region_clean_Other', 'latest_vintage_low', 'Body_Very full-bodied'}",{'Type_Red'},5,1
+"{'food::Beef', 'latest_vintage_low', 'Body_Very full-bodied'}",{'Type_Red'},5,1
+"{'food::Lamb', 'latest_vintage_low', 'Body_Very full-bodied'}",{'Type_Red'},5,1
+"{'abv_num_low', 'food::Lamb', 'Acidity_High'}",{'region_clean_Other'},4,1
+"{'oldest_vintage_mid', 'latest_vintage_low', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'food::Game Meat', 'Acidity_High'}",{'latest_vintage_low'},5,1
+"{'region_clean_Other', 'Type_Red', 'latest_vintage_mid', 'Acidity_High'}",{'food::Lamb'},4,1
+"{'region_clean_Other', 'food::Beef', 'Acidity_High', 'latest_vintage_mid'}",{'food::Lamb'},4,1
+"{'oldest_vintage_mid', 'food::Lamb', 'Acidity_High'}","{'region_clean_Other', 'Type_Red'}",5,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'food::Beef', 'Acidity_High'}",{'food::Lamb'},5,1
+"{'food::Veal', 'Acidity_High', 'food::Poultry'}","{'region_clean_Other', 'food::Game Meat'}",6,1
+"{'vintage_span_low', 'abv_num_high', 'Acidity_Medium', 'Type_Red'}",{'food::Beef'},7,1
+"{'avg_harvest_start_to_2007_missing', 'abv_num_high', 'vintage_span_low', 'Acidity_Medium'}","{'food::Beef', 'Type_Red'}",7,1
+"{'abv_num_low', 'food::Veal', 'Acidity_Medium'}",{'food::Beef'},5,1
+"{'abv_num_low', 'region_clean_Other', 'food::Beef', 'Acidity_Medium', 'Type_Red'}",{'food::Veal'},5,1
+"{'Acidity_Medium', 'Type_Red', 'grape::Merlot'}",{'latest_vintage_low'},5,1
+"{'food::Lamb', 'oldest_vintage_low', 'Acidity_Medium'}",{'region_clean_Other'},5,1
+"{'grape::Cabernet Sauvignon', 'Acidity_Medium'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",5,1
+"{'abv_num_high', 'food::Veal', 'oldest_vintage_mid'}",{'latest_vintage_low'},5,1
+"{'latest_vintage_mid', 'abv_num_high', 'Type_Red'}","{'food::Lamb', 'region_clean_Other', 'food::Beef'}",5,1
+"{'food::Beef', 'latest_vintage_mid', 'abv_num_high'}","{'region_clean_Other', 'food::Lamb', 'Type_Red'}",5,1
+"{'food::Lamb', 'latest_vintage_mid', 'abv_num_high'}",{'region_clean_Other'},5,1
+"{'vintage_span_mid', 'abv_num_high', 'Type_Red'}","{'region_clean_Other', 'food::Game Meat'}",5,1
+"{'abv_num_high', 'food::Game Meat', 'vintage_span_mid'}",{'region_clean_Other'},5,1
+"{'grape::Cabernet Sauvignon', 'abv_num_high'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",5,2
+"{'food::Maturated Cheese', 'abv_num_high', 'Type_Red'}",{'food::Game Meat'},7,1
+"{'food::Beef', 'food::Maturated Cheese', 'abv_num_high'}","{'food::Game Meat', 'Type_Red'}",7,1
+"{'abv_num_low', 'oldest_vintage_low', 'Type_Red'}","{'region_clean_Other', 'vintage_span_high', 'food::Poultry'}",7,1
+"{'abv_num_low', 'vintage_span_high', 'Type_Red'}","{'region_clean_Other', 'food::Poultry'}",7,1
+"{'abv_num_low', 'food::Veal', 'food::Poultry'}",{'food::Beef'},8,1
+"{'abv_num_low', 'region_clean_Other', 'food::Beef', 'food::Poultry'}",{'food::Veal'},8,1
+"{'abv_num_mid', 'grape::Cabernet Sauvignon'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'latest_vintage_low', 'food::Game Meat', 'vintage_span_mid'}","{'region_clean_Other', 'oldest_vintage_mid'}",6,1
+"{'food::Lamb', 'latest_vintage_low', 'oldest_vintage_mid'}","{'region_clean_Other', 'Type_Red'}",10,4
+"{'food::Lamb', 'latest_vintage_low', 'vintage_span_mid'}","{'region_clean_Other', 'Type_Red'}",7,1
+"{'grape::Cabernet Franc', 'Type_Red'}","{'food::Beef', 'latest_vintage_low', 'food::Game Meat'}",4,1
+"{'latest_vintage_low', 'grape::Cabernet Franc'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",4,1
+"{'food::Beef', 'grape::Cabernet Franc'}","{'latest_vintage_low', 'food::Game Meat', 'Type_Red'}",4,1
+"{'grape::Cabernet Franc', 'food::Game Meat'}","{'food::Beef', 'latest_vintage_low'}",4,1
+"{'grape::Cabernet Sauvignon', 'latest_vintage_mid'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'latest_vintage_mid', 'Type_Red', 'food::Maturated Cheese'}",{'food::Lamb'},4,1
+"{'latest_vintage_mid', 'food::Beef', 'food::Maturated Cheese'}","{'food::Lamb', 'Type_Red'}",4,1
+"{'region_clean_Other', 'oldest_vintage_low', 'food::Game Meat'}",{'vintage_span_high'},11,3
+"{'food::Maturated Cheese', 'oldest_vintage_mid'}","{'food::Beef', 'region_clean_Other', 'vintage_span_mid', 'Type_Red'}",5,1
+"{'food::Maturated Cheese', 'vintage_span_mid'}","{'oldest_vintage_mid', 'region_clean_Other', 'food::Beef', 'Type_Red'}",5,1
+"{'grape::Cabernet Sauvignon', 'vintage_span_low'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'grape::Cabernet Sauvignon', 'food::Game Meat'}","{'food::Lamb', 'food::Beef'}",7,2
+"{'grape::Cabernet Sauvignon', 'food::Poultry'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",6,1
+"{'grape::Merlot', 'food::Poultry'}","{'food::Lamb', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'Acidity_High'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",7,1
+"{'food::Lamb', 'oldest_vintage_low', 'Acidity_High'}",{'Body_Full-bodied'},7,1
+"{'food::Lamb', 'Acidity_High', 'food::Poultry'}","{'Body_Full-bodied', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'vintage_span_low', 'food::Poultry'}","{'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'food::Game Meat', 'Acidity_Medium'}",{'food::Lamb'},8,3
+"{'food::Pasta', 'food::Lamb', 'Acidity_Medium'}",{'Body_Full-bodied'},4,1
+"{'food::Pasta', 'food::Beef', 'Acidity_Medium', 'Type_Red'}",{'Body_Full-bodied'},4,1
+"{'Body_Full-bodied', 'abv_num_high', 'latest_vintage_low'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",6,1
+"{'Body_Full-bodied', 'abv_num_high', 'food::Game Meat'}",{'food::Lamb'},7,1
+"{'abv_num_low', 'Body_Full-bodied', 'food::Game Meat'}",{'food::Poultry'},4,1
+"{'abv_num_low', 'Body_Full-bodied', 'food::Beef', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'food::Lamb'}",{'Body_Full-bodied'},4,1
+"{'abv_num_mid', 'Body_Full-bodied', 'food::Game Meat'}",{'food::Lamb'},7,2
+"{'food::Lamb', 'abv_num_mid', 'food::Game Meat'}",{'Body_Full-bodied'},7,2
+"{'food::Pasta', 'abv_num_mid', 'Type_Red'}",{'food::Lamb'},4,1
+"{'food::Pasta', 'abv_num_mid', 'food::Beef'}",{'food::Lamb'},4,1
+"{'food::Pasta', 'food::Beef', 'latest_vintage_low'}","{'Body_Full-bodied', 'food::Lamb', 'Type_Red'}",7,1
+"{'food::Lamb', 'food::Pasta', 'latest_vintage_low'}",{'Body_Full-bodied'},7,1
+"{'food::Pasta', 'Body_Full-bodied', 'latest_vintage_low', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",7,1
+"{'Body_Full-bodied', 'food::Game Meat', 'latest_vintage_mid'}",{'food::Lamb'},5,2
+"{'latest_vintage_mid', 'food::Lamb', 'food::Poultry'}",{'Body_Full-bodied'},5,1
+"{'Body_Full-bodied', 'food::Beef', 'oldest_vintage_high'}",{'food::Lamb'},6,1
+"{'Body_Full-bodied', 'food::Game Meat', 'oldest_vintage_mid'}",{'food::Lamb'},6,1
+"{'Body_Full-bodied', 'food::Game Meat', 'vintage_span_mid'}",{'food::Lamb'},6,1
+"{'Body_Full-bodied', 'grape::Syrah/Shiraz'}","{'food::Lamb', 'food::Beef', 'food::Game Meat', 'Type_Red'}",4,1
+"{'food::Game Meat', 'grape::Syrah/Shiraz'}","{'food::Lamb', 'Body_Full-bodied', 'food::Beef'}",4,1
+"{'food::Lamb', 'food::Game Meat', 'food::Poultry'}",{'Body_Full-bodied'},7,3
+"{'food::Pasta', 'Body_Full-bodied', 'food::Game Meat'}",{'food::Lamb'},7,1
+"{'food::Pasta', 'food::Beef', 'food::Game Meat'}","{'Body_Full-bodied', 'food::Lamb'}",7,1
+"{'food::Lamb', 'food::Pasta', 'food::Game Meat'}",{'Body_Full-bodied'},7,1
+"{'food::Beef', 'vintage_span_mid', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'food::Veal'},4,1
+"{'food::Beef', 'food::Veal', 'oldest_vintage_mid', 'Body_Medium-bodied'}",{'vintage_span_mid'},4,1
+"{'food::Pasta', 'abv_num_high', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'latest_vintage_mid', 'food::Game Meat', 'Acidity_High'}",{'abv_num_mid'},4,1
+"{'vintage_span_mid', 'food::Veal', 'Acidity_High'}","{'food::Beef', 'oldest_vintage_mid'}",4,1
+"{'oldest_vintage_mid', 'food::Beef', 'food::Veal', 'Acidity_High'}",{'vintage_span_mid'},4,1
+"{'abv_num_low', 'food::Game Meat', 'Acidity_Medium'}",{'food::Poultry'},5,1
+"{'abv_num_mid', 'latest_vintage_low', 'vintage_span_low', 'Acidity_Medium'}","{'food::Beef', 'Type_Red'}",4,1
+"{'abv_num_mid', 'oldest_vintage_high', 'Type_Red'}",{'Acidity_Medium'},4,1
+"{'abv_num_mid', 'food::Beef', 'oldest_vintage_high'}",{'Acidity_Medium'},4,1
+"{'food::Beef', 'vintage_span_low', 'food::Poultry'}","{'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",5,1
+"{'oldest_vintage_high', 'food::Lamb', 'Acidity_Medium'}",{'Type_Red'},7,2
+"{'oldest_vintage_low', 'food::Game Meat', 'Acidity_Medium'}",{'vintage_span_high'},6,1
+"{'abv_num_high', 'Type_Red', 'oldest_vintage_low'}","{'food::Lamb', 'food::Beef'}",6,1
+"{'abv_num_high', 'vintage_span_high', 'Type_Red'}","{'food::Lamb', 'food::Beef'}",6,1
+"{'food::Beef', 'abv_num_high', 'oldest_vintage_low'}","{'food::Lamb', 'Type_Red'}",6,1
+"{'food::Beef', 'abv_num_high', 'vintage_span_high'}",{'food::Lamb'},6,1
+"{'abv_num_low', 'food::Lamb', 'vintage_span_low'}",{'latest_vintage_low'},4,1
+"{'abv_num_low', 'food::Beef', 'vintage_span_low', 'Type_Red'}",{'food::Lamb'},4,1
+"{'abv_num_low', 'vintage_span_mid', 'Type_Red'}","{'food::Lamb', 'food::Beef', 'oldest_vintage_mid'}",4,1
+"{'abv_num_low', 'food::Lamb', 'vintage_span_mid'}",{'oldest_vintage_mid'},4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'oldest_vintage_low', 'Type_Red'}",{'food::Game Meat'},4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Beef'}",{'food::Game Meat'},4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'Type_Red', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'abv_num_mid', 'latest_vintage_mid', 'food::Beef', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'abv_num_mid', 'vintage_span_high', 'Type_Red'}",{'food::Game Meat'},6,1
+"{'abv_num_mid', 'food::Beef', 'vintage_span_high'}",{'food::Game Meat'},6,1
+"{'vintage_span_high', 'food::Veal'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",9,1
+"{'oldest_vintage_low', 'food::Game Meat', 'food::Veal'}",{'vintage_span_high'},9,1
+"{'food::Beef', 'food::Game Meat', 'oldest_vintage_mid', 'food::Veal'}",{'vintage_span_mid'},5,1
+"{'Type_Sparkling', 'food::Snack'}","{'region_clean_Other', 'food::Appetizer', 'Acidity_High'}",4,1
+"{'region_clean_Other', 'food::Appetizer', 'Type_Sparkling'}","{'Acidity_High', 'food::Snack'}",4,1
+"{'food::Appetizer', 'Type_Sparkling', 'Acidity_High'}",{'food::Snack'},4,1
+"{'Country_Other', 'Type_White', 'Body_Medium-bodied'}","{'food::Vegetarian', 'Elaborate_Varietal/100%'}",4,1
+"{'Country_Other', 'food::Vegetarian', 'Type_White'}",{'Elaborate_Varietal/100%'},4,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'Country_Other'}",{'Type_White'},4,1
+"{'Acidity_High', 'Type_White', 'region_clean_Other', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},7,2
+"{'Type_White', 'vintage_span_mid', 'region_clean_Other', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},6,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'abv_num_low', 'food::Shellfish'}",{'Body_Medium-bodied'},5,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Shellfish', 'Body_Medium-bodied'}",{'Type_White'},5,1
+"{'Elaborate_Varietal/100%', 'food::Shellfish', 'abv_num_low', 'Body_Medium-bodied'}",{'Type_White'},5,1
+"{'food::Vegetarian', 'Type_White', 'latest_vintage_mid'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",5,1
+"{'Type_White', 'latest_vintage_low', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Appetizer'}","{'Type_White', 'Body_Medium-bodied'}",4,1
+"{'Type_White', 'latest_vintage_low', 'Country_Italy'}",{'Body_Medium-bodied'},4,1
+"{'Country_Italy', 'latest_vintage_low', 'food::Appetizer', 'Body_Medium-bodied'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'Type_White', 'latest_vintage_low'}",{'abv_num_low'},5,1
+"{'Type_White', 'food::Appetizer', 'region_clean_Other', 'Body_Medium-bodied'}",{'food::Vegetarian'},5,1
+"{'food::Vegetarian', 'food::Shellfish', 'Body_Medium-bodied'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'Type_White', 'oldest_vintage_high'}",{'Body_Medium-bodied'},5,1
+"{'food::Vegetarian', 'Type_White', 'vintage_span_low'}",{'Body_Medium-bodied'},5,1
+"{'Type_White', 'region_clean_Other', 'oldest_vintage_high', 'Body_Medium-bodied'}",{'food::Vegetarian'},5,1
+"{'Type_White', 'vintage_span_low', 'region_clean_Other', 'Body_Medium-bodied'}",{'food::Vegetarian'},5,1
+"{'oldest_vintage_mid', 'Type_White', 'latest_vintage_mid'}",{'abv_num_low'},4,1
+"{'food::Poultry', 'Country_France', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'abv_num_low'}",4,1
+"{'Country_France', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'vintage_span_high'}",6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Country_France'}",{'grape::Pinot Noir'},6,1
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'Country_France'}",{'grape::Pinot Noir'},6,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'vintage_span_mid', 'Body_Medium-bodied'}",{'oldest_vintage_mid'},4,1
+"{'Elaborate_Varietal/100%', 'food::Appetizer', 'vintage_span_mid'}","{'Country_Italy', 'region_clean_Other'}",4,1
+"{'Country_Italy', 'food::Appetizer', 'vintage_span_mid'}","{'Elaborate_Varietal/100%', 'region_clean_Other'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_low', 'vintage_span_mid'}",{'food::Appetizer'},4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'latest_vintage_low', 'oldest_vintage_mid'}",{'food::Pasta'},4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_mid'}",{'latest_vintage_low'},4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'region_clean_Other', 'latest_vintage_low', 'food::Pasta'}",{'oldest_vintage_mid'},4,1
+"{'Country_Other', 'Acidity_Medium', 'oldest_vintage_high'}",{'Elaborate_Varietal/100%'},4,1
+"{'Country_Other', 'vintage_span_low', 'Acidity_Medium'}","{'Elaborate_Varietal/100%', 'oldest_vintage_high'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Other', 'latest_vintage_low', 'abv_num_low'}",{'vintage_span_low'},4,1
+"{'Country_Other', 'latest_vintage_low', 'oldest_vintage_high'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'Country_United States'}",{'Acidity_Medium'},5,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'Country_United States'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'food::Pork', 'Acidity_High'}",{'oldest_vintage_mid'},5,1
+"{'Elaborate_Varietal/100%', 'food::Pork', 'oldest_vintage_high'}",{'Acidity_Medium'},5,1
+"{'oldest_vintage_high', 'food::Pork', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},5,1
+"{'food::Pork', 'vintage_span_low', 'Acidity_Medium'}","{'Elaborate_Varietal/100%', 'oldest_vintage_high'}",5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'abv_num_low', 'food::Poultry'}",{'Body_Medium-bodied'},5,1
+"{'food::Vegetarian', 'vintage_span_mid'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'abv_num_low', 'Body_Medium-bodied'}",5,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'food::Snack'}",{'food::Appetizer'},5,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Appetizer', 'Body_Medium-bodied'}",{'food::Snack'},5,1
+"{'food::Pork', 'vintage_span_mid'}","{'Elaborate_Varietal/100%', 'oldest_vintage_mid', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'Body_Very full-bodied'}","{'food::Lamb', 'region_clean_Other', 'food::Beef', 'Acidity_Medium'}",4,1
+"{'abv_num_low', 'vintage_span_low', 'region_clean_Other', 'latest_vintage_low', 'Acidity_High'}",{'Elaborate_Varietal/100%'},5,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'abv_num_low', 'Acidity_High'}",{'vintage_span_high'},5,2
+"{'Elaborate_Varietal/100%', 'vintage_span_mid', 'abv_num_low', 'Acidity_High'}",{'oldest_vintage_mid'},7,1
+"{'abv_num_mid', 'region_clean_Other', 'oldest_vintage_high'}","{'Elaborate_Varietal/100%', 'Acidity_Medium'}",4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'oldest_vintage_high', 'Acidity_Medium'}",{'region_clean_Other'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'vintage_span_low', 'Acidity_Medium'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'oldest_vintage_mid', 'food::Poultry'}",{'Acidity_Medium'},4,1
+"{'food::Pasta', 'latest_vintage_low', 'vintage_span_mid'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'oldest_vintage_mid'}",4,1
+"{'latest_vintage_low', 'Country_France', 'food::Poultry'}","{'abv_num_low', 'Acidity_High'}",5,1
+"{'abv_num_low', 'food::Poultry', 'Country_France', 'Acidity_High'}",{'latest_vintage_low'},5,1
+"{'abv_num_low', 'latest_vintage_low', 'Acidity_High', 'food::Poultry'}",{'Country_France'},5,1
+"{'oldest_vintage_mid', 'Country_France', 'Acidity_High'}",{'abv_num_low'},4,1
+"{'vintage_span_mid', 'Country_France', 'Acidity_High'}",{'abv_num_low'},4,1
+"{'oldest_vintage_mid', 'abv_num_low', 'Country_France'}",{'Acidity_High'},4,1
+"{'abv_num_low', 'vintage_span_mid', 'Country_France'}",{'Acidity_High'},4,1
+"{'abv_num_low', 'Country_Italy', 'oldest_vintage_mid'}","{'vintage_span_mid', 'Body_Medium-bodied'}",4,1
+"{'abv_num_low', 'Country_Italy', 'Acidity_High'}","{'region_clean_Other', 'food::Appetizer', 'food::Snack'}",4,1
+"{'Country_Italy', 'food::Appetizer', 'Acidity_High'}","{'region_clean_Other', 'food::Snack'}",4,1
+"{'Country_Other', 'Acidity_Medium', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'food::Poultry'},4,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'Acidity_High'}",{'Body_Medium-bodied'},4,2
+"{'region_clean_Other', 'vintage_span_mid', 'Acidity_High', 'Body_Medium-bodied'}",{'abv_num_low'},7,1
+"{'food::Appetizer', 'Acidity_High', 'Body_Medium-bodied'}","{'region_clean_Other', 'food::Snack'}",7,3
+"{'Acidity_High', 'food::Snack', 'Body_Medium-bodied'}",{'abv_num_low'},7,3
+"{'latest_vintage_low', 'food::Snack', 'Body_Medium-bodied'}",{'food::Appetizer'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'food::Snack'}","{'food::Appetizer', 'Body_Medium-bodied'}",4,1
+"{'region_clean_Other', 'food::Appetizer', 'latest_vintage_mid', 'Body_Medium-bodied'}",{'food::Snack'},4,1
+"{'food::Vegetarian', 'food::Pasta'}","{'abv_num_low', 'region_clean_Other', 'food::Appetizer', 'Body_Medium-bodied'}",5,1
+"{'food::Pasta', 'food::Appetizer'}","{'food::Vegetarian', 'abv_num_low', 'region_clean_Other', 'Body_Medium-bodied'}",5,1
+"{'food::Beef', 'food::Pork', 'Body_Medium-bodied'}","{'latest_vintage_low', 'vintage_span_low'}",5,1
+"{'food::Beef', 'latest_vintage_low', 'food::Pork'}",{'vintage_span_low'},5,1
+"{'food::Pork', 'food::Beef', 'vintage_span_low'}",{'latest_vintage_low'},5,1
+"{'food::Vegetarian', 'region_clean_Other', 'vintage_span_high'}","{'latest_vintage_mid', 'Body_Medium-bodied'}",4,1
+"{'food::Vegetarian', 'vintage_span_high', 'Body_Medium-bodied'}",{'latest_vintage_mid'},4,1
+"{'food::Vegetarian', 'latest_vintage_mid', 'vintage_span_high'}",{'Body_Medium-bodied'},4,1
+"{'food::Poultry', 'Body_Very full-bodied'}","{'food::Lamb', 'region_clean_Other', 'food::Beef', 'Acidity_Medium'}",4,1
+"{'abv_num_low', 'latest_vintage_low', 'oldest_vintage_low'}","{'region_clean_Other', 'vintage_span_high', 'Acidity_High'}",4,1
+"{'abv_num_low', 'latest_vintage_low', 'vintage_span_high'}","{'region_clean_Other', 'Acidity_High'}",4,1
+"{'region_clean_Other', 'latest_vintage_low', 'Acidity_High', 'oldest_vintage_low'}",{'abv_num_low'},4,1
+"{'region_clean_Other', 'latest_vintage_low', 'vintage_span_high', 'Acidity_High'}",{'abv_num_low'},4,1
+"{'latest_vintage_low', 'food::Appetizer', 'Acidity_High'}","{'region_clean_Other', 'food::Snack'}",4,1
+"{'latest_vintage_low', 'Acidity_High', 'food::Snack'}",{'region_clean_Other'},4,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'Acidity_High', 'latest_vintage_mid'}",{'abv_num_low'},4,1
+"{'region_clean_Other', 'vintage_span_mid', 'Acidity_High', 'latest_vintage_mid'}",{'abv_num_low'},4,1
+"{'region_clean_Other', 'vintage_span_mid', 'Acidity_High', 'food::Poultry'}",{'abv_num_low'},4,2
+"{'abv_num_low', 'vintage_span_mid', 'Acidity_High', 'food::Poultry'}",{'oldest_vintage_mid'},4,2
+"{'oldest_vintage_mid', 'vintage_span_mid', 'Acidity_High', 'food::Poultry'}",{'abv_num_low'},4,2
+"{'oldest_vintage_mid', 'Acidity_High', 'food::Shellfish'}",{'abv_num_low'},4,1
+"{'abv_num_low', 'oldest_vintage_mid', 'food::Shellfish'}",{'Acidity_High'},4,1
+"{'food::Lamb', 'vintage_span_low', 'Acidity_High'}","{'region_clean_Other', 'latest_vintage_low'}",4,1
+"{'region_clean_Other', 'food::Beef', 'vintage_span_low', 'Acidity_High'}",{'food::Lamb'},4,1
+"{'abv_num_low', 'vintage_span_high', 'Acidity_Medium'}","{'region_clean_Other', 'latest_vintage_mid'}",6,1
+"{'abv_num_low', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Poultry'}",{'Acidity_Medium'},6,1
+"{'food::Lamb', 'abv_num_high', 'vintage_span_mid'}",{'region_clean_Other'},4,1
+"{'abv_num_low', 'oldest_vintage_low', 'grape::Pinot Noir'}",{'food::Poultry'},7,1
+"{'abv_num_low', 'vintage_span_high', 'grape::Pinot Noir'}",{'food::Poultry'},7,1
+"{'abv_num_low', 'food::Poultry', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high'}",7,1
+"{'vintage_span_high', 'Acidity_Medium', 'Body_Medium-bodied'}","{'latest_vintage_mid', 'grape::Pinot Noir'}",6,1
+"{'oldest_vintage_low', 'Acidity_Medium', 'grape::Pinot Noir'}",{'latest_vintage_mid'},6,1
+"{'vintage_span_high', 'Acidity_Medium', 'grape::Pinot Noir'}",{'latest_vintage_mid'},6,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'grape::Pinot Noir'}",{'Acidity_Medium'},6,1
+"{'latest_vintage_mid', 'vintage_span_high', 'grape::Pinot Noir'}",{'Acidity_Medium'},6,1
+"{'food::Maturated Cheese', 'Type_Red', 'Elaborate_Assemblage/Blend'}",{'Body_Full-bodied'},4,1
+"{'Body_Full-bodied', 'Type_Red', 'food::Maturated Cheese'}","{'food::Lamb', 'Elaborate_Assemblage/Blend'}",4,1
+"{'region_clean_Other', 'food::Maturated Cheese', 'Elaborate_Assemblage/Blend'}","{'Body_Full-bodied', 'food::Lamb', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'food::Maturated Cheese', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'Type_Red'}",4,1
+"{'food::Maturated Cheese', 'food::Lamb', 'Elaborate_Assemblage/Blend'}",{'Body_Full-bodied'},4,1
+"{'Body_Full-bodied', 'food::Beef', 'food::Maturated Cheese'}","{'food::Lamb', 'Elaborate_Assemblage/Blend'}",4,1
+"{'Body_Full-bodied', 'food::Lamb', 'food::Maturated Cheese'}",{'Elaborate_Assemblage/Blend'},4,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'Acidity_Medium', 'Elaborate_Assemblage/Blend'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'vintage_span_mid', 'Type_Red', 'Elaborate_Assemblage/Blend'}","{'oldest_vintage_mid', 'Acidity_Medium'}",4,1
+"{'food::Lamb', 'vintage_span_mid', 'Elaborate_Assemblage/Blend'}","{'oldest_vintage_mid', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_France', 'Type_Red'}","{'abv_num_low', 'food::Veal'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Country_France'}","{'abv_num_low', 'food::Veal'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Veal', 'Country_France'}",{'abv_num_low'},6,1
+"{'abv_num_mid', 'Country_Italy'}","{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Type_Red'}",{'Country_Italy'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Beef'}",{'Country_Italy'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Lamb'}",{'Country_Italy'},4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Country_Italy', 'Body_Full-bodied'}","{'food::Lamb', 'food::Beef'}",5,1
+"{'Country_Italy', 'latest_vintage_low', 'Type_Red', 'Acidity_High'}",{'food::Pasta'},5,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_high'}","{'food::Pasta', 'latest_vintage_low', 'food::Game Meat', 'Type_Red'}",4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'abv_num_high'}","{'Country_Italy', 'latest_vintage_low'}",4,1
+"{'Country_Italy', 'abv_num_high', 'latest_vintage_low', 'Type_Red'}","{'food::Pasta', 'Elaborate_Varietal/100%'}",4,1
+"{'food::Pasta', 'Country_Italy', 'abv_num_high', 'latest_vintage_low'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Type_Red', 'Country_United States'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Beef', 'Country_United States'}",{'Acidity_Medium'},4,1
+"{'Body_Medium-bodied', 'Type_Red', 'Country_United States'}","{'food::Game Meat', 'food::Veal'}",5,1
+"{'food::Beef', 'Body_Medium-bodied', 'Country_United States'}","{'food::Game Meat', 'food::Veal', 'Type_Red'}",5,1
+"{'Body_Medium-bodied', 'food::Game Meat', 'Country_United States'}",{'food::Veal'},5,1
+"{'Body_Medium-bodied', 'food::Veal', 'Country_United States'}",{'food::Game Meat'},5,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'Country_United States'}",{'Body_Medium-bodied'},5,1
+"{'abv_num_high', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat'}",5,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'avg_harvest_start_to_2007_missing', 'Body_Medium-bodied'}","{'food::Game Meat', 'Type_Red'}",5,1
+"{'abv_num_low', 'food::Game Meat', 'Body_Medium-bodied'}",{'region_clean_Other'},5,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat'}",{'Body_Medium-bodied'},4,1
+"{'food::Game Meat', 'vintage_span_low', 'Body_Medium-bodied'}","{'region_clean_Other', 'latest_vintage_low'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Pork', 'Type_Red'}",{'latest_vintage_low'},6,1
+"{'food::Pork', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",6,1
+"{'latest_vintage_low', 'food::Pork', 'Type_Red'}",{'Elaborate_Varietal/100%'},6,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Pork'}",{'latest_vintage_low'},6,1
+"{'food::Game Meat', 'food::Pork', 'Body_Medium-bodied'}",{'latest_vintage_low'},6,1
+"{'food::Pork', 'latest_vintage_low', 'food::Game Meat'}",{'Elaborate_Varietal/100%'},6,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'Acidity_High', 'food::Poultry'}",{'food::Veal'},5,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'Acidity_High', 'food::Veal'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_mid', 'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",{'abv_num_high'},4,1
+"{'oldest_vintage_mid', 'latest_vintage_low', 'abv_num_high', 'Acidity_Medium', 'Type_Red'}",{'Elaborate_Varietal/100%'},4,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'latest_vintage_low', 'abv_num_high', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'Acidity_Medium', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'latest_vintage_low', 'abv_num_high', 'food::Veal', 'Acidity_Medium'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'vintage_span_low', 'food::Beef'}",{'Acidity_Medium'},5,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Acidity_Medium', 'Type_Red'}",{'food::Veal'},4,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'abv_num_low', 'Acidity_Medium'}",{'food::Veal'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'latest_vintage_mid'}",{'Acidity_Medium'},5,1
+"{'vintage_span_low', 'Acidity_Medium', 'food::Veal'}",{'food::Beef'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'food::Game Meat'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'Acidity_Medium', 'Type_Red'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'Acidity_Medium', 'food::Maturated Cheese'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'food::Maturated Cheese', 'food::Beef', 'Acidity_Medium'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'food::Game Meat', 'oldest_vintage_mid'}",{'latest_vintage_low'},5,2
+"{'oldest_vintage_mid', 'abv_num_high', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_mid', 'latest_vintage_low', 'Type_Red', 'food::Poultry'}",{'abv_num_high'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Veal', 'oldest_vintage_mid'}",{'abv_num_high'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'abv_num_low', 'Type_Red'}",{'food::Veal'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Beef', 'abv_num_low'}",{'food::Veal'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'region_clean_Other', 'food::Beef', 'Type_Red'}","{'Elaborate_Varietal/100%', 'food::Veal'}",4,1
+"{'latest_vintage_low', 'oldest_vintage_low', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Beef', 'Type_Red'}",5,1
+"{'region_clean_Other', 'latest_vintage_low', 'Type_Red', 'oldest_vintage_low'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low', 'oldest_vintage_low'}",{'food::Poultry'},5,1
+"{'food::Beef', 'region_clean_Other', 'latest_vintage_low', 'oldest_vintage_low'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'oldest_vintage_high'}","{'region_clean_Other', 'Type_Red'}",4,1
+"{'oldest_vintage_high', 'food::Veal', 'Type_Red'}",{'food::Beef'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'vintage_span_high', 'Type_Red'}",{'food::Poultry'},9,2
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Beef', 'vintage_span_high'}",{'food::Poultry'},9,2
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'vintage_span_high', 'Type_Red'}",{'Acidity_High'},5,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Beef', 'vintage_span_high'}",{'Acidity_High'},5,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'oldest_vintage_low', 'food::Game Meat'}",{'Acidity_High'},5,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'oldest_vintage_low'}",{'Acidity_High'},5,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'food::Game Meat', 'Acidity_Medium'}",{'Body_Medium-bodied'},4,1
+"{'food::Game Meat', 'food::Veal', 'Acidity_Medium', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",6,1
+"{'food::Game Meat', 'vintage_span_mid', 'Body_Medium-bodied'}","{'food::Veal', 'oldest_vintage_mid'}",4,1
+"{'Elaborate_Varietal/100%', 'vintage_span_mid', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'food::Veal', 'vintage_span_mid', 'Body_Medium-bodied'}",{'food::Game Meat'},4,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'vintage_span_mid'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_mid', 'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Acidity_High'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",4,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'food::Veal'}",{'grape::Pinot Noir'},5,1
+"{'vintage_span_high', 'Elaborate_Varietal/100%', 'Acidity_Medium', 'Type_Red'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'vintage_span_high', 'Acidity_Medium'}",{'food::Poultry'},5,1
+"{'food::Lamb', 'latest_vintage_low', 'vintage_span_high'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'vintage_span_high', 'Type_Red'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Beef', 'vintage_span_high'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Game Meat'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Beef', 'food::Veal', 'food::Poultry'}",{'grape::Pinot Noir'},9,1
+"{'food::Veal', 'Country_France', 'Acidity_High'}",{'abv_num_low'},5,1
+"{'food::Game Meat', 'Country_France', 'Acidity_High'}",{'food::Poultry'},5,1
+"{'Country_Italy', 'abv_num_high', 'oldest_vintage_mid'}","{'food::Pasta', 'food::Game Meat', 'Type_Red'}",4,1
+"{'Country_Italy', 'food::Game Meat', 'oldest_vintage_mid'}","{'food::Pasta', 'abv_num_high'}",4,1
+"{'food::Pasta', 'abv_num_high', 'oldest_vintage_mid'}",{'Country_Italy'},4,1
+"{'food::Pasta', 'food::Game Meat', 'oldest_vintage_mid'}","{'Country_Italy', 'abv_num_high'}",4,1
+"{'oldest_vintage_mid', 'food::Pasta', 'Country_Italy', 'Type_Red'}","{'abv_num_high', 'food::Game Meat'}",4,1
+"{'food::Pasta', 'Country_Italy', 'abv_num_high', 'region_clean_Other'}",{'oldest_vintage_mid'},4,1
+"{'food::Pasta', 'Country_Italy', 'food::Game Meat', 'region_clean_Other'}",{'oldest_vintage_mid'},4,1
+"{'Country_Italy', 'food::Beef', 'vintage_span_high'}","{'food::Lamb', 'food::Game Meat'}",4,1
+"{'Country_Italy', 'food::Game Meat', 'vintage_span_high'}",{'food::Lamb'},4,1
+"{'Country_Italy', 'food::Lamb', 'vintage_span_high'}",{'food::Game Meat'},4,1
+"{'Country_Other', 'oldest_vintage_low', 'Type_Red'}","{'vintage_span_high', 'food::Poultry'}",4,1
+"{'Country_Other', 'vintage_span_high', 'Type_Red'}",{'food::Poultry'},4,1
+"{'food::Beef', 'Country_Other', 'oldest_vintage_low'}","{'vintage_span_high', 'food::Poultry'}",4,1
+"{'Country_Other', 'food::Beef', 'vintage_span_high'}",{'food::Poultry'},4,1
+"{'Country_Portugal', 'food::Game Meat'}","{'food::Lamb', 'Body_Full-bodied', 'food::Beef', 'Acidity_Medium'}",5,2
+"{'food::Lamb', 'Country_Portugal'}","{'Body_Full-bodied', 'food::Game Meat', 'Acidity_Medium', 'Type_Red'}",5,2
+"{'food::Beef', 'Country_Portugal', 'Type_Red'}","{'food::Lamb', 'food::Game Meat'}",5,2
+"{'food::Beef', 'Body_Full-bodied', 'Country_Portugal'}","{'food::Lamb', 'food::Game Meat'}",5,2
+"{'food::Beef', 'Country_Portugal', 'Acidity_Medium'}","{'food::Lamb', 'Body_Full-bodied', 'food::Game Meat', 'Type_Red'}",5,2
+"{'region_clean_Other', 'food::Game Meat', 'Acidity_Medium', 'Country_United States'}",{'abv_num_high'},5,1
+"{'latest_vintage_low', 'abv_num_high', 'Country_United States'}","{'food::Game Meat', 'Type_Red'}",5,1
+"{'latest_vintage_low', 'food::Game Meat', 'Country_United States'}","{'region_clean_Other', 'abv_num_high'}",5,1
+"{'food::Lamb', 'food::Game Meat', 'Country_United States'}",{'abv_num_high'},4,1
+"{'food::Maturated Cheese', 'Country_United States'}","{'region_clean_Other', 'food::Game Meat', 'food::Beef', 'abv_num_high', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'region_clean_Other', 'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",{'food::Lamb'},6,2
+"{'Body_Full-bodied', 'food::Veal', 'Acidity_Medium'}",{'food::Lamb'},5,2
+"{'Body_Full-bodied', 'abv_num_high', 'oldest_vintage_mid'}","{'food::Lamb', 'region_clean_Other', 'food::Beef', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'abv_num_high', 'food::Poultry'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'latest_vintage_mid', 'region_clean_Other', 'Type_Red', 'food::Poultry'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'region_clean_Other', 'Body_Full-bodied', 'oldest_vintage_high'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'region_clean_Other', 'vintage_span_mid', 'Type_Red', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'oldest_vintage_mid', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}",{'food::Veal'},4,1
+"{'vintage_span_mid', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}",{'region_clean_Other'},4,1
+"{'region_clean_Other', 'food::Veal', 'vintage_span_mid', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'abv_num_low', 'food::Poultry', 'Type_Red', 'Body_Medium-bodied'}",{'food::Veal'},5,1
+"{'abv_num_low', 'food::Poultry', 'food::Beef', 'Body_Medium-bodied'}",{'food::Veal'},5,1
+"{'food::Game Meat', 'Body_Very full-bodied'}","{'food::Lamb', 'food::Beef', 'region_clean_Other', 'abv_num_high'}",4,1
+"{'abv_num_low', 'food::Game Meat', 'Acidity_High'}","{'region_clean_Other', 'latest_vintage_low'}",5,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'food::Game Meat'}",{'Acidity_High'},5,1
+"{'food::Poultry', 'latest_vintage_low', 'Type_Red', 'Acidity_High'}","{'region_clean_Other', 'food::Game Meat', 'food::Veal'}",5,1
+"{'latest_vintage_low', 'food::Game Meat', 'Acidity_High', 'food::Poultry'}","{'region_clean_Other', 'food::Veal'}",5,1
+"{'vintage_span_high', 'Acidity_High', 'food::Poultry'}","{'region_clean_Other', 'food::Beef', 'Type_Red'}",6,1
+"{'region_clean_Other', 'vintage_span_mid', 'Type_Red', 'Acidity_High'}",{'food::Lamb'},4,1
+"{'food::Beef', 'region_clean_Other', 'vintage_span_mid', 'Acidity_High'}",{'food::Lamb'},4,1
+"{'grape::Cabernet Sauvignon', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'grape::Cabernet Sauvignon', 'food::Beef', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'grape::Cabernet Sauvignon', 'food::Lamb', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'food::Maturated Cheese', 'abv_num_high', 'Acidity_Medium'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",6,2
+"{'abv_num_mid', 'latest_vintage_low', 'Type_Red', 'food::Poultry'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'abv_num_mid', 'region_clean_Other', 'latest_vintage_low', 'food::Poultry'}","{'food::Beef', 'Type_Red'}",4,1
+"{'abv_num_mid', 'latest_vintage_low', 'Acidity_Medium', 'food::Poultry'}","{'region_clean_Other', 'food::Beef'}",4,1
+"{'abv_num_mid', 'food::Poultry', 'latest_vintage_low', 'food::Beef'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'vintage_span_low', 'region_clean_Other', 'latest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'food::Beef'},4,1
+"{'food::Lamb', 'grape::Merlot', 'Acidity_Medium'}",{'latest_vintage_low'},4,2
+"{'region_clean_Other', 'abv_num_high', 'latest_vintage_low', 'vintage_span_mid'}","{'food::Game Meat', 'Type_Red'}",4,1
+"{'latest_vintage_low', 'abv_num_high', 'food::Maturated Cheese'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",4,1
+"{'oldest_vintage_high', 'abv_num_high', 'Type_Red'}","{'food::Beef', 'food::Game Meat'}",6,1
+"{'food::Lamb', 'food::Maturated Cheese', 'abv_num_high'}",{'food::Game Meat'},5,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'Type_Red', 'food::Poultry'}",{'food::Veal'},5,1
+"{'abv_num_low', 'food::Game Meat', 'food::Veal'}",{'food::Poultry'},7,1
+"{'abv_num_low', 'region_clean_Other', 'food::Game Meat', 'food::Poultry'}",{'food::Veal'},7,1
+"{'grape::Merlot', 'oldest_vintage_high'}","{'latest_vintage_low', 'Type_Red'}",4,1
+"{'vintage_span_low', 'grape::Merlot'}","{'oldest_vintage_high', 'latest_vintage_low', 'Type_Red'}",4,1
+"{'food::Beef', 'vintage_span_low', 'oldest_vintage_mid'}",{'food::Lamb'},4,1
+"{'food::Beef', 'latest_vintage_low', 'oldest_vintage_mid', 'food::Poultry'}",{'food::Lamb'},6,1
+"{'oldest_vintage_mid', 'region_clean_Other', 'food::Lamb', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},6,1
+"{'food::Beef', 'latest_vintage_low', 'vintage_span_mid', 'food::Poultry'}",{'food::Lamb'},4,1
+"{'Type_Red', 'region_clean_Other', 'food::Lamb', 'vintage_span_mid', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'food::Lamb', 'food::Veal', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'latest_vintage_mid', 'region_clean_Other', 'food::Beef', 'oldest_vintage_low', 'food::Poultry'}",{'vintage_span_high'},6,2
+"{'latest_vintage_mid', 'food::Lamb', 'vintage_span_high'}",{'region_clean_Other'},5,1
+"{'food::Lamb', 'region_clean_Other', 'oldest_vintage_low', 'latest_vintage_mid'}",{'vintage_span_high'},5,1
+"{'food::Lamb', 'vintage_span_high', 'food::Poultry'}",{'region_clean_Other'},4,1
+"{'grape::Cabernet Sauvignon', 'grape::Petit Verdot'}",{'food::Game Meat'},4,1
+"{'food::Game Meat', 'grape::Petit Verdot'}",{'grape::Cabernet Sauvignon'},4,1
+"{'Body_Full-bodied', 'Type_Red', 'latest_vintage_mid', 'Acidity_High'}","{'food::Lamb', 'oldest_vintage_low'}",4,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'Type_Red', 'Acidity_High'}","{'Body_Full-bodied', 'food::Lamb'}",4,1
+"{'Body_Full-bodied', 'food::Beef', 'Acidity_High', 'latest_vintage_mid'}",{'oldest_vintage_low'},4,1
+"{'Body_Full-bodied', 'food::Lamb', 'Acidity_High', 'latest_vintage_mid'}",{'oldest_vintage_low'},4,1
+"{'food::Beef', 'latest_vintage_mid', 'oldest_vintage_low', 'Acidity_High'}","{'Body_Full-bodied', 'food::Lamb'}",4,1
+"{'food::Lamb', 'vintage_span_high', 'Acidity_High'}",{'Body_Full-bodied'},6,1
+"{'oldest_vintage_mid', 'food::Game Meat', 'Acidity_Medium', 'food::Lamb'}",{'Body_Full-bodied'},4,1
+"{'oldest_vintage_mid', 'Body_Full-bodied', 'Acidity_Medium', 'food::Poultry'}","{'food::Lamb', 'food::Beef'}",4,1
+"{'food::Pasta', 'Body_Full-bodied', 'abv_num_high'}","{'food::Lamb', 'food::Beef'}",4,1
+"{'food::Pasta', 'food::Beef', 'abv_num_high'}","{'Body_Full-bodied', 'food::Lamb'}",4,1
+"{'food::Lamb', 'food::Pasta', 'abv_num_high'}",{'Body_Full-bodied'},4,1
+"{'Body_Full-bodied', 'food::Game Meat', 'vintage_span_low'}","{'food::Lamb', 'latest_vintage_low'}",5,1
+"{'food::Lamb', 'Body_Full-bodied', 'oldest_vintage_low', 'food::Poultry'}",{'latest_vintage_mid'},4,1
+"{'food::Pasta', 'oldest_vintage_high', 'Type_Red'}","{'food::Lamb', 'Body_Full-bodied', 'food::Beef'}",4,1
+"{'food::Pasta', 'Body_Full-bodied', 'oldest_vintage_high'}","{'food::Lamb', 'food::Beef', 'Type_Red'}",4,1
+"{'food::Pasta', 'Body_Full-bodied', 'vintage_span_low'}","{'food::Lamb', 'oldest_vintage_high', 'food::Beef', 'Type_Red'}",4,1
+"{'food::Pasta', 'food::Beef', 'oldest_vintage_high'}","{'Body_Full-bodied', 'food::Lamb', 'Type_Red'}",4,1
+"{'food::Pasta', 'food::Lamb', 'oldest_vintage_high'}",{'Body_Full-bodied'},4,1
+"{'food::Pasta', 'food::Beef', 'vintage_span_low'}","{'Body_Full-bodied', 'food::Lamb', 'Type_Red', 'oldest_vintage_high'}",4,1
+"{'food::Pasta', 'food::Lamb', 'vintage_span_low'}","{'Body_Full-bodied', 'oldest_vintage_high'}",4,1
+"{'Body_Full-bodied', 'vintage_span_mid', 'Type_Red', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'Body_Full-bodied', 'food::Beef', 'vintage_span_mid', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'Body_Full-bodied', 'food::Lamb', 'vintage_span_mid', 'food::Poultry'}",{'food::Game Meat'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'food::Game Meat'}","{'Acidity_Medium', 'food::Poultry'}",4,1
+"{'abv_num_low', 'latest_vintage_mid', 'food::Beef', 'food::Poultry'}","{'food::Game Meat', 'Acidity_Medium'}",4,1
+"{'abv_num_low', 'latest_vintage_mid', 'food::Beef', 'Acidity_Medium', 'Type_Red'}",{'food::Game Meat'},4,1
+"{'food::Lamb', 'vintage_span_low', 'food::Poultry'}","{'latest_vintage_low', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'latest_vintage_mid', 'food::Beef', 'oldest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'vintage_span_high'},5,1
+"{'food::Vegetarian', 'Type_White', 'region_clean_Other', 'Acidity_High'}",{'Elaborate_Varietal/100%'},5,2
+"{'food::Vegetarian', 'Type_White', 'Acidity_High', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},5,2
+"{'Elaborate_Varietal/100%', 'Type_White', 'Acidity_High', 'food::Shellfish'}",{'Body_Medium-bodied'},4,2
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'abv_num_low', 'Body_Medium-bodied', 'vintage_span_mid'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'latest_vintage_mid', 'abv_num_low'}",{'Type_White'},4,1
+"{'Type_White', 'oldest_vintage_mid', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'abv_num_low'}",5,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'abv_num_low', 'oldest_vintage_mid'}",{'Body_Medium-bodied'},5,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'avg_harvest_start_to_2007_missing', 'oldest_vintage_high'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'avg_harvest_start_to_2007_missing', 'vintage_span_low'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'Country_Italy'}","{'abv_num_low', 'Body_Medium-bodied', 'region_clean_Other', 'Type_White', 'food::Appetizer'}",4,1
+"{'Type_White', 'Country_Italy', 'region_clean_Other', 'Body_Medium-bodied'}",{'food::Vegetarian'},4,1
+"{'food::Vegetarian', 'latest_vintage_low', 'food::Appetizer'}",{'Type_White'},4,1
+"{'Type_White', 'latest_vintage_low', 'food::Appetizer', 'region_clean_Other'}",{'food::Vegetarian'},4,1
+"{'Type_White', 'food::Appetizer', 'oldest_vintage_high'}",{'latest_vintage_low'},4,1
+"{'Type_White', 'food::Appetizer', 'vintage_span_low'}",{'latest_vintage_low'},4,1
+"{'latest_vintage_low', 'food::Appetizer', 'oldest_vintage_high'}",{'Type_White'},4,1
+"{'latest_vintage_low', 'vintage_span_low', 'food::Appetizer'}",{'Type_White'},4,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'Country_France', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'abv_num_low', 'food::Poultry'}","{'Country_France', 'Acidity_High'}",4,1
+"{'Country_Italy', 'food::Snack', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'abv_num_low', 'Body_Medium-bodied', 'region_clean_Other'}",{'food::Snack'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'abv_num_low', 'oldest_vintage_mid'}","{'Acidity_High', 'Body_Medium-bodied'}",4,1
+"{'food::Vegetarian', 'latest_vintage_low', 'Acidity_High'}",{'Elaborate_Varietal/100%'},4,1
+"{'Elaborate_Varietal/100%', 'food::Pork', 'abv_num_low'}","{'oldest_vintage_mid', 'Acidity_High'}",4,1
+"{'abv_num_low', 'food::Pork', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'oldest_vintage_mid'}",4,1
+"{'abv_num_low', 'food::Pork', 'oldest_vintage_mid'}",{'Acidity_High'},4,1
+"{'food::Vegetarian', 'oldest_vintage_mid'}","{'Elaborate_Varietal/100%', 'abv_num_low', 'Body_Medium-bodied', 'region_clean_Other', 'vintage_span_mid'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'Acidity_High', 'oldest_vintage_high'}",{'abv_num_low'},4,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'Acidity_High', 'oldest_vintage_high'}",{'Elaborate_Varietal/100%'},4,1
+"{'Country_Other', 'abv_num_high', 'Body_Full-bodied'}",{'latest_vintage_mid'},4,2
+"{'Country_Other', 'oldest_vintage_low', 'Body_Full-bodied'}","{'latest_vintage_mid', 'abv_num_high', 'vintage_span_high'}",4,2
+"{'vintage_span_high', 'Country_Other', 'Body_Full-bodied'}","{'latest_vintage_mid', 'abv_num_high'}",4,2
+"{'Country_Other', 'abv_num_high', 'latest_vintage_mid'}",{'Body_Full-bodied'},4,2
+"{'Body_Full-bodied', 'abv_num_high', 'latest_vintage_mid', 'oldest_vintage_low'}",{'Country_Other'},4,2
+"{'Body_Full-bodied', 'abv_num_high', 'vintage_span_high', 'latest_vintage_mid'}",{'Country_Other'},4,2
+"{'vintage_span_mid', 'latest_vintage_low', 'Acidity_High', 'Body_Medium-bodied'}",{'abv_num_low'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'food::Beef', 'Body_Medium-bodied'}","{'region_clean_Other', 'oldest_vintage_low', 'Acidity_Medium'}",4,1
+"{'abv_num_low', 'oldest_vintage_low', 'Acidity_Medium', 'food::Beef'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Beef'}","{'Acidity_Medium', 'Body_Medium-bodied'}",4,1
+"{'Body_Medium-bodied', 'region_clean_Other', 'food::Beef', 'oldest_vintage_low', 'Acidity_Medium'}",{'abv_num_low'},4,1
+"{'latest_vintage_mid', 'Body_Medium-bodied', 'region_clean_Other', 'food::Beef', 'oldest_vintage_low'}",{'abv_num_low'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'region_clean_Other', 'food::Beef', 'Acidity_Medium'}","{'oldest_vintage_low', 'Body_Medium-bodied'}",4,1
+"{'Body_Medium-bodied', 'region_clean_Other', 'oldest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'abv_num_low'},5,1
+"{'latest_vintage_mid', 'Body_Medium-bodied', 'region_clean_Other', 'oldest_vintage_low', 'food::Poultry'}",{'abv_num_low'},5,1
+"{'abv_num_low', 'latest_vintage_mid', 'Body_Medium-bodied', 'Acidity_Medium', 'food::Poultry'}",{'oldest_vintage_low'},5,1
+"{'region_clean_Other', 'oldest_vintage_high', 'food::Snack'}","{'food::Appetizer', 'Body_Medium-bodied'}",4,1
+"{'region_clean_Other', 'vintage_span_low', 'food::Snack'}","{'food::Appetizer', 'Body_Medium-bodied'}",4,1
+"{'oldest_vintage_high', 'food::Snack', 'Body_Medium-bodied'}",{'food::Appetizer'},4,1
+"{'vintage_span_low', 'food::Snack', 'Body_Medium-bodied'}",{'food::Appetizer'},4,1
+"{'food::Appetizer', 'oldest_vintage_high', 'food::Snack'}",{'region_clean_Other'},4,1
+"{'food::Appetizer', 'vintage_span_low', 'food::Snack'}",{'region_clean_Other'},4,1
+"{'food::Appetizer', 'oldest_vintage_mid'}","{'abv_num_low', 'food::Snack', 'Body_Medium-bodied', 'region_clean_Other', 'vintage_span_mid'}",4,1
+"{'oldest_vintage_mid', 'food::Snack'}","{'abv_num_low', 'Body_Medium-bodied', 'region_clean_Other', 'food::Appetizer', 'vintage_span_mid'}",4,1
+"{'vintage_span_mid', 'food::Snack'}","{'abv_num_low', 'oldest_vintage_mid', 'Body_Medium-bodied', 'region_clean_Other', 'food::Appetizer'}",4,1
+"{'region_clean_Other', 'food::Appetizer', 'vintage_span_mid', 'Body_Medium-bodied'}","{'oldest_vintage_mid', 'food::Snack'}",4,1
+"{'food::Pasta', 'food::Snack'}","{'abv_num_low', 'Body_Medium-bodied', 'region_clean_Other', 'food::Vegetarian', 'food::Appetizer'}",4,1
+"{'food::Beef', 'food::Pork', 'oldest_vintage_high'}",{'latest_vintage_low'},4,1
+"{'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'food::Pork', 'oldest_vintage_high'}",{'food::Beef'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'vintage_span_high', 'food::Poultry'}",{'Acidity_Medium'},5,1
+"{'food::Poultry', 'latest_vintage_mid', 'vintage_span_high', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Acidity_Medium', 'Type_Red'}","{'food::Lamb', 'vintage_span_low'}",4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'vintage_span_low', 'Type_Red'}","{'food::Lamb', 'Acidity_Medium'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'Body_Full-bodied', 'vintage_span_low'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'vintage_span_low', 'Acidity_Medium'}","{'food::Lamb', 'food::Beef'}",4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Beef', 'Acidity_Medium'}",{'vintage_span_low'},4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Lamb', 'Acidity_Medium'}",{'vintage_span_low'},4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Beef', 'vintage_span_low'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Lamb', 'vintage_span_low'}",{'Acidity_Medium'},4,1
+"{'avg_harvest_start_to_2007_missing', 'abv_num_high', 'Acidity_Medium', 'Body_Medium-bodied'}","{'food::Game Meat', 'Type_Red'}",4,1
+"{'food::Pork', 'Acidity_Medium', 'Type_Red'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",4,1
+"{'food::Game Meat', 'food::Pork', 'Acidity_Medium'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",4,1
+"{'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'food::Pork', 'Acidity_Medium'}","{'food::Game Meat', 'Type_Red'}",4,1
+"{'abv_num_high', 'food::Veal', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat'}",4,1
+"{'Elaborate_Varietal/100%', 'abv_num_high', 'food::Game Meat', 'food::Veal'}",{'Body_Medium-bodied'},4,1
+"{'oldest_vintage_high', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low', 'food::Beef'}",5,1
+"{'food::Pork', 'vintage_span_low', 'Type_Red'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",5,1
+"{'food::Pork', 'food::Game Meat', 'vintage_span_low'}","{'Elaborate_Varietal/100%', 'latest_vintage_low'}",5,1
+"{'Elaborate_Varietal/100%', 'vintage_span_low', 'latest_vintage_low', 'food::Pork', 'avg_harvest_start_to_2007_missing'}","{'food::Game Meat', 'Type_Red'}",5,1
+"{'food::Game Meat', 'Elaborate_Varietal/100%', 'latest_vintage_low', 'abv_num_low'}",{'Acidity_High'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High', 'food::Beef', 'food::Veal'}",{'abv_num_low'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Game Meat', 'Acidity_High', 'food::Veal'}",{'food::Poultry'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'Acidity_High', 'food::Beef', 'food::Poultry'}",{'vintage_span_high'},5,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Poultry'}","{'region_clean_Other', 'Acidity_Medium'}",4,1
+"{'Elaborate_Varietal/100%', 'food::Lamb', 'Acidity_Medium', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'oldest_vintage_high'}","{'region_clean_Other', 'Acidity_Medium'}",5,1
+"{'latest_vintage_low', 'vintage_span_high', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Beef', 'Type_Red'}",4,1
+"{'region_clean_Other', 'latest_vintage_low', 'vintage_span_high', 'Type_Red'}",{'food::Poultry'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low', 'vintage_span_high'}",{'food::Poultry'},4,1
+"{'food::Beef', 'region_clean_Other', 'latest_vintage_low', 'vintage_span_high'}",{'food::Poultry'},4,1
+"{'latest_vintage_low', 'food::Veal', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'food::Poultry'}",4,1
+"{'latest_vintage_low', 'Type_Red', 'grape::Pinot Noir'}",{'region_clean_Other'},4,1
+"{'food::Beef', 'latest_vintage_low', 'grape::Pinot Noir'}",{'region_clean_Other'},4,1
+"{'latest_vintage_low', 'food::Game Meat', 'grape::Pinot Noir'}",{'region_clean_Other'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'latest_vintage_low', 'grape::Pinot Noir'}","{'food::Beef', 'food::Game Meat', 'Type_Red', 'food::Veal'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'region_clean_Other', 'oldest_vintage_low', 'food::Beef'}",{'vintage_span_high'},4,1
+"{'food::Poultry', 'Elaborate_Varietal/100%', 'region_clean_Other', 'grape::Pinot Noir'}","{'food::Beef', 'food::Game Meat', 'Type_Red', 'food::Veal'}",8,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Lamb', 'vintage_span_high'}",{'Acidity_High'},4,1
+"{'abv_num_mid', 'food::Veal', 'Body_Medium-bodied'}","{'food::Game Meat', 'grape::Pinot Noir'}",4,1
+"{'abv_num_mid', 'food::Game Meat', 'food::Veal'}","{'Elaborate_Varietal/100%', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'latest_vintage_mid', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Beef', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'latest_vintage_mid', 'food::Game Meat', 'Body_Medium-bodied'}","{'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'latest_vintage_mid', 'food::Veal', 'Body_Medium-bodied'}","{'food::Game Meat', 'grape::Pinot Noir'}",6,1
+"{'latest_vintage_mid', 'food::Game Meat', 'food::Veal'}","{'grape::Pinot Noir', 'Body_Medium-bodied'}",6,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Beef', 'Body_Medium-bodied'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'Body_Medium-bodied', 'food::Beef', 'food::Veal', 'food::Poultry'}",{'grape::Pinot Noir'},7,1
+"{'Body_Medium-bodied', 'food::Game Meat', 'food::Beef', 'food::Veal', 'food::Poultry'}",{'grape::Pinot Noir'},7,1
+"{'latest_vintage_low', 'food::Game Meat', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'Acidity_High'}",6,2
+"{'food::Game Meat', 'latest_vintage_low', 'vintage_span_high'}","{'Elaborate_Varietal/100%', 'Acidity_High'}",6,2
+"{'oldest_vintage_low', 'latest_vintage_low', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},6,2
+"{'latest_vintage_low', 'vintage_span_high', 'Type_Red', 'Acidity_High'}",{'food::Game Meat'},6,2
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High', 'oldest_vintage_low'}",{'food::Game Meat'},6,2
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'vintage_span_high', 'Acidity_High'}",{'food::Game Meat'},6,2
+"{'food::Beef', 'latest_vintage_low', 'Acidity_High', 'oldest_vintage_low'}",{'food::Game Meat'},6,2
+"{'food::Beef', 'latest_vintage_low', 'vintage_span_high', 'Acidity_High'}",{'food::Game Meat'},6,2
+"{'abv_num_low', 'food::Game Meat', 'Country_France'}","{'food::Veal', 'food::Poultry'}",6,1
+"{'food::Game Meat', 'food::Veal', 'Country_France'}","{'abv_num_low', 'food::Poultry'}",6,1
+"{'food::Veal', 'Country_France', 'food::Poultry'}","{'abv_num_low', 'food::Game Meat'}",6,1
+"{'Country_France', 'Type_Red', 'oldest_vintage_low'}","{'food::Game Meat', 'food::Poultry'}",6,1
+"{'Country_France', 'vintage_span_high', 'Type_Red'}","{'food::Game Meat', 'food::Poultry'}",6,1
+"{'food::Beef', 'oldest_vintage_low', 'Country_France'}","{'food::Game Meat', 'food::Poultry'}",6,1
+"{'oldest_vintage_low', 'food::Game Meat', 'Country_France'}",{'food::Poultry'},6,1
+"{'oldest_vintage_low', 'Country_France', 'food::Poultry'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",6,1
+"{'food::Beef', 'vintage_span_high', 'Country_France'}","{'food::Game Meat', 'food::Poultry'}",6,1
+"{'food::Game Meat', 'vintage_span_high', 'Country_France'}",{'food::Poultry'},6,1
+"{'vintage_span_high', 'Country_France', 'food::Poultry'}","{'food::Beef', 'food::Game Meat', 'Type_Red'}",6,1
+"{'vintage_span_low', 'Type_Red', 'Country_United States'}","{'region_clean_Other', 'abv_num_high', 'food::Game Meat', 'Acidity_Medium'}",4,1
+"{'vintage_span_low', 'Acidity_Medium', 'Country_United States'}","{'region_clean_Other', 'abv_num_high', 'food::Game Meat', 'Type_Red'}",4,1
+"{'abv_num_high', 'vintage_span_low', 'Country_United States'}","{'food::Game Meat', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'food::Beef', 'vintage_span_low', 'Country_United States'}","{'region_clean_Other', 'food::Game Meat', 'abv_num_high', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'food::Game Meat', 'vintage_span_low', 'Country_United States'}","{'region_clean_Other', 'abv_num_high', 'Acidity_Medium'}",4,1
+"{'grape::Cabernet Sauvignon', 'Body_Full-bodied', 'Acidity_High'}",{'food::Game Meat'},4,1
+"{'Body_Full-bodied', 'abv_num_high', 'vintage_span_low'}","{'food::Lamb', 'food::Beef', 'latest_vintage_low', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'oldest_vintage_mid', 'food::Poultry'}","{'food::Lamb', 'food::Beef'}",4,1
+"{'Body_Full-bodied', 'oldest_vintage_mid', 'region_clean_Other', 'Type_Red', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'Body_Full-bodied', 'region_clean_Other', 'latest_vintage_low', 'food::Lamb', 'food::Poultry'}",{'oldest_vintage_mid'},4,1
+"{'Body_Full-bodied', 'oldest_vintage_mid', 'region_clean_Other', 'food::Beef', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'Body_Full-bodied', 'oldest_vintage_mid', 'region_clean_Other', 'food::Lamb', 'food::Poultry'}",{'latest_vintage_low'},4,1
+"{'abv_num_low', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}","{'food::Veal', 'food::Poultry'}",4,1
+"{'abv_num_low', 'food::Veal', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Poultry'},4,1
+"{'abv_num_low', 'food::Veal', 'Acidity_Medium', 'food::Poultry'}",{'Body_Medium-bodied'},4,1
+"{'abv_num_low', 'region_clean_Other', 'food::Beef', 'Acidity_Medium', 'food::Poultry'}",{'Body_Medium-bodied'},4,1
+"{'oldest_vintage_mid', 'food::Beef', 'latest_vintage_low', 'Acidity_High'}","{'food::Lamb', 'food::Game Meat'}",4,1
+"{'oldest_vintage_mid', 'latest_vintage_low', 'Acidity_High', 'food::Lamb'}",{'food::Game Meat'},4,1
+"{'oldest_vintage_mid', 'food::Game Meat', 'Acidity_High', 'food::Lamb'}",{'latest_vintage_low'},4,1
+"{'avg_harvest_start_to_2007_missing', 'oldest_vintage_high', 'abv_num_high', 'Acidity_Medium'}","{'food::Game Meat', 'Type_Red'}",5,1
+"{'food::Beef', 'oldest_vintage_high', 'abv_num_high', 'Acidity_Medium'}",{'food::Game Meat'},5,1
+"{'food::Lamb', 'vintage_span_high', 'Acidity_Medium'}","{'region_clean_Other', 'abv_num_high'}",4,2
+"{'vintage_span_low', 'region_clean_Other', 'food::Game Meat', 'food::Lamb', 'Acidity_Medium'}",{'abv_num_high'},4,1
+"{'food::Lamb', 'food::Maturated Cheese', 'food::Game Meat', 'Acidity_Medium'}",{'abv_num_high'},4,2
+"{'abv_num_low', 'latest_vintage_mid', 'oldest_vintage_low', 'Type_Red'}",{'Acidity_Medium'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'vintage_span_high', 'Type_Red'}",{'Acidity_Medium'},4,1
+"{'abv_num_low', 'latest_vintage_mid', 'region_clean_Other', 'Acidity_Medium', 'Type_Red'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'abv_num_low', 'latest_vintage_mid', 'region_clean_Other', 'Type_Red', 'food::Poultry'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'oldest_vintage_high', 'Type_Red', 'food::Maturated Cheese'}","{'food::Game Meat', 'Acidity_Medium'}",4,1
+"{'food::Maturated Cheese', 'vintage_span_low', 'Type_Red'}","{'food::Game Meat', 'Acidity_Medium'}",4,1
+"{'region_clean_Other', 'oldest_vintage_high', 'food::Maturated Cheese'}","{'food::Game Meat', 'food::Beef', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'region_clean_Other', 'vintage_span_low', 'food::Maturated Cheese'}","{'food::Game Meat', 'food::Beef', 'Acidity_Medium', 'Type_Red'}",4,1
+"{'food::Maturated Cheese', 'food::Game Meat', 'oldest_vintage_high'}",{'Acidity_Medium'},4,1
+"{'food::Maturated Cheese', 'food::Game Meat', 'vintage_span_low'}",{'Acidity_Medium'},4,1
+"{'oldest_vintage_high', 'food::Beef', 'Acidity_Medium', 'food::Maturated Cheese'}",{'food::Game Meat'},4,1
+"{'food::Maturated Cheese', 'food::Beef', 'vintage_span_low', 'Acidity_Medium'}",{'food::Game Meat'},4,1
+"{'food::Lamb', 'region_clean_Other', 'food::Game Meat', 'oldest_vintage_high'}",{'abv_num_high'},4,1
+"{'latest_vintage_low', 'grape::Petit Verdot'}","{'vintage_span_mid', 'oldest_vintage_mid'}",4,1
+"{'grape::Petit Verdot', 'oldest_vintage_mid'}","{'latest_vintage_low', 'vintage_span_mid'}",4,1
+"{'grape::Petit Verdot', 'vintage_span_mid'}","{'latest_vintage_low', 'oldest_vintage_mid'}",4,1
+"{'grape::Cabernet Sauvignon', 'latest_vintage_low', 'food::Poultry'}",{'oldest_vintage_mid'},4,1
+"{'abv_num_mid', 'food::Lamb', 'Acidity_High'}","{'Body_Full-bodied', 'oldest_vintage_low', 'food::Game Meat'}",5,1
+"{'abv_num_mid', 'Body_Full-bodied', 'oldest_vintage_low', 'Type_Red'}",{'food::Game Meat'},5,1
+"{'abv_num_mid', 'Body_Full-bodied', 'oldest_vintage_low', 'food::Beef'}",{'food::Game Meat'},5,1
+"{'food::Lamb', 'abv_num_mid', 'Body_Full-bodied', 'oldest_vintage_low'}",{'food::Game Meat'},5,1
+"{'food::Lamb', 'abv_num_mid', 'oldest_vintage_low', 'food::Game Meat'}",{'Acidity_High'},5,1
+"{'food::Pasta', 'Body_Full-bodied', 'Acidity_High'}","{'latest_vintage_low', 'food::Game Meat', 'food::Lamb', 'food::Beef', 'Type_Red'}",5,1
+"{'food::Pasta', 'food::Beef', 'latest_vintage_low', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'food::Lamb', 'food::Pasta', 'latest_vintage_low', 'Acidity_High'}",{'food::Game Meat'},5,1
+"{'Body_Full-bodied', 'food::Game Meat', 'oldest_vintage_high'}","{'food::Lamb', 'latest_vintage_low'}",4,1
+"{'oldest_vintage_mid', 'Elaborate_Varietal/100%', 'Type_White', 'Acidity_High'}",{'Body_Medium-bodied'},4,1
+"{'Elaborate_Varietal/100%', 'Type_White', 'vintage_span_mid', 'Acidity_High'}","{'oldest_vintage_mid', 'Body_Medium-bodied'}",4,1
+"{'Type_White', 'region_clean_Other', 'food::Snack'}","{'Elaborate_Varietal/100%', 'Body_Medium-bodied'}",4,1
+"{'Type_White', 'food::Snack', 'Body_Medium-bodied'}",{'Elaborate_Varietal/100%'},4,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'food::Appetizer'}","{'Type_White', 'food::Snack'}",4,1
+"{'food::Vegetarian', 'Elaborate_Varietal/100%', 'abv_num_low', 'food::Snack'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'abv_num_low', 'latest_vintage_low', 'oldest_vintage_high'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'abv_num_low', 'latest_vintage_low', 'vintage_span_low'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'oldest_vintage_high'}",{'Type_White'},4,1
+"{'food::Vegetarian', 'avg_harvest_start_to_2007_missing', 'latest_vintage_low', 'vintage_span_low'}",{'Type_White'},4,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Acidity_Medium', 'food::Poultry'}","{'latest_vintage_mid', 'oldest_vintage_low', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Body_Medium-bodied', 'oldest_vintage_low', 'Acidity_Medium'}",{'food::Poultry'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'region_clean_Other', 'oldest_vintage_low', 'Acidity_Medium', 'food::Poultry'}",{'abv_num_low'},4,1
+{'Elaborate_Assemblage/Bordeaux Red Blend'},"{'grape::Cabernet Sauvignon', 'Body_Full-bodied', 'region_clean_Other', 'food::Game Meat', 'food::Beef', 'grape::Merlot', 'food::Lamb', 'avg_harvest_start_to_2007_missing', 'Type_Red'}",4,1
+"{'grape::Cabernet Sauvignon', 'grape::Merlot'}","{'Body_Full-bodied', 'Elaborate_Assemblage/Bordeaux Red Blend', 'food::Game Meat', 'food::Lamb', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'food::Game Meat', 'grape::Merlot'}","{'grape::Cabernet Sauvignon', 'Elaborate_Assemblage/Bordeaux Red Blend'}",4,1
+{'grape::Nebbiolo'},"{'Elaborate_Varietal/100%', 'Country_Italy', 'Body_Full-bodied', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'food::Lamb', 'avg_harvest_start_to_2007_missing', 'Type_Red'}",5,1
+"{'Country_Italy', 'Body_Full-bodied', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'food::Game Meat', 'food::Beef', 'food::Lamb', 'Type_Red'}",5,1
+"{'Country_Italy', 'food::Beef', 'Type_Red', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied'}",5,1
+"{'Country_Italy', 'food::Lamb', 'Type_Red', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied'}",5,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Game Meat', 'Body_Full-bodied'}","{'grape::Nebbiolo', 'Acidity_High'}",5,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Beef', 'Acidity_High'}","{'grape::Nebbiolo', 'food::Game Meat'}",5,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Lamb', 'Acidity_High'}","{'grape::Nebbiolo', 'food::Game Meat'}",5,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'food::Beef', 'food::Game Meat'}","{'grape::Nebbiolo', 'Acidity_High'}",5,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'Country_Italy', 'food::Game Meat'}","{'grape::Nebbiolo', 'Acidity_High'}",5,1
+"{'Country_Italy', 'food::Beef', 'food::Game Meat', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied'}",5,1
+"{'food::Lamb', 'Country_Italy', 'food::Game Meat', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied'}",5,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Game Meat', 'Acidity_High', 'food::Lamb'}","{'grape::Nebbiolo', 'Country_Italy'}",5,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'food::Pork'}","{'food::Game Meat', 'latest_vintage_low', 'vintage_span_low', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'Type_Red'}",4,1
+"{'Body_Full-bodied', 'latest_vintage_low', 'vintage_span_high'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'Type_Red'}",4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Game Meat', 'vintage_span_high'}","{'latest_vintage_low', 'Acidity_High'}",4,1
+"{'oldest_vintage_low', 'Type_Red', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'vintage_span_high', 'Type_Red', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Veal'}","{'food::Poultry', 'grape::Pinot Noir'}",8,1
+"{'food::Beef', 'oldest_vintage_low', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'oldest_vintage_low', 'food::Game Meat', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'oldest_vintage_low', 'food::Veal', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'food::Beef', 'vintage_span_high', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'food::Game Meat', 'vintage_span_high', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'food::Veal', 'vintage_span_high', 'grape::Pinot Noir'}",{'food::Poultry'},8,1
+"{'food::Veal', 'vintage_span_high', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'grape::Pinot Noir'}",8,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'oldest_vintage_low', 'grape::Pinot Noir'}","{'food::Beef', 'food::Game Meat', 'Type_Red', 'food::Veal'}",8,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Game Meat', 'food::Veal'}",{'grape::Pinot Noir'},8,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'vintage_span_high', 'grape::Pinot Noir'}","{'food::Game Meat', 'food::Veal'}",8,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'vintage_span_high', 'food::Poultry'}","{'food::Veal', 'grape::Pinot Noir'}",8,1
+"{'food::Veal', 'oldest_vintage_low', 'food::Game Meat', 'food::Poultry'}",{'grape::Pinot Noir'},8,1
+"{'abv_num_mid', 'food::Lamb', 'vintage_span_high'}","{'Body_Full-bodied', 'food::Game Meat', 'Acidity_High'}",4,2
+"{'abv_num_low', 'Acidity_Medium', 'grape::Pinot Noir'}","{'latest_vintage_mid', 'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",4,1
+"{'abv_num_low', 'latest_vintage_mid', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'Acidity_Medium', 'food::Poultry'}",4,1
+"{'abv_num_low', 'vintage_span_high', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Poultry'},4,1
+"{'vintage_span_high', 'Body_Medium-bodied', 'region_clean_Other', 'Acidity_Medium', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'latest_vintage_mid', 'vintage_span_high', 'Body_Medium-bodied', 'region_clean_Other', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'region_clean_Other', 'oldest_vintage_low', 'Acidity_Medium', 'grape::Pinot Noir', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'vintage_span_high', 'region_clean_Other', 'Acidity_Medium', 'grape::Pinot Noir', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'latest_vintage_mid', 'region_clean_Other', 'oldest_vintage_low', 'grape::Pinot Noir', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'latest_vintage_mid', 'vintage_span_high', 'region_clean_Other', 'grape::Pinot Noir', 'food::Poultry'}",{'abv_num_low'},4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low', 'Type_Red'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'food::Game Meat', 'Acidity_High', 'food::Lamb'}",4,1
+"{'Country_Italy', 'oldest_vintage_low', 'Type_Red', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'food::Lamb'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low', 'Body_Full-bodied'}","{'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High', 'food::Lamb', 'food::Beef'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'food::Game Meat', 'food::Beef', 'food::Lamb', 'Type_Red'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low', 'food::Beef'}","{'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low', 'food::Game Meat'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'Country_Italy', 'oldest_vintage_low'}","{'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Game Meat'}","{'grape::Nebbiolo', 'Country_Italy', 'Body_Full-bodied', 'Acidity_High'}",4,1
+"{'food::Beef', 'Country_Italy', 'oldest_vintage_low', 'Body_Full-bodied'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Game Meat', 'Country_Italy', 'oldest_vintage_low', 'Body_Full-bodied'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Country_Italy', 'oldest_vintage_low', 'Body_Full-bodied'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Beef', 'Country_Italy', 'oldest_vintage_low', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Game Meat', 'grape::Nebbiolo'}",4,1
+"{'Country_Italy', 'oldest_vintage_low', 'food::Game Meat', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied'}",4,1
+"{'food::Lamb', 'Country_Italy', 'oldest_vintage_low', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo'}",4,1
+"{'food::Game Meat', 'oldest_vintage_high', 'Body_Medium-bodied'}","{'region_clean_Other', 'latest_vintage_low', 'Acidity_Medium'}",4,1
+"{'oldest_vintage_high', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}",{'food::Game Meat'},4,1
+"{'vintage_span_low', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}","{'food::Beef', 'food::Game Meat'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'food::Game Meat', 'oldest_vintage_high'}",{'Body_Medium-bodied'},4,1
+"{'oldest_vintage_high', 'food::Beef', 'Acidity_Medium', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat'}",4,1
+"{'food::Beef', 'vintage_span_low', 'Acidity_Medium', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'oldest_vintage_low', 'food::Game Meat'}","{'food::Poultry', 'food::Veal', 'grape::Pinot Noir'}",7,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'vintage_span_high'}","{'food::Poultry', 'food::Veal', 'grape::Pinot Noir'}",7,1
+"{'latest_vintage_mid', 'food::Veal', 'food::Poultry'}","{'grape::Pinot Noir', 'food::Game Meat', 'Acidity_Medium', 'Body_Medium-bodied'}",5,1
+"{'latest_vintage_mid', 'Acidity_Medium', 'Type_Red', 'Body_Medium-bodied'}",{'food::Poultry'},5,1
+"{'food::Poultry', 'latest_vintage_mid', 'Type_Red', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'latest_vintage_mid', 'Acidity_Medium', 'Type_Red', 'grape::Pinot Noir'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'Acidity_Medium', 'grape::Pinot Noir'}","{'food::Beef', 'food::Game Meat', 'Type_Red', 'food::Veal'}",5,1
+"{'food::Poultry', 'Elaborate_Varietal/100%', 'latest_vintage_mid', 'grape::Pinot Noir'}","{'food::Beef', 'food::Game Meat', 'Type_Red', 'food::Veal'}",5,1
+"{'latest_vintage_mid', 'food::Game Meat', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Poultry'},5,1
+"{'latest_vintage_mid', 'food::Veal', 'Acidity_Medium', 'Body_Medium-bodied'}",{'food::Poultry'},5,1
+"{'food::Poultry', 'latest_vintage_mid', 'food::Beef', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'Acidity_Medium', 'grape::Pinot Noir'}",5,1
+"{'food::Poultry', 'latest_vintage_mid', 'food::Game Meat', 'Body_Medium-bodied'}",{'Acidity_Medium'},5,1
+"{'latest_vintage_mid', 'food::Beef', 'Acidity_Medium', 'grape::Pinot Noir'}",{'food::Poultry'},5,1
+"{'latest_vintage_mid', 'food::Game Meat', 'Acidity_Medium', 'grape::Pinot Noir'}",{'food::Poultry'},5,1
+"{'latest_vintage_mid', 'food::Veal', 'Acidity_Medium', 'grape::Pinot Noir'}",{'food::Poultry'},5,1
+"{'latest_vintage_mid', 'food::Game Meat', 'food::Veal', 'Acidity_Medium'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Acidity_Medium', 'Type_Red', 'food::Poultry'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Body_Medium-bodied', 'food::Beef', 'Acidity_Medium'}",{'food::Poultry'},5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Beef', 'Acidity_Medium', 'food::Poultry'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",5,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Game Meat', 'Acidity_Medium', 'food::Poultry'}","{'food::Veal', 'grape::Pinot Noir'}",5,1
+"{'food::Game Meat', 'food::Beef', 'food::Veal', 'Acidity_Medium', 'food::Poultry'}","{'latest_vintage_mid', 'grape::Pinot Noir'}",5,1
+"{'Elaborate_Varietal/100%', 'Body_Medium-bodied', 'food::Beef', 'food::Veal', 'Acidity_Medium', 'food::Poultry'}",{'latest_vintage_mid'},5,1
+"{'oldest_vintage_low', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'food::Beef', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'vintage_span_high', 'Type_Red', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Beef', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'oldest_vintage_low', 'food::Game Meat', 'Body_Medium-bodied'}","{'food::Poultry', 'food::Veal', 'vintage_span_high', 'grape::Pinot Noir'}",6,1
+"{'oldest_vintage_low', 'food::Veal', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'food::Beef', 'vintage_span_high', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'food::Game Meat', 'vintage_span_high', 'Body_Medium-bodied'}","{'food::Poultry', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'food::Veal', 'vintage_span_high', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'food::Poultry', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Beef', 'Body_Medium-bodied'}","{'vintage_span_high', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Poultry', 'vintage_span_high', 'Body_Medium-bodied'}","{'food::Game Meat', 'food::Veal'}",6,1
+"{'food::Beef', 'food::Poultry', 'oldest_vintage_low', 'Body_Medium-bodied'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'latest_vintage_low', 'Country_France', 'Type_Red', 'Acidity_High'}","{'food::Game Meat', 'food::Veal', 'food::Poultry'}",4,1
+"{'abv_num_low', 'latest_vintage_low', 'Country_France', 'Type_Red'}","{'food::Game Meat', 'food::Poultry'}",4,1
+"{'latest_vintage_low', 'Country_France', 'Type_Red', 'food::Poultry'}",{'food::Veal'},4,1
+"{'abv_num_low', 'food::Poultry', 'Type_Red', 'Acidity_High'}","{'latest_vintage_low', 'food::Game Meat', 'Country_France', 'food::Veal'}",4,1
+"{'food::Beef', 'latest_vintage_low', 'Country_France', 'Acidity_High'}","{'food::Game Meat', 'food::Veal', 'food::Poultry'}",4,1
+"{'latest_vintage_low', 'food::Game Meat', 'Country_France', 'Acidity_High'}",{'food::Veal'},4,1
+"{'latest_vintage_low', 'food::Veal', 'Country_France', 'Acidity_High'}","{'food::Game Meat', 'food::Poultry'}",4,1
+"{'food::Game Meat', 'food::Veal', 'Country_France', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'food::Poultry', 'food::Veal', 'Country_France', 'Acidity_High'}",{'latest_vintage_low'},4,1
+"{'abv_num_low', 'latest_vintage_low', 'Country_France', 'food::Beef'}","{'food::Game Meat', 'food::Poultry'}",4,1
+"{'abv_num_low', 'latest_vintage_low', 'food::Veal', 'Country_France'}","{'food::Game Meat', 'food::Poultry'}",4,1
+"{'food::Beef', 'latest_vintage_low', 'Country_France', 'food::Poultry'}",{'food::Veal'},4,1
+"{'latest_vintage_low', 'food::Game Meat', 'Country_France', 'food::Poultry'}",{'food::Veal'},4,1
+"{'latest_vintage_low', 'food::Game Meat', 'Country_France', 'food::Veal'}",{'Acidity_High'},4,1
+"{'abv_num_low', 'food::Beef', 'Acidity_High', 'food::Poultry'}","{'latest_vintage_low', 'food::Game Meat', 'Country_France', 'food::Veal'}",4,1
+"{'abv_num_low', 'food::Game Meat', 'Acidity_High', 'food::Poultry'}","{'food::Veal', 'Country_France'}",4,1
+"{'abv_num_low', 'food::Game Meat', 'food::Veal', 'Acidity_High'}",{'Country_France'},4,1
+"{'abv_num_low', 'food::Veal', 'Acidity_High', 'food::Poultry'}","{'latest_vintage_low', 'Country_France'}",4,1
+"{'food::Beef', 'latest_vintage_low', 'Acidity_High', 'food::Poultry'}","{'abv_num_low', 'Country_France', 'region_clean_Other', 'food::Game Meat', 'food::Veal'}",4,1
+"{'abv_num_low', 'latest_vintage_low', 'food::Game Meat', 'food::Veal'}","{'Country_France', 'Acidity_High'}",4,1
+"{'abv_num_low', 'region_clean_Other', 'latest_vintage_low', 'food::Game Meat', 'food::Poultry'}",{'Country_France'},4,1
+"{'latest_vintage_low', 'food::Game Meat', 'food::Beef', 'food::Veal', 'food::Poultry'}","{'abv_num_low', 'Country_France', 'Acidity_High'}",4,1
+"{'grape::Nebbiolo', 'latest_vintage_low'}",{'food::Pasta'},4,1
+"{'food::Pasta', 'grape::Nebbiolo'}",{'latest_vintage_low'},4,1
+"{'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied', 'Type_Red'}","{'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High', 'food::Pasta', 'food::Lamb', 'food::Beef'}",4,1
+"{'Elaborate_Varietal/100%', 'Country_Italy', 'latest_vintage_low', 'food::Beef'}","{'food::Pasta', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'Country_Italy', 'latest_vintage_low'}","{'food::Pasta', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'Acidity_High'}","{'grape::Nebbiolo', 'Country_Italy'}",4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'Body_Full-bodied', 'food::Game Meat'}","{'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Pasta', 'Elaborate_Varietal/100%', 'food::Beef', 'food::Game Meat'}","{'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Pasta'}","{'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied', 'Acidity_High'}",{'food::Pasta'},4,1
+"{'food::Beef', 'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied'}","{'food::Pasta', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Game Meat', 'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied'}","{'grape::Nebbiolo', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied'}","{'food::Pasta', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Pasta', 'Country_Italy', 'latest_vintage_low', 'Body_Full-bodied'}","{'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High', 'food::Lamb', 'food::Beef'}",4,1
+"{'food::Pasta', 'Country_Italy', 'food::Beef', 'Acidity_High'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'food::Game Meat'}",4,1
+"{'food::Pasta', 'Country_Italy', 'food::Lamb', 'Acidity_High'}","{'grape::Nebbiolo', 'food::Game Meat'}",4,1
+"{'food::Beef', 'Country_Italy', 'latest_vintage_low', 'food::Game Meat'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'Acidity_High'}",4,1
+"{'food::Pasta', 'food::Beef', 'Country_Italy', 'latest_vintage_low'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'food::Lamb', 'Country_Italy', 'latest_vintage_low', 'food::Game Meat'}","{'grape::Nebbiolo', 'Body_Full-bodied', 'Acidity_High'}",4,1
+"{'food::Lamb', 'food::Pasta', 'Country_Italy', 'latest_vintage_low'}","{'Elaborate_Varietal/100%', 'grape::Nebbiolo', 'food::Game Meat', 'Acidity_High'}",4,1
+"{'Elaborate_Varietal/100%', 'Body_Full-bodied', 'latest_vintage_low', 'Acidity_High', 'food::Lamb'}","{'food::Pasta', 'grape::Nebbiolo', 'Country_Italy'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High', 'food::Pasta', 'food::Beef'}",{'grape::Nebbiolo'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_low', 'Acidity_High', 'food::Pasta', 'food::Lamb'}",{'grape::Nebbiolo'},4,1
+"{'region_clean_Other', 'Type_Red', 'latest_vintage_mid', 'Body_Medium-bodied'}","{'Acidity_Medium', 'food::Poultry'}",4,1
+"{'region_clean_Other', 'Type_Red', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'food::Poultry'},4,1
+"{'region_clean_Other', 'food::Game Meat', 'latest_vintage_mid', 'Body_Medium-bodied'}","{'Acidity_Medium', 'food::Poultry'}",4,1
+"{'region_clean_Other', 'food::Veal', 'latest_vintage_mid', 'Body_Medium-bodied'}","{'Acidity_Medium', 'food::Poultry'}",4,1
+"{'region_clean_Other', 'food::Beef', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'food::Poultry'},4,1
+"{'region_clean_Other', 'food::Game Meat', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'food::Poultry'},4,1
+"{'region_clean_Other', 'food::Veal', 'latest_vintage_mid', 'grape::Pinot Noir'}",{'food::Poultry'},4,1
+"{'region_clean_Other', 'food::Game Meat', 'food::Veal', 'latest_vintage_mid'}","{'Acidity_Medium', 'food::Poultry'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Body_Medium-bodied', 'region_clean_Other', 'food::Beef'}",{'food::Poultry'},4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'region_clean_Other', 'food::Game Meat', 'food::Poultry'}","{'food::Veal', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'latest_vintage_mid', 'region_clean_Other', 'food::Game Meat', 'Acidity_Medium', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'food::Veal', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'oldest_vintage_low', 'Acidity_High', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red', 'food::Poultry'}",4,1
+"{'oldest_vintage_low', 'food::Veal', 'Acidity_High'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'region_clean_Other', 'food::Game Meat', 'grape::Pinot Noir', 'food::Poultry'}",4,1
+"{'vintage_span_high', 'Acidity_High', 'grape::Pinot Noir'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red', 'food::Poultry'}",4,1
+"{'vintage_span_high', 'Acidity_High', 'food::Veal'}","{'food::Poultry', 'Elaborate_Varietal/100%', 'region_clean_Other', 'grape::Pinot Noir'}",4,1
+"{'region_clean_Other', 'grape::Pinot Noir', 'Type_Red', 'Acidity_High'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",4,1
+"{'food::Poultry', 'grape::Pinot Noir', 'Type_Red', 'Acidity_High'}","{'region_clean_Other', 'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'Acidity_High', 'grape::Pinot Noir'}","{'vintage_span_high', 'food::Game Meat', 'food::Beef', 'oldest_vintage_low', 'food::Veal', 'Type_Red', 'food::Poultry'}",4,1
+"{'region_clean_Other', 'food::Beef', 'Acidity_High', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",4,1
+"{'region_clean_Other', 'food::Game Meat', 'Acidity_High', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",4,1
+"{'food::Poultry', 'region_clean_Other', 'Acidity_High', 'grape::Pinot Noir'}","{'vintage_span_high', 'food::Game Meat', 'food::Beef', 'oldest_vintage_low', 'food::Veal', 'Type_Red'}",4,1
+"{'region_clean_Other', 'food::Veal', 'Acidity_High', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",4,1
+"{'food::Poultry', 'food::Beef', 'Acidity_High', 'grape::Pinot Noir'}","{'region_clean_Other', 'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'food::Poultry', 'food::Game Meat', 'Acidity_High', 'grape::Pinot Noir'}","{'region_clean_Other', 'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'food::Poultry', 'food::Veal', 'Acidity_High', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'Elaborate_Varietal/100%', 'Acidity_High', 'food::Beef', 'food::Veal', 'food::Poultry'}","{'vintage_span_high', 'grape::Pinot Noir'}",4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'food::Poultry'}",{'grape::Pinot Noir'},4,1
+"{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'Acidity_High', 'food::Beef', 'food::Veal'}","{'oldest_vintage_low', 'vintage_span_high'}",4,1
+"{'abv_num_low', 'Type_Red', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",6,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'grape::Pinot Noir'}","{'vintage_span_high', 'food::Game Meat', 'food::Beef', 'oldest_vintage_low', 'food::Veal', 'Type_Red', 'food::Poultry'}",6,1
+"{'abv_num_low', 'oldest_vintage_low', 'food::Game Meat'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'region_clean_Other', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'abv_num_low', 'oldest_vintage_low', 'food::Veal'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'abv_num_low', 'food::Beef', 'vintage_span_high'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'abv_num_low', 'food::Game Meat', 'vintage_span_high'}","{'Elaborate_Varietal/100%', 'region_clean_Other', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'abv_num_low', 'vintage_span_high', 'food::Veal'}","{'Elaborate_Varietal/100%', 'food::Poultry', 'grape::Pinot Noir'}",6,1
+"{'abv_num_low', 'food::Beef', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",6,1
+"{'abv_num_low', 'food::Game Meat', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",6,1
+"{'abv_num_low', 'food::Veal', 'grape::Pinot Noir'}","{'oldest_vintage_low', 'vintage_span_high', 'food::Poultry'}",6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'abv_num_low', 'Type_Red'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'vintage_span_high', 'Elaborate_Varietal/100%', 'abv_num_low', 'Type_Red'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'abv_num_low', 'Type_Red', 'food::Poultry'}","{'vintage_span_high', 'food::Game Meat', 'oldest_vintage_low', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'abv_num_low', 'oldest_vintage_low', 'Type_Red', 'food::Beef'}","{'Elaborate_Varietal/100%', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'abv_num_low', 'food::Beef'}","{'vintage_span_high', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",6,1
+"{'vintage_span_high', 'Elaborate_Varietal/100%', 'abv_num_low', 'food::Poultry'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Beef', 'abv_num_low', 'food::Poultry'}","{'vintage_span_high', 'food::Game Meat', 'oldest_vintage_low', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'abv_num_low', 'food::Poultry'}","{'food::Veal', 'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'abv_num_low', 'food::Veal'}","{'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",6,1
+"{'Elaborate_Varietal/100%', 'food::Veal', 'abv_num_low', 'food::Poultry'}","{'food::Game Meat', 'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",6,1
+"{'abv_num_low', 'food::Poultry', 'oldest_vintage_low', 'food::Beef'}","{'Elaborate_Varietal/100%', 'vintage_span_high', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",6,1
+"{'Country_France', 'Type_Red', 'grape::Pinot Noir'}","{'abv_num_low', 'food::Poultry'}",5,2
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'Country_France'}","{'abv_num_low', 'vintage_span_high', 'oldest_vintage_low', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",5,2
+"{'abv_num_low', 'Country_France', 'grape::Pinot Noir'}","{'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red', 'food::Poultry'}",5,2
+"{'oldest_vintage_low', 'food::Veal', 'Country_France'}","{'Elaborate_Varietal/100%', 'abv_num_low', 'food::Game Meat', 'grape::Pinot Noir', 'food::Poultry'}",5,2
+"{'vintage_span_high', 'Country_France', 'food::Veal'}","{'Elaborate_Varietal/100%', 'food::Poultry', 'abv_num_low', 'grape::Pinot Noir'}",5,2
+"{'food::Beef', 'Country_France', 'grape::Pinot Noir'}","{'abv_num_low', 'food::Poultry'}",5,2
+"{'food::Game Meat', 'Country_France', 'grape::Pinot Noir'}","{'abv_num_low', 'food::Poultry'}",5,2
+"{'food::Poultry', 'Country_France', 'grape::Pinot Noir'}","{'abv_num_low', 'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red'}",5,2
+"{'food::Veal', 'Country_France', 'grape::Pinot Noir'}","{'abv_num_low', 'food::Poultry'}",5,2
+"{'Elaborate_Varietal/100%', 'Country_France', 'Type_Red', 'food::Poultry'}","{'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'Country_France', 'Type_Red', 'oldest_vintage_low'}","{'Elaborate_Varietal/100%', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'Country_France', 'vintage_span_high', 'Type_Red'}","{'Elaborate_Varietal/100%', 'grape::Pinot Noir'}",5,2
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'abv_num_low', 'Country_France'}","{'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red', 'food::Poultry'}",5,2
+"{'vintage_span_high', 'Elaborate_Varietal/100%', 'abv_num_low', 'Country_France'}","{'food::Game Meat', 'food::Beef', 'food::Veal', 'Type_Red', 'food::Poultry'}",5,2
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'Country_France', 'food::Poultry'}",{'food::Veal'},5,2
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'Country_France', 'food::Poultry'}",{'food::Veal'},5,2
+"{'Elaborate_Varietal/100%', 'food::Beef', 'Country_France', 'food::Poultry'}","{'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",5,2
+"{'Elaborate_Varietal/100%', 'food::Veal', 'Country_France', 'food::Poultry'}","{'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'oldest_vintage_low', 'Country_France', 'food::Beef'}","{'Elaborate_Varietal/100%', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'oldest_vintage_low', 'Country_France', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'food::Veal', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'vintage_span_high', 'Country_France', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'food::Veal', 'grape::Pinot Noir'}",5,2
+"{'abv_num_low', 'food::Poultry', 'food::Game Meat', 'Body_Medium-bodied'}","{'food::Veal', 'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",4,1
+"{'abv_num_low', 'food::Game Meat', 'food::Veal', 'Body_Medium-bodied'}","{'oldest_vintage_low', 'vintage_span_high', 'grape::Pinot Noir'}",4,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'food::Veal'}","{'vintage_span_high', 'Body_Medium-bodied', 'food::Game Meat', 'Acidity_Medium', 'grape::Pinot Noir', 'food::Poultry'}",4,1
+"{'latest_vintage_mid', 'vintage_span_high', 'food::Veal'}","{'food::Poultry', 'grape::Pinot Noir', 'Acidity_Medium', 'Body_Medium-bodied'}",4,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'Type_Red', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'latest_vintage_mid', 'vintage_span_high', 'Type_Red', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'Elaborate_Varietal/100%', 'oldest_vintage_low', 'food::Game Meat', 'Acidity_Medium'}","{'latest_vintage_mid', 'Body_Medium-bodied', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",4,1
+"{'Elaborate_Varietal/100%', 'food::Game Meat', 'vintage_span_high', 'Acidity_Medium'}","{'latest_vintage_mid', 'Body_Medium-bodied', 'food::Veal', 'grape::Pinot Noir', 'food::Poultry'}",4,1
+"{'Elaborate_Varietal/100%', 'vintage_span_high', 'Acidity_Medium', 'food::Veal'}","{'latest_vintage_mid', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'food::Game Meat', 'vintage_span_high'}","{'Body_Medium-bodied', 'food::Veal', 'Acidity_Medium', 'grape::Pinot Noir', 'food::Poultry'}",4,1
+"{'latest_vintage_mid', 'oldest_vintage_low', 'food::Game Meat', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'latest_vintage_mid', 'food::Beef', 'vintage_span_high', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'latest_vintage_mid', 'food::Game Meat', 'vintage_span_high', 'Body_Medium-bodied'}",{'Acidity_Medium'},4,1
+"{'oldest_vintage_low', 'food::Game Meat', 'Acidity_Medium', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Body_Medium-bodied', 'food::Veal', 'grape::Pinot Noir'}",4,1
+"{'food::Game Meat', 'vintage_span_high', 'Acidity_Medium', 'food::Poultry'}","{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'Body_Medium-bodied', 'food::Veal', 'grape::Pinot Noir'}",4,1
+"{'food::Veal', 'vintage_span_high', 'Acidity_Medium', 'food::Poultry'}","{'latest_vintage_mid', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'oldest_vintage_low', 'Acidity_Medium', 'Type_Red'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'vintage_span_high', 'Acidity_Medium', 'Type_Red'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'oldest_vintage_low', 'food::Beef', 'Acidity_Medium'}","{'vintage_span_high', 'Body_Medium-bodied', 'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'vintage_span_high', 'food::Beef', 'Acidity_Medium'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir', 'Body_Medium-bodied'}",4,1
+"{'Elaborate_Varietal/100%', 'latest_vintage_mid', 'vintage_span_high', 'Acidity_Medium', 'food::Poultry'}","{'food::Game Meat', 'food::Veal', 'grape::Pinot Noir'}",4,1

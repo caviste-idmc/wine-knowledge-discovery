@@ -1,0 +1,9 @@
+description,quality,tp,fp,support
+{'ABV': >= 4.0},0.3,3,7,10
+{'ABV': >= 12.5},0.3,3,7,10
+{'ABV': <= 48.0},0.3,3,7,10
+{'ABV': >= 13.0},0.3,3,7,10
+{'LatestVintage': >= 2017.0},0.3,3,7,10
+{'LatestVintage': <= 2022.0},0.3,3,7,10
+{'LatestVintage': >= 2020.0},0.3,3,7,10
+{'Body': NOT({'Very light-bodied'})},0.3,3,7,10

@@ -1,0 +1,18 @@
+{
+  "dataset": "wine",
+  "n_objects": 1290,
+  "n_binary_features": 71,
+  "caspailleur_concepts": 2524,
+  "caspailleur_implications": 330,
+  "pattern_structure_shape": [
+    10,
+    45
+  ],
+  "subgroup_files": {
+    "high_price_quartile": "subgroups_high_price_quartile.csv"
+  },
+  "subgroup_rationale": {
+    "high_price_quartile": "Price in top quartile (>= 38.49) captures commercially premium wines."
+  },
+  "year_grouping_justification": "Year-based subgrouping uses broader eras (<=2010 vs >2010) instead of consecutive pairs to reduce sparsity and improve interpretability."
+}

@@ -1,0 +1,6 @@
+premise,conclusion,support,delta_stability,premise_len,conclusion_len,interesting_score
+{'avg_harvest_start_to_2007_missing'},{'harvest_for_vintage_missing'},1111,395,1,1,1499.85
+{'region_clean_Other'},{'harvest_for_vintage_missing'},724,8,1,1,977.3999999999999
+{'price_num_low'},{'harvest_for_vintage_missing'},450,19,1,1,607.4999999999999
+"{'Type_White', 'abv_num_low'}",{'harvest_for_vintage_missing'},374,54,2,1,579.6999999999999
+{'Closure_Screwcap'},{'harvest_for_vintage_missing'},414,13,1,1,558.9

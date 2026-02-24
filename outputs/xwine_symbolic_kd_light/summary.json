@@ -1,0 +1,18 @@
+{
+  "dataset": "xwine",
+  "n_objects": 100,
+  "n_binary_features": 77,
+  "caspailleur_concepts": 3527,
+  "caspailleur_implications": 1704,
+  "pattern_structure_shape": [
+    10,
+    35
+  ],
+  "subgroup_files": {
+    "high_abv_quartile": "subgroups_high_abv_quartile.csv"
+  },
+  "subgroup_rationale": {
+    "high_abv_quartile": "ABV top quartile (>= 14.15) isolates stronger wine profiles."
+  },
+  "year_grouping_justification": "Year-based subgrouping uses broader eras (<=2010 vs >2010) instead of consecutive pairs to reduce sparsity and improve interpretability."
+}

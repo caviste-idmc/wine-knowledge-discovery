@@ -1,0 +1,6 @@
+premise,conclusion,support,delta_stability,premise_len,conclusion_len,interesting_score
+"{'char::Black Fruit', 'region_clean_Other'}",{'Type_Red'},135,34,2,1,209.24999999999997
+{'Style_Savoury & Full Bodied'},{'Type_Red'},154,14,1,1,207.89999999999998
+"{'Country_France', 'Type_White', 'price_num_high'}",{'Closure_Natural Cork'},116,24,3,1,203.0
+"{'Country_France', 'vintage_year_low', 'price_num_high'}",{'Closure_Natural Cork'},114,57,3,1,199.5
+"{'Closure_Screwcap', 'char::Lemon'}",{'Type_White'},114,35,2,1,176.7
