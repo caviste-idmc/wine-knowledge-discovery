@@ -1,0 +1,6 @@
+Cluster,Foods,Wine_Features
+1,"Blue Cheese, Cold Cuts, Dessert, Fruit Dessert, Hard Cheese, Maturated Cheese, Salad, Sweet Dessert, Tomato Dishes","Acidity_Low, Grape_Garnacha, Grape_Touriga Nacional, Type_Dessert, Type_Rosé"
+2,"Barbecue, Beef, Codfish, French Fries, Game Meat, Ham, Lamb, Pasta, Pizza, Poultry, Veal","Acidity_High, Acidity_Medium, Body_Full-bodied, Body_Very full-bodied, Grape_Barbera, Grape_Cabernet Franc, Grape_Cabernet Sauvignon, Grape_Carignan/Cariñena, Grape_Carmenère, Grape_Gamay Noir, Grape_Grenache, Grape_Malbec, Grape_Merlot, Grape_Nebbiolo, Grape_Petit Verdot, Grape_Sangiovese, Grape_Spätburgunder, Grape_Syrah/Shiraz, Grape_Tempranillo, Grape_Zinfandel, High_ABV, Medium_ABV, Type_Red"
+3,"Cake, Chocolate, Fruit, Light Stews","Grape_Tinta Barroca, Grape_Tinta Roriz, Grape_Tinto Cão, Grape_Touriga Franca, Type_Dessert/Port"
+4,"Aperitif, Cheese, Chicken, Cream, Cured Meat, Duck, Fish, Grilled, Lean Fish, Mushrooms, Pork, Rich Fish, Risotto, Seafood, Shellfish, Snack, Soft Cheese, Soufflé, Spicy Food, Vegetarian","Body_Light-bodied, Body_Medium-bodied, Body_Very light-bodied, Grape_Chardonnay, Grape_Cinsault, Grape_Muscat/Moscato, Grape_Pinot Noir, Grape_Riesling, Grape_Sémillon, Grape_Viognier, Low_ABV, Type_Sparkling, Type_White"
+5,Goat Cheese,Grape_Sauvignon Blanc

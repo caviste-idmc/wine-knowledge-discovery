@@ -1,0 +1,5 @@
+Cluster,Foods,Wine_Features
+1,"Blue Cheese, Cold Cuts, Dessert, Fruit Dessert, Hard Cheese, Maturated Cheese, Sweet Dessert, Tomato Dishes","Acidity_Low, Type_Dessert, Type_Rosé"
+2,"Aperitif, Cheese, Chicken, Cream, Cured Meat, Duck, Fish, Goat Cheese, Lean Fish, Mushrooms, Pork, Rich Fish, Risotto, Seafood, Shellfish, Snack, Soft Cheese, Soufflé, Spicy Food, Vegetarian","Body_Light-bodied, Body_Medium-bodied, Body_Very light-bodied, Type_Sparkling, Type_White"
+3,"Barbecue, Beef, Codfish, French Fries, Game Meat, Grilled, Ham, Lamb, Light Stews, Pasta, Pizza, Poultry, Salad, Veal","Acidity_High, Acidity_Medium, Body_Full-bodied, Body_Very full-bodied, Type_Red"
+4,"Cake, Chocolate, Fruit",Type_Dessert/Port
