@@ -1,0 +1,438 @@
+support,itemsets,length
+0.1012909632571996,frozenset({'Pair_Aperitif'}),1
+0.551142005958292,frozenset({'Pair_Beef'}),1
+0.022840119165839126,frozenset({'Pair_Blue Cheese'}),1
+0.11420059582919563,frozenset({'Pair_Cured Meat'}),1
+0.3515392254220457,frozenset({'Pair_Game Meat'}),1
+0.04270109235352532,frozenset({'Pair_Goat Cheese'}),1
+0.11618669314796425,frozenset({'Pair_Hard Cheese'}),1
+0.40615690168818275,frozenset({'Pair_Lamb'}),1
+0.07845084409136048,frozenset({'Pair_Lean Fish'}),1
+0.12611717974180736,frozenset({'Pair_Maturated Cheese'}),1
+0.15690168818272096,frozenset({'Pair_Pasta'}),1
+0.26216484607745777,frozenset({'Pair_Pork'}),1
+0.5779543197616683,frozenset({'Pair_Poultry'}),1
+0.16385302879841113,frozenset({'Pair_Rich Fish'}),1
+0.2542204568023833,frozenset({'Pair_Shellfish'}),1
+0.08540218470705065,frozenset({'Pair_Snack'}),1
+0.08440913604766634,frozenset({'Pair_Soft Cheese'}),1
+0.141012909632572,frozenset({'Pair_Spicy Food'}),1
+0.047666335650446874,frozenset({'Pair_Sweet Dessert'}),1
+0.1936444885799404,frozenset({'Pair_Veal'}),1
+0.17676266137040714,frozenset({'Pair_Vegetarian'}),1
+0.05858987090367428,frozenset({'Type_Dessert'}),1
+0.024826216484607744,frozenset({'Type_Dessert/Port'}),1
+0.5024826216484608,frozenset({'Type_Red'}),1
+0.08440913604766634,frozenset({'Type_Rosé'}),1
+0.09930486593843098,frozenset({'Type_Sparkling'}),1
+0.23038728897715988,frozenset({'Type_White'}),1
+0.028798411122144985,"frozenset({'Pair_Cured Meat', 'Pair_Aperitif'})",2
+0.0407149950347567,"frozenset({'Pair_Lean Fish', 'Pair_Aperitif'})",2
+0.06156901688182721,"frozenset({'Pair_Aperitif', 'Pair_Shellfish'})",2
+0.08341608738828203,"frozenset({'Pair_Snack', 'Pair_Aperitif'})",2
+0.044687189672293945,"frozenset({'Pair_Aperitif', 'Pair_Vegetarian'})",2
+0.029791459781529295,"frozenset({'Type_Sparkling', 'Pair_Aperitif'})",2
+0.04369414101290963,"frozenset({'Pair_Aperitif', 'Type_White'})",2
+0.3138033763654419,"frozenset({'Pair_Beef', 'Pair_Game Meat'})",2
+0.08937437934458789,"frozenset({'Pair_Beef', 'Pair_Hard Cheese'})",2
+0.39821251241310823,"frozenset({'Pair_Beef', 'Pair_Lamb'})",2
+0.09731876861966236,"frozenset({'Pair_Beef', 'Pair_Maturated Cheese'})",2
+0.09632571996027806,"frozenset({'Pair_Pasta', 'Pair_Beef'})",2
+0.03574975173783516,"frozenset({'Pair_Beef', 'Pair_Pork'})",2
+0.3872889771598808,"frozenset({'Pair_Beef', 'Pair_Poultry'})",2
+0.06355511420059583,"frozenset({'Pair_Beef', 'Pair_Spicy Food'})",2
+0.15590863952333664,"frozenset({'Pair_Beef', 'Pair_Veal'})",2
+0.46772591857000995,"frozenset({'Pair_Beef', 'Type_Red'})",2
+0.047666335650446874,"frozenset({'Pair_Beef', 'Type_Rosé'})",2
+0.021847070506454815,"frozenset({'Pair_Cured Meat', 'Pair_Hard Cheese'})",2
+0.031777557100297914,"frozenset({'Pair_Cured Meat', 'Pair_Lean Fish'})",2
+0.022840119165839126,"frozenset({'Pair_Cured Meat', 'Pair_Maturated Cheese'})",2
+0.029791459781529295,"frozenset({'Pair_Pasta', 'Pair_Cured Meat'})",2
+0.05362462760675273,"frozenset({'Pair_Pork', 'Pair_Cured Meat'})",2
+0.05858987090367428,"frozenset({'Pair_Cured Meat', 'Pair_Poultry'})",2
+0.07547169811320754,"frozenset({'Pair_Cured Meat', 'Pair_Shellfish'})",2
+0.027805362462760674,"frozenset({'Pair_Snack', 'Pair_Cured Meat'})",2
+0.038728897715988087,"frozenset({'Pair_Cured Meat', 'Pair_Spicy Food'})",2
+0.020854021847070508,"frozenset({'Pair_Cured Meat', 'Pair_Vegetarian'})",2
+0.07646474677259185,"frozenset({'Pair_Cured Meat', 'Type_White'})",2
+0.03574975173783516,"frozenset({'Pair_Game Meat', 'Pair_Hard Cheese'})",2
+0.22840119165839126,"frozenset({'Pair_Game Meat', 'Pair_Lamb'})",2
+0.041708043694141016,"frozenset({'Pair_Game Meat', 'Pair_Maturated Cheese'})",2
+0.05660377358490566,"frozenset({'Pair_Pasta', 'Pair_Game Meat'})",2
+0.05660377358490566,"frozenset({'Pair_Pork', 'Pair_Game Meat'})",2
+0.2631578947368421,"frozenset({'Pair_Game Meat', 'Pair_Poultry'})",2
+0.021847070506454815,"frozenset({'Pair_Rich Fish', 'Pair_Game Meat'})",2
+0.023833167825223437,"frozenset({'Pair_Game Meat', 'Pair_Spicy Food'})",2
+0.10228401191658391,"frozenset({'Pair_Veal', 'Pair_Game Meat'})",2
+0.30883813306852037,"frozenset({'Type_Red', 'Pair_Game Meat'})",2
+0.025819265143992055,"frozenset({'Type_Rosé', 'Pair_Game Meat'})",2
+0.0407149950347567,"frozenset({'Pair_Shellfish', 'Pair_Goat Cheese'})",2
+0.039721946375372394,"frozenset({'Pair_Vegetarian', 'Pair_Goat Cheese'})",2
+0.039721946375372394,"frozenset({'Type_White', 'Pair_Goat Cheese'})",2
+0.05958291956305859,"frozenset({'Pair_Lamb', 'Pair_Hard Cheese'})",2
+0.11519364448857994,"frozenset({'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",2
+0.04667328699106256,"frozenset({'Pair_Poultry', 'Pair_Hard Cheese'})",2
+0.031777557100297914,"frozenset({'Pair_Spicy Food', 'Pair_Hard Cheese'})",2
+0.04369414101290963,"frozenset({'Type_Red', 'Pair_Hard Cheese'})",2
+0.028798411122144985,"frozenset({'Type_Rosé', 'Pair_Hard Cheese'})",2
+0.06454816285998013,"frozenset({'Pair_Lamb', 'Pair_Maturated Cheese'})",2
+0.07646474677259185,"frozenset({'Pair_Pasta', 'Pair_Lamb'})",2
+0.030784508440913606,"frozenset({'Pair_Pork', 'Pair_Lamb'})",2
+0.2899702085402185,"frozenset({'Pair_Lamb', 'Pair_Poultry'})",2
+0.05163853028798411,"frozenset({'Pair_Spicy Food', 'Pair_Lamb'})",2
+0.06256206554121152,"frozenset({'Pair_Veal', 'Pair_Lamb'})",2
+0.3624627606752731,"frozenset({'Type_Red', 'Pair_Lamb'})",2
+0.028798411122144985,"frozenset({'Type_Rosé', 'Pair_Lamb'})",2
+0.026812313803376366,"frozenset({'Pair_Pasta', 'Pair_Lean Fish'})",2
+0.025819265143992055,"frozenset({'Pair_Lean Fish', 'Pair_Poultry'})",2
+0.05163853028798411,"frozenset({'Pair_Lean Fish', 'Pair_Shellfish'})",2
+0.03773584905660377,"frozenset({'Pair_Snack', 'Pair_Lean Fish'})",2
+0.025819265143992055,"frozenset({'Pair_Lean Fish', 'Pair_Vegetarian'})",2
+0.05461767626613704,"frozenset({'Pair_Lean Fish', 'Type_White'})",2
+0.020854021847070508,"frozenset({'Pair_Pork', 'Pair_Maturated Cheese'})",2
+0.047666335650446874,"frozenset({'Pair_Maturated Cheese', 'Pair_Poultry'})",2
+0.03277060575968222,"frozenset({'Pair_Spicy Food', 'Pair_Maturated Cheese'})",2
+0.05163853028798411,"frozenset({'Type_Red', 'Pair_Maturated Cheese'})",2
+0.028798411122144985,"frozenset({'Type_Rosé', 'Pair_Maturated Cheese'})",2
+0.05759682224428997,"frozenset({'Pair_Pasta', 'Pair_Poultry'})",2
+0.031777557100297914,"frozenset({'Pair_Pasta', 'Pair_Shellfish'})",2
+0.036742800397219465,"frozenset({'Pair_Pasta', 'Pair_Veal'})",2
+0.11022840119165839,"frozenset({'Pair_Pasta', 'Type_Red'})",2
+0.039721946375372394,"frozenset({'Pair_Pasta', 'Type_White'})",2
+0.17378351539225423,"frozenset({'Pair_Pork', 'Pair_Poultry'})",2
+0.13306852035749753,"frozenset({'Pair_Rich Fish', 'Pair_Pork'})",2
+0.11519364448857994,"frozenset({'Pair_Pork', 'Pair_Shellfish'})",2
+0.04865938430983118,"frozenset({'Pair_Pork', 'Pair_Soft Cheese'})",2
+0.07845084409136048,"frozenset({'Pair_Pork', 'Pair_Spicy Food'})",2
+0.039721946375372394,"frozenset({'Pair_Pork', 'Pair_Veal'})",2
+0.09235352532274081,"frozenset({'Pair_Pork', 'Pair_Vegetarian'})",2
+0.039721946375372394,"frozenset({'Pair_Pork', 'Type_Red'})",2
+0.030784508440913606,"frozenset({'Pair_Pork', 'Type_Rosé'})",2
+0.0605759682224429,"frozenset({'Pair_Pork', 'Type_Sparkling'})",2
+0.11320754716981132,"frozenset({'Pair_Pork', 'Type_White'})",2
+0.0913604766633565,"frozenset({'Pair_Rich Fish', 'Pair_Poultry'})",2
+0.06752730883813307,"frozenset({'Pair_Shellfish', 'Pair_Poultry'})",2
+0.023833167825223437,"frozenset({'Pair_Soft Cheese', 'Pair_Poultry'})",2
+0.0903674280039722,"frozenset({'Pair_Spicy Food', 'Pair_Poultry'})",2
+0.16583912611717974,"frozenset({'Pair_Veal', 'Pair_Poultry'})",2
+0.08639523336643495,"frozenset({'Pair_Vegetarian', 'Pair_Poultry'})",2
+0.022840119165839126,"frozenset({'Type_Dessert', 'Pair_Poultry'})",2
+0.3843098311817279,"frozenset({'Type_Red', 'Pair_Poultry'})",2
+0.04369414101290963,"frozenset({'Type_Rosé', 'Pair_Poultry'})",2
+0.025819265143992055,"frozenset({'Type_Sparkling', 'Pair_Poultry'})",2
+0.1012909632571996,"frozenset({'Type_White', 'Pair_Poultry'})",2
+0.08341608738828203,"frozenset({'Pair_Rich Fish', 'Pair_Shellfish'})",2
+0.05263157894736842,"frozenset({'Pair_Rich Fish', 'Pair_Soft Cheese'})",2
+0.07348560079443893,"frozenset({'Pair_Rich Fish', 'Pair_Vegetarian'})",2
+0.06355511420059583,"frozenset({'Pair_Rich Fish', 'Type_Sparkling'})",2
+0.07547169811320754,"frozenset({'Pair_Rich Fish', 'Type_White'})",2
+0.05461767626613704,"frozenset({'Pair_Snack', 'Pair_Shellfish'})",2
+0.05461767626613704,"frozenset({'Pair_Soft Cheese', 'Pair_Shellfish'})",2
+0.05958291956305859,"frozenset({'Pair_Spicy Food', 'Pair_Shellfish'})",2
+0.08639523336643495,"frozenset({'Pair_Vegetarian', 'Pair_Shellfish'})",2
+0.07149950347567031,"frozenset({'Type_Sparkling', 'Pair_Shellfish'})",2
+0.14895729890764647,"frozenset({'Type_White', 'Pair_Shellfish'})",2
+0.038728897715988087,"frozenset({'Pair_Snack', 'Pair_Vegetarian'})",2
+0.026812313803376366,"frozenset({'Pair_Snack', 'Type_Sparkling'})",2
+0.033763654419066536,"frozenset({'Pair_Snack', 'Type_White'})",2
+0.027805362462760674,"frozenset({'Type_Sparkling', 'Pair_Soft Cheese'})",2
+0.03277060575968222,"frozenset({'Type_White', 'Pair_Soft Cheese'})",2
+0.023833167825223437,"frozenset({'Pair_Spicy Food', 'Pair_Vegetarian'})",2
+0.020854021847070508,"frozenset({'Type_Dessert', 'Pair_Spicy Food'})",2
+0.023833167825223437,"frozenset({'Type_Red', 'Pair_Spicy Food'})",2
+0.03773584905660377,"frozenset({'Type_Rosé', 'Pair_Spicy Food'})",2
+0.05362462760675273,"frozenset({'Type_White', 'Pair_Spicy Food'})",2
+0.020854021847070508,"frozenset({'Type_Dessert', 'Pair_Sweet Dessert'})",2
+0.1717974180734856,"frozenset({'Type_Red', 'Pair_Veal'})",2
+0.023833167825223437,"frozenset({'Type_Sparkling', 'Pair_Vegetarian'})",2
+0.1320754716981132,"frozenset({'Type_White', 'Pair_Vegetarian'})",2
+0.027805362462760674,"frozenset({'Pair_Snack', 'Pair_Cured Meat', 'Pair_Aperitif'})",3
+0.022840119165839126,"frozenset({'Pair_Lean Fish', 'Pair_Aperitif', 'Pair_Shellfish'})",3
+0.03773584905660377,"frozenset({'Pair_Lean Fish', 'Pair_Aperitif', 'Pair_Snack'})",3
+0.05362462760675273,"frozenset({'Pair_Snack', 'Pair_Aperitif', 'Pair_Shellfish'})",3
+0.026812313803376366,"frozenset({'Pair_Vegetarian', 'Pair_Aperitif', 'Pair_Shellfish'})",3
+0.023833167825223437,"frozenset({'Type_Sparkling', 'Pair_Aperitif', 'Pair_Shellfish'})",3
+0.027805362462760674,"frozenset({'Pair_Aperitif', 'Type_White', 'Pair_Shellfish'})",3
+0.038728897715988087,"frozenset({'Pair_Snack', 'Pair_Aperitif', 'Pair_Vegetarian'})",3
+0.025819265143992055,"frozenset({'Pair_Snack', 'Type_Sparkling', 'Pair_Aperitif'})",3
+0.033763654419066536,"frozenset({'Pair_Snack', 'Pair_Aperitif', 'Type_White'})",3
+0.031777557100297914,"frozenset({'Pair_Aperitif', 'Type_White', 'Pair_Vegetarian'})",3
+0.03475670307845084,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Hard Cheese'})",3
+0.22840119165839126,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb'})",3
+0.0407149950347567,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese'})",3
+0.04568023833167825,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat'})",3
+0.023833167825223437,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Pork'})",3
+0.22542204568023833,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry'})",3
+0.020854021847070508,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Spicy Food'})",3
+0.07149950347567031,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat'})",3
+0.2929493545183714,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Game Meat'})",3
+0.05759682224428997,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Hard Cheese'})",3
+0.08838133068520357,"frozenset({'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.0407149950347567,"frozenset({'Pair_Beef', 'Pair_Poultry', 'Pair_Hard Cheese'})",3
+0.031777557100297914,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Hard Cheese'})",3
+0.041708043694141016,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Hard Cheese'})",3
+0.027805362462760674,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Hard Cheese'})",3
+0.06256206554121152,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Maturated Cheese'})",3
+0.07646474677259185,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Lamb'})",3
+0.022840119165839126,"frozenset({'Pair_Beef', 'Pair_Pork', 'Pair_Lamb'})",3
+0.2840119165839126,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Poultry'})",3
+0.05163853028798411,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Lamb'})",3
+0.06256206554121152,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Lamb'})",3
+0.3545183714001986,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Lamb'})",3
+0.028798411122144985,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Lamb'})",3
+0.041708043694141016,"frozenset({'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Poultry'})",3
+0.03277060575968222,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Maturated Cheese'})",3
+0.04965243296921549,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Maturated Cheese'})",3
+0.027805362462760674,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Maturated Cheese'})",3
+0.038728897715988087,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Poultry'})",3
+0.020854021847070508,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Veal'})",3
+0.09334657398212512,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Type_Red'})",3
+0.039721946375372394,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Poultry'})",3
+0.12909632571996027,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Poultry'})",3
+0.3545183714001986,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Poultry'})",3
+0.021847070506454815,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Poultry'})",3
+0.022840119165839126,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Spicy Food'})",3
+0.030784508440913606,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Spicy Food'})",3
+0.1519364448857994,"frozenset({'Pair_Beef', 'Pair_Veal', 'Type_Red'})",3
+0.021847070506454815,"frozenset({'Pair_Cured Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.028798411122144985,"frozenset({'Pair_Cured Meat', 'Pair_Lean Fish', 'Type_White'})",3
+0.023833167825223437,"frozenset({'Pair_Pasta', 'Pair_Cured Meat', 'Pair_Shellfish'})",3
+0.029791459781529295,"frozenset({'Pair_Pasta', 'Pair_Cured Meat', 'Type_White'})",3
+0.047666335650446874,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Poultry'})",3
+0.038728897715988087,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Shellfish'})",3
+0.038728897715988087,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Spicy Food'})",3
+0.041708043694141016,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Type_White'})",3
+0.03773584905660377,"frozenset({'Pair_Cured Meat', 'Pair_Shellfish', 'Pair_Poultry'})",3
+0.033763654419066536,"frozenset({'Pair_Cured Meat', 'Pair_Spicy Food', 'Pair_Poultry'})",3
+0.03773584905660377,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Poultry'})",3
+0.033763654419066536,"frozenset({'Pair_Cured Meat', 'Pair_Spicy Food', 'Pair_Shellfish'})",3
+0.05759682224428997,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Shellfish'})",3
+0.028798411122144985,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Spicy Food'})",3
+0.033763654419066536,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Hard Cheese'})",3
+0.03475670307845084,"frozenset({'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.029791459781529295,"frozenset({'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",3
+0.030784508440913606,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Hard Cheese'})",3
+0.036742800397219465,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Maturated Cheese'})",3
+0.04568023833167825,"frozenset({'Pair_Pasta', 'Pair_Game Meat', 'Pair_Lamb'})",3
+0.1529294935451837,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry'})",3
+0.2135054617676266,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Lamb'})",3
+0.029791459781529295,"frozenset({'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",3
+0.036742800397219465,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Maturated Cheese'})",3
+0.05461767626613704,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Game Meat'})",3
+0.04568023833167825,"frozenset({'Pair_Pork', 'Pair_Game Meat', 'Pair_Poultry'})",3
+0.021847070506454815,"frozenset({'Pair_Rich Fish', 'Pair_Game Meat', 'Pair_Pork'})",3
+0.031777557100297914,"frozenset({'Pair_Pork', 'Pair_Veal', 'Pair_Game Meat'})",3
+0.025819265143992055,"frozenset({'Pair_Pork', 'Type_Red', 'Pair_Game Meat'})",3
+0.021847070506454815,"frozenset({'Pair_Rich Fish', 'Pair_Game Meat', 'Pair_Poultry'})",3
+0.09533267130089375,"frozenset({'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry'})",3
+0.22939424031777558,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Poultry'})",3
+0.08440913604766634,"frozenset({'Type_Red', 'Pair_Veal', 'Pair_Game Meat'})",3
+0.039721946375372394,"frozenset({'Pair_Shellfish', 'Pair_Vegetarian', 'Pair_Goat Cheese'})",3
+0.038728897715988087,"frozenset({'Pair_Shellfish', 'Type_White', 'Pair_Goat Cheese'})",3
+0.038728897715988087,"frozenset({'Pair_Vegetarian', 'Type_White', 'Pair_Goat Cheese'})",3
+0.05858987090367428,"frozenset({'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.03277060575968222,"frozenset({'Pair_Lamb', 'Pair_Poultry', 'Pair_Hard Cheese'})",3
+0.023833167825223437,"frozenset({'Pair_Spicy Food', 'Pair_Lamb', 'Pair_Hard Cheese'})",3
+0.039721946375372394,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Hard Cheese'})",3
+0.04667328699106256,"frozenset({'Pair_Poultry', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.031777557100297914,"frozenset({'Pair_Spicy Food', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.04270109235352532,"frozenset({'Type_Red', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.028798411122144985,"frozenset({'Type_Rosé', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",3
+0.028798411122144985,"frozenset({'Type_Red', 'Pair_Poultry', 'Pair_Hard Cheese'})",3
+0.033763654419066536,"frozenset({'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Poultry'})",3
+0.023833167825223437,"frozenset({'Pair_Lamb', 'Pair_Spicy Food', 'Pair_Maturated Cheese'})",3
+0.044687189672293945,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Maturated Cheese'})",3
+0.024826216484607744,"frozenset({'Pair_Pasta', 'Pair_Lamb', 'Pair_Poultry'})",3
+0.07447864945382324,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Lamb'})",3
+0.031777557100297914,"frozenset({'Pair_Lamb', 'Pair_Spicy Food', 'Pair_Poultry'})",3
+0.044687189672293945,"frozenset({'Pair_Veal', 'Pair_Lamb', 'Pair_Poultry'})",3
+0.2671300893743793,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Poultry'})",3
+0.024826216484607744,"frozenset({'Type_Rosé', 'Pair_Spicy Food', 'Pair_Lamb'})",3
+0.05958291956305859,"frozenset({'Type_Red', 'Pair_Veal', 'Pair_Lamb'})",3
+0.024826216484607744,"frozenset({'Pair_Pasta', 'Pair_Lean Fish', 'Type_White'})",3
+0.022840119165839126,"frozenset({'Pair_Snack', 'Pair_Lean Fish', 'Pair_Shellfish'})",3
+0.033763654419066536,"frozenset({'Pair_Lean Fish', 'Type_White', 'Pair_Shellfish'})",3
+0.022840119165839126,"frozenset({'Pair_Lean Fish', 'Type_White', 'Pair_Vegetarian'})",3
+0.029791459781529295,"frozenset({'Type_Red', 'Pair_Maturated Cheese', 'Pair_Poultry'})",3
+0.029791459781529295,"frozenset({'Pair_Pasta', 'Pair_Veal', 'Pair_Poultry'})",3
+0.05561072492552135,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Poultry'})",3
+0.030784508440913606,"frozenset({'Pair_Pasta', 'Type_White', 'Pair_Shellfish'})",3
+0.036742800397219465,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Veal'})",3
+0.0804369414101291,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Poultry'})",3
+0.05362462760675273,"frozenset({'Pair_Pork', 'Pair_Shellfish', 'Pair_Poultry'})",3
+0.05461767626613704,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Pair_Poultry'})",3
+0.038728897715988087,"frozenset({'Pair_Pork', 'Pair_Veal', 'Pair_Poultry'})",3
+0.07944389275074479,"frozenset({'Pair_Pork', 'Pair_Vegetarian', 'Pair_Poultry'})",3
+0.030784508440913606,"frozenset({'Pair_Pork', 'Type_Red', 'Pair_Poultry'})",3
+0.08838133068520357,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Poultry'})",3
+0.05759682224428997,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Shellfish'})",3
+0.03574975173783516,"frozenset({'Pair_Rich Fish', 'Pair_Soft Cheese', 'Pair_Pork'})",3
+0.06355511420059583,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Vegetarian'})",3
+0.05858987090367428,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Pork'})",3
+0.05461767626613704,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Pork'})",3
+0.03773584905660377,"frozenset({'Pair_Pork', 'Pair_Soft Cheese', 'Pair_Shellfish'})",3
+0.047666335650446874,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Pair_Shellfish'})",3
+0.020854021847070508,"frozenset({'Pair_Vegetarian', 'Pair_Pork', 'Pair_Shellfish'})",3
+0.04270109235352532,"frozenset({'Pair_Pork', 'Type_Sparkling', 'Pair_Shellfish'})",3
+0.05461767626613704,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Shellfish'})",3
+0.026812313803376366,"frozenset({'Pair_Pork', 'Type_Sparkling', 'Pair_Soft Cheese'})",3
+0.021847070506454815,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Pair_Vegetarian'})",3
+0.04568023833167825,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Spicy Food'})",3
+0.06752730883813307,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Vegetarian'})",3
+0.06554121151936444,"frozenset({'Pair_Rich Fish', 'Pair_Vegetarian', 'Pair_Poultry'})",3
+0.05263157894736842,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Poultry'})",3
+0.041708043694141016,"frozenset({'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry'})",3
+0.039721946375372394,"frozenset({'Type_White', 'Pair_Shellfish', 'Pair_Poultry'})",3
+0.036742800397219465,"frozenset({'Type_White', 'Pair_Spicy Food', 'Pair_Poultry'})",3
+0.14597815292949354,"frozenset({'Type_Red', 'Pair_Veal', 'Pair_Poultry'})",3
+0.0605759682224429,"frozenset({'Type_White', 'Pair_Vegetarian', 'Pair_Poultry'})",3
+0.04865938430983118,"frozenset({'Pair_Rich Fish', 'Pair_Soft Cheese', 'Pair_Shellfish'})",3
+0.047666335650446874,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Shellfish'})",3
+0.029791459781529295,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Shellfish'})",3
+0.026812313803376366,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Soft Cheese'})",3
+0.023833167825223437,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Soft Cheese'})",3
+0.0506454816285998,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Vegetarian'})",3
+0.020854021847070508,"frozenset({'Pair_Snack', 'Pair_Vegetarian', 'Pair_Shellfish'})",3
+0.023833167825223437,"frozenset({'Pair_Snack', 'Type_Sparkling', 'Pair_Shellfish'})",3
+0.021847070506454815,"frozenset({'Pair_Snack', 'Type_White', 'Pair_Shellfish'})",3
+0.026812313803376366,"frozenset({'Type_Sparkling', 'Pair_Soft Cheese', 'Pair_Shellfish'})",3
+0.025819265143992055,"frozenset({'Type_White', 'Pair_Soft Cheese', 'Pair_Shellfish'})",3
+0.0407149950347567,"frozenset({'Type_White', 'Pair_Spicy Food', 'Pair_Shellfish'})",3
+0.06752730883813307,"frozenset({'Pair_Vegetarian', 'Type_White', 'Pair_Shellfish'})",3
+0.025819265143992055,"frozenset({'Pair_Snack', 'Type_White', 'Pair_Vegetarian'})",3
+0.022840119165839126,"frozenset({'Pair_Lean Fish', 'Pair_Aperitif', 'Pair_Snack', 'Pair_Shellfish'})",4
+0.020854021847070508,"frozenset({'Pair_Snack', 'Pair_Vegetarian', 'Pair_Aperitif', 'Pair_Shellfish'})",4
+0.022840119165839126,"frozenset({'Pair_Snack', 'Type_Sparkling', 'Pair_Aperitif', 'Pair_Shellfish'})",4
+0.021847070506454815,"frozenset({'Pair_Snack', 'Pair_Aperitif', 'Type_White', 'Pair_Shellfish'})",4
+0.025819265143992055,"frozenset({'Pair_Snack', 'Pair_Aperitif', 'Type_White', 'Pair_Vegetarian'})",4
+0.033763654419066536,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Hard Cheese'})",4
+0.033763654419066536,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.028798411122144985,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.030784508440913606,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Game Meat', 'Pair_Hard Cheese'})",4
+0.036742800397219465,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Maturated Cheese'})",4
+0.04568023833167825,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb'})",4
+0.1529294935451837,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.2135054617676266,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Game Meat', 'Pair_Lamb'})",4
+0.028798411122144985,"frozenset({'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.036742800397219465,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Game Meat', 'Pair_Maturated Cheese'})",4
+0.04369414101290963,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Type_Red', 'Pair_Game Meat'})",4
+0.06454816285998013,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry'})",4
+0.2135054617676266,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Game Meat', 'Pair_Poultry'})",4
+0.06951340615690169,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Type_Red'})",4
+0.05660377358490566,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.03277060575968222,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.023833167825223437,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Lamb', 'Pair_Hard Cheese'})",4
+0.03773584905660377,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Lamb', 'Pair_Hard Cheese'})",4
+0.0407149950347567,"frozenset({'Pair_Beef', 'Pair_Poultry', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.031777557100297914,"frozenset({'Pair_Beef', 'Pair_Spicy Food', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.0407149950347567,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.027805362462760674,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.028798411122144985,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.033763654419066536,"frozenset({'Pair_Beef', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.023833167825223437,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Spicy Food', 'Pair_Maturated Cheese'})",4
+0.04270109235352532,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Lamb', 'Pair_Maturated Cheese'})",4
+0.024826216484607744,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.07447864945382324,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Type_Red', 'Pair_Lamb'})",4
+0.031777557100297914,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Spicy Food', 'Pair_Poultry'})",4
+0.044687189672293945,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.2611717974180735,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.024826216484607744,"frozenset({'Pair_Beef', 'Type_Rosé', 'Pair_Spicy Food', 'Pair_Lamb'})",4
+0.05958291956305859,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Lamb', 'Type_Red'})",4
+0.029791459781529295,"frozenset({'Pair_Beef', 'Type_Red', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.038728897715988087,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Type_Red', 'Pair_Poultry'})",4
+0.020854021847070508,"frozenset({'Pair_Pasta', 'Pair_Beef', 'Pair_Veal', 'Type_Red'})",4
+0.12611717974180736,"frozenset({'Pair_Beef', 'Pair_Veal', 'Pair_Poultry', 'Type_Red'})",4
+0.023833167825223437,"frozenset({'Pair_Pasta', 'Pair_Cured Meat', 'Type_White', 'Pair_Shellfish'})",4
+0.03773584905660377,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.033763654419066536,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Spicy Food', 'Pair_Poultry'})",4
+0.03773584905660377,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Type_White', 'Pair_Poultry'})",4
+0.033763654419066536,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Pair_Spicy Food', 'Pair_Shellfish'})",4
+0.029791459781529295,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Type_White', 'Pair_Shellfish'})",4
+0.028798411122144985,"frozenset({'Pair_Pork', 'Pair_Cured Meat', 'Type_White', 'Pair_Spicy Food'})",4
+0.033763654419066536,"frozenset({'Pair_Cured Meat', 'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.028798411122144985,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.025819265143992055,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Spicy Food', 'Pair_Poultry'})",4
+0.025819265143992055,"frozenset({'Pair_Cured Meat', 'Type_White', 'Pair_Spicy Food', 'Pair_Shellfish'})",4
+0.03277060575968222,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.027805362462760674,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.030784508440913606,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Hard Cheese'})",4
+0.029791459781529295,"frozenset({'Pair_Poultry', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.029791459781529295,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.027805362462760674,"frozenset({'Pair_Game Meat', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.033763654419066536,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Maturated Cheese'})",4
+0.04369414101290963,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Game Meat', 'Pair_Lamb'})",4
+0.14498510427010924,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.021847070506454815,"frozenset({'Pair_Rich Fish', 'Pair_Game Meat', 'Pair_Pork', 'Pair_Poultry'})",4
+0.031777557100297914,"frozenset({'Pair_Pork', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry'})",4
+0.07745779543197617,"frozenset({'Type_Red', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry'})",4
+0.038728897715988087,"frozenset({'Pair_Shellfish', 'Pair_Vegetarian', 'Type_White', 'Pair_Goat Cheese'})",4
+0.03277060575968222,"frozenset({'Pair_Hard Cheese', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.023833167825223437,"frozenset({'Pair_Lamb', 'Pair_Spicy Food', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.038728897715988087,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.026812313803376366,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Poultry', 'Pair_Hard Cheese'})",4
+0.028798411122144985,"frozenset({'Type_Red', 'Pair_Poultry', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",4
+0.027805362462760674,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Maturated Cheese', 'Pair_Poultry'})",4
+0.024826216484607744,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.04270109235352532,"frozenset({'Type_Red', 'Pair_Veal', 'Pair_Lamb', 'Pair_Poultry'})",4
+0.029791459781529295,"frozenset({'Pair_Pasta', 'Type_Red', 'Pair_Veal', 'Pair_Poultry'})",4
+0.0605759682224429,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Vegetarian', 'Pair_Poultry'})",4
+0.04568023833167825,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Pork', 'Pair_Poultry'})",4
+0.039721946375372394,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.033763654419066536,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.033763654419066536,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Spicy Food', 'Pair_Poultry'})",4
+0.05561072492552135,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Vegetarian', 'Pair_Poultry'})",4
+0.03475670307845084,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Soft Cheese', 'Pair_Shellfish'})",4
+0.04270109235352532,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Pork', 'Pair_Shellfish'})",4
+0.025819265143992055,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Soft Cheese', 'Pair_Pork'})",4
+0.044687189672293945,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Type_White', 'Pair_Vegetarian'})",4
+0.025819265143992055,"frozenset({'Pair_Pork', 'Type_Sparkling', 'Pair_Soft Cheese', 'Pair_Shellfish'})",4
+0.03574975173783516,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Spicy Food', 'Pair_Shellfish'})",4
+0.04667328699106256,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Vegetarian', 'Pair_Poultry'})",4
+0.029791459781529295,"frozenset({'Type_White', 'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry'})",4
+0.026812313803376366,"frozenset({'Pair_Rich Fish', 'Type_Sparkling', 'Pair_Soft Cheese', 'Pair_Shellfish'})",4
+0.021847070506454815,"frozenset({'Pair_Rich Fish', 'Type_White', 'Pair_Soft Cheese', 'Pair_Shellfish'})",4
+0.03277060575968222,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",5
+0.027805362462760674,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",5
+0.030784508440913606,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Hard Cheese'})",5
+0.028798411122144985,"frozenset({'Pair_Beef', 'Pair_Hard Cheese', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Maturated Cheese'})",5
+0.029791459781529295,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",5
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",5
+0.027805362462760674,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.033763654419066536,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese'})",5
+0.04369414101290963,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Pasta'})",5
+0.14498510427010924,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry'})",5
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.06256206554121152,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry'})",5
+0.03277060575968222,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Hard Cheese', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.023833167825223437,"frozenset({'Pair_Spicy Food', 'Pair_Lamb', 'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",5
+0.036742800397219465,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",5
+0.026812313803376366,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Poultry', 'Pair_Hard Cheese'})",5
+0.028798411122144985,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Hard Cheese', 'Pair_Poultry', 'Pair_Maturated Cheese'})",5
+0.027805362462760674,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.024826216484607744,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Pasta', 'Pair_Poultry'})",5
+0.04270109235352532,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Poultry'})",5
+0.033763654419066536,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry', 'Pair_Cured Meat'})",5
+0.028798411122144985,"frozenset({'Pair_Pork', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry', 'Pair_Cured Meat'})",5
+0.025819265143992055,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Type_White', 'Pair_Poultry', 'Pair_Cured Meat'})",5
+0.025819265143992055,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Type_White', 'Pair_Shellfish', 'Pair_Cured Meat'})",5
+0.025819265143992055,"frozenset({'Pair_Spicy Food', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry', 'Pair_Cured Meat'})",5
+0.027805362462760674,"frozenset({'Pair_Lamb', 'Pair_Hard Cheese', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.029791459781529295,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",5
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",5
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Hard Cheese', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Maturated Cheese'})",5
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.026812313803376366,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Hard Cheese', 'Pair_Maturated Cheese', 'Pair_Poultry'})",5
+0.04270109235352532,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Vegetarian', 'Type_White', 'Pair_Poultry'})",5
+0.027805362462760674,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry'})",5
+0.025819265143992055,"frozenset({'Pair_Rich Fish', 'Pair_Pork', 'Pair_Soft Cheese', 'Pair_Shellfish', 'Type_Sparkling'})",5
+0.027805362462760674,"frozenset({'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Poultry'})",6
+0.029791459781529295,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese'})",6
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Poultry', 'Pair_Hard Cheese'})",6
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Poultry'})",6
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Poultry'})",6
+0.026812313803376366,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Poultry'})",6
+0.025819265143992055,"frozenset({'Pair_Pork', 'Pair_Spicy Food', 'Type_White', 'Pair_Shellfish', 'Pair_Poultry', 'Pair_Cured Meat'})",6
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Poultry'})",6
+0.025819265143992055,"frozenset({'Type_Red', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Poultry'})",7

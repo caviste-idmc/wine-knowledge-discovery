@@ -1,0 +1,101 @@
+WineName,Input_Meal,True_Wine_Profile,Predicted_Top3_Profile
+Origem Merlot,"['Pair_Lamb', 'Pair_Grilled', 'Pair_Beef', 'Pair_Veal', 'Pair_Pasta', 'Pair_Pizza']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Reserva Chardonnay,"['Pair_Rich Fish', 'Pair_Vegetarian', 'Pair_Risotto', 'Pair_Seafood', 'Pair_Poultry']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']",['Acid_High']
+Dona Antonia Porto Reserva Tawny,"['Pair_Blue Cheese', 'Pair_Appetizer', 'Pair_Sweet Dessert']","['Body_Very full-bodied', 'Type_Dessert/Port', 'Acid_High']",['Acid_High']
+Fine Ruby Port,"['Pair_Cake', 'Pair_Soft Cheese', 'Pair_Fruit', 'Pair_Sweet Dessert']","['Body_Very full-bodied', 'Type_Dessert/Port', 'Acid_Medium']",['Acid_High']
+Maré Alta,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Appetizer', 'Pair_Shellfish', 'Pair_Fish']","['Type_White', 'Body_Very light-bodied', 'Acid_High']",['Acid_High']
+Terras de Felgueiras Espumante de Vinho Verde Seco Branco,"['Pair_Shellfish', 'Pair_Rich Fish', 'Pair_Soft Cheese', 'Pair_Appetizer']","['Acid_Medium', 'Body_Medium-bodied', 'Type_Sparkling']","['Acid_High', 'Body_Medium-bodied']"
+Pátria Alentejo Selection Reserva,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Maturated Cheese']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_Medium', 'Acid_High', 'Body_Very full-bodied']"
+Além do Rio Branco,"['Pair_Pasta', 'Pair_Grilled', 'Pair_Lean Fish', 'Pair_Shellfish']","['Body_Medium-bodied', 'Type_White', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Calda Bordaleza Tinto,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Regional Tinto,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Lacrau Colheita Field Blend,"['Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Maria Izabel Rosé,"['Pair_Beef', 'Pair_Hard Cheese', 'Pair_Maturated Cheese', 'Pair_Tomato Dishes']","['Type_Rosé', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Terras de Basto Tinto,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Primata Touriga Nacional,"['Pair_Salad', 'Pair_Light Stews', 'Pair_Snack', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']",['Acid_High']
+Porto Colheita,"['Pair_Cake', 'Pair_Soft Cheese', 'Pair_Fruit', 'Pair_Sweet Dessert']","['Body_Very full-bodied', 'Type_Dessert/Port', 'Acid_Medium']",['Acid_High']
+White Reserve Porto,"['Pair_Blue Cheese', 'Pair_Aperitif', 'Pair_Sweet Dessert']","['Body_Very full-bodied', 'Type_Dessert/Port', 'Acid_Medium']",['Acid_High']
+Black Label Nik Weis Saar Riesling,"['Pair_Pork', 'Pair_Spicy Food', 'Pair_Shellfish', 'Pair_Poultry', 'Pair_Cured Meat']","['Body_Medium-bodied', 'Type_White', 'Acid_High']","['Body_Light-bodied', 'Acid_High']"
+Felix Lemberger Trocken,"['Pair_Beef', 'Pair_Veal', 'Pair_Barbecue', 'Pair_Lamb']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Full-bodied']"
+Merlot Reserve Trocken,"['Pair_Beef', 'Pair_Pork', 'Pair_Game Meat', 'Pair_Maturated Cheese']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_Medium', 'Acid_High', 'Body_Medium-bodied']"
+Sauternes (Premier Grand Cru Classé),"['Pair_Blue Cheese', 'Pair_Fruit Dessert']","['Type_Dessert', 'Acid_High', 'Body_Full-bodied']",[]
+Vieille Vigne Gevrey-Chambertin,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Pommard Premier Cru 'Grand Clos des Épenots',"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Coteaux d'Aix-en-Provence Rosé,"['Pair_Vegetarian', 'Pair_Tomato Dishes', 'Pair_Seafood', 'Pair_Shellfish', 'Pair_Poultry']","['Acid_Medium', 'Type_Rosé', 'Body_Light-bodied']","['Acid_High', 'Body_Light-bodied']"
+Sancerre Les Baronnes Rosé,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Aperitif', 'Pair_Salad']","['Acid_Medium', 'Type_Rosé', 'Body_Medium-bodied']","['Acid_High', 'Body_Medium-bodied']"
+Pessac-Léognan,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Château Chemin Royal Moulis-en-Médoc,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Santenay Rouge,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Light-bodied']",['Acid_High']
+Fleurie La Madone,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Pasta', 'Pair_Maturated Cheese']","['Type_Red', 'Acid_High', 'Body_Light-bodied']","['Acid_High', 'Body_Full-bodied', 'Acid_Medium']"
+Nuits-St-Georges Les Plateaux,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Cinsault-Grenache Rosé,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Appetizer', 'Pair_Chicken', 'Pair_Pasta']","['Type_Rosé', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Les Dessous des Dentelles,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Les Fuées Chambolle-Musigny 1er Cru,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Full-bodied']",['Acid_High']
+Lou Mansengou,"['Pair_Rich Fish', 'Pair_Vegetarian', 'Pair_Soft Cheese', 'Pair_Poultry', 'Pair_Fruit Dessert']","['Type_Dessert', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Cabardès Rosé,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Appetizer', 'Pair_Chicken', 'Pair_Pasta']","['Type_Rosé', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Marc d'Alsace Riesling,"['Pair_Pork', 'Pair_Rich Fish', 'Pair_Spicy Food', 'Pair_Vegetarian', 'Pair_Cured Meat']","['Type_Dessert', 'Acid_Medium', 'Body_Medium-bodied']","['Body_Light-bodied', 'Acid_High']"
+Chablis 1er Cru 'Montmains',"['Pair_Pork', 'Pair_Soft Cheese', 'Pair_Rich Fish', 'Pair_Shellfish']","['Body_Medium-bodied', 'Type_White', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Bandol Cuvée Spéciale La Louffe,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Maturated Cheese', 'Pair_Hard Cheese']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_Medium', 'Acid_High', 'Body_Full-bodied']"
+Meursault 1er Cru 'La Pièce Sous Le Bois',"['Pair_Rich Fish', 'Pair_Soft Cheese', 'Pair_Chicken', 'Pair_Pasta', 'Pair_Shellfish']","['Acid_Medium', 'Type_White', 'Body_Full-bodied']","['Acid_High', 'Body_Medium-bodied']"
+Rosato,"['Pair_Mushrooms', 'Pair_Tomato Dishes', 'Pair_Blue Cheese', 'Pair_Poultry', 'Pair_Fish']","['Acid_Medium', 'Type_Rosé', 'Body_Light-bodied']",['Acid_High']
+Ricarico Prestige Cuvée,"['Pair_Lamb', 'Pair_Beef', 'Pair_Grilled', 'Pair_Game Meat', 'Pair_Pasta', 'Pair_Maturated Cheese']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Acid_Medium', 'Body_Very full-bodied']"
+Nicolon Barbera d'Alba,"['Pair_Pork', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Pasta', 'Pair_Poultry']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Langhe Nebbiolo,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Al Poggio Chardonnay di Toscana,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Lean Fish', 'Pair_Appetizer', 'Pair_Pasta', 'Pair_Cured Meat']","['Body_Medium-bodied', 'Type_White', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Gabbiano Pinot Grigio,"['Pair_Vegetarian', 'Pair_Mushrooms', 'Pair_Appetizer', 'Pair_Pasta', 'Pair_Shellfish']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']",['Acid_High']
+Zinfandel,"['Pair_Pasta', 'Pair_Beef', 'Pair_Veal', 'Pair_Lamb']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+La Primavera in Rosa Rosé Italia,"['Pair_Salad', 'Pair_Beef', 'Pair_Pasta', 'Pair_Aperitif', 'Pair_Seafood', 'Pair_Shellfish']","['Acid_Medium', 'Type_Rosé', 'Body_Medium-bodied']",['Acid_High']
+Müller Thurgau Alto Adige,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Appetizer', 'Pair_Risotto', 'Pair_Seafood']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']",['Acid_High']
+Riserva Prêt-A-Porter,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Blue Cheese', 'Pair_Lamb']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_High', 'Body_Full-bodied']"
+Brachetto d'Acqui,"['Pair_Snack', 'Pair_Cream', 'Pair_Appetizer', 'Pair_Cake', 'Pair_Fruit']","['Body_Medium-bodied', 'Type_Sparkling', 'Acid_High']",['Acid_High']
+Torgaio Toscana,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Poultry', 'Pair_Cured Meat']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_High', 'Body_Full-bodied']"
+Dulcis Moscato d'Asti,"['Pair_Cake', 'Pair_Appetizer', 'Pair_Fruit Dessert']","['Type_Dessert', 'Acid_Medium', 'Body_Light-bodied']",[]
+Narin Barbaresco,"['Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Solatio Moscato d'Asti,"['Pair_Soft Cheese', 'Pair_Appetizer', 'Pair_Fruit Dessert']","['Acid_Medium', 'Type_White', 'Body_Light-bodied']",['Acid_High']
+Barbera d'Alba,"['Pair_Pork', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Pasta', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_High', 'Body_Medium-bodied']"
+Belcaro Vin Santo del Chianti Classico,"['Pair_Beef', 'Pair_Pork', 'Pair_Spicy Food', 'Pair_Lamb']","['Type_Dessert', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Medium-bodied', 'Body_Full-bodied']"
+Bardolino Classico,"['Pair_Pasta', 'Pair_Soft Cheese', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']",['Acid_High']
+Langhe Chardonnay,"['Pair_Cured Meat', 'Pair_Lean Fish', 'Pair_Appetizer', 'Pair_Maturated Cheese', 'Pair_Pizza']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']","['Acid_High', 'Body_Medium-bodied']"
+Barolo Riserva,"['Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Pasta', 'Pair_Hard Cheese']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Body_Very full-bodied', 'Acid_Medium', 'Acid_High']"
+Barolo,"['Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Cerequio Barolo,"['Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Fiano del Salento,"['Pair_Snack', 'Pair_Appetizer', 'Pair_Seafood', 'Pair_Vegetarian']","['Body_Medium-bodied', 'Type_White', 'Acid_High']",['Acid_High']
+Manzoni Moscato Spumante,"['Pair_Snack', 'Pair_Fruit', 'Pair_Lean Fish', 'Pair_Appetizer']","['Type_Sparkling', 'Acid_High', 'Body_Light-bodied']","['Acid_High', 'Body_Medium-bodied']"
+Fior di Vigna Dolce Rosso,"['Pair_Chocolate', 'Pair_Fruit', 'Pair_Sweet Dessert']","['Type_Dessert', 'Acid_Low', 'Body_Full-bodied']",['Acid_High']
+Rare Cream Sherry Superior (Solera Reserva),"['Pair_Snack', 'Pair_Appetizer', 'Pair_Maturated Cheese', 'Pair_Hard Cheese', 'Pair_Fruit Dessert']","['Type_Dessert/Port', 'Acid_High', 'Body_Full-bodied']",['Acid_High']
+Fino Eléctrico 3 Fases,"['Pair_Blue Cheese', 'Pair_Lean Fish', 'Pair_Cold Cuts', 'Pair_Sweet Dessert']","['Type_Dessert', 'Acid_Medium', 'Body_Full-bodied']","['Acid_High', 'Body_Medium-bodied']"
+La Tinaja de Aranzazu,"['Pair_Snack', 'Pair_Vegetarian', 'Pair_Lean Fish', 'Pair_Appetizer', 'Pair_Pasta', 'Pair_Shellfish']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']","['Acid_High', 'Body_Medium-bodied']"
+Coyam,"['Pair_Pork', 'Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_Medium', 'Body_Very full-bodied', 'Acid_High']"
+Las Mulas Reserva Sauvignon Blanc,"['Pair_Vegetarian', 'Pair_Goat Cheese', 'Pair_Shellfish']","['Body_Medium-bodied', 'Type_White', 'Acid_High']",['Acid_High']
+El Espiritu de Cachapoal Brut,"['Pair_Salad', 'Pair_Grilled', 'Pair_Chicken', 'Pair_Seafood', 'Pair_Shellfish']","['Type_Sparkling', 'Acid_High', 'Body_Light-bodied']",['Acid_High']
+Cabernet Franc,"['Pair_Pork', 'Pair_Spicy Food', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_Medium', 'Acid_High', 'Body_Medium-bodied']"
+Reserva Cabernet Franc,"['Pair_Pork', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Soft Cheese', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_High', 'Body_Medium-bodied']"
+Los Cardos Malbec,"['Pair_Beef', 'Pair_French Fries', 'Pair_Lamb', 'Pair_Poultry']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Gran Malbec,"['Pair_Beef', 'Pair_Lamb', 'Pair_Poultry']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_High', 'Body_Full-bodied']"
+Extra Brut Cuvée Spéciale Baron B,"['Pair_Vegetarian', 'Pair_Pork', 'Pair_Fish', 'Pair_Poultry']","['Acid_Medium', 'Body_Medium-bodied', 'Type_Sparkling']",['Acid_High']
+Unwooded Chardonnay,"['Pair_Vegetarian', 'Pair_Pork', 'Pair_Soft Cheese', 'Pair_Poultry']","['Acid_Medium', 'Body_Medium-bodied', 'Type_White']","['Acid_High', 'Body_Medium-bodied']"
+Cabernet Sauvignon-Shiraz,"['Pair_Beef', 'Pair_Lamb', 'Pair_Poultry']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_High', 'Body_Full-bodied']"
+The Visionary Cabernet Sauvignon,"['Pair_Beef', 'Pair_Veal', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Rocky Gully Cabernets,"['Pair_Pasta', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb']","['Type_Red', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Haven Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Chicken']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Estate Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Old Vine Zinfandel,"['Pair_Beef', 'Pair_Veal', 'Pair_Lamb', 'Pair_Poultry']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_High', 'Body_Full-bodied']"
+Old Vine Zinfandel,"['Pair_Beef', 'Pair_Maturated Cheese', 'Pair_Game Meat', 'Pair_Lamb']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_Medium', 'Body_Very full-bodied', 'Acid_High']"
+Dry Creek Valley Zinfandel,"['Pair_Beef', 'Pair_Lamb', 'Pair_Poultry']","['Type_Dessert', 'Body_Very full-bodied', 'Acid_Medium']","['Acid_High', 'Body_Full-bodied']"
+Lauréne Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']",['Acid_High']
+Coyote Canyon Reserve Syrah,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Rosé of Pinot Noir,"['Pair_Salad', 'Pair_Rich Fish', 'Pair_Goat Cheese', 'Pair_Shellfish', 'Pair_Poultry']","['Type_Rosé', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Medium-bodied', 'Body_Light-bodied']"
+Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Chicken']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Cabernet Sauvignon,"['Pair_Lamb', 'Pair_Beef', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese']","['Body_Very full-bodied', 'Acid_Medium', 'Type_Red']","['Acid_Medium', 'Body_Very full-bodied', 'Acid_High']"
+Barrel Select Fumé Blanc,"['Pair_Vegetarian', 'Pair_Goat Cheese', 'Pair_Shellfish']","['Body_Medium-bodied', 'Type_White', 'Acid_High']",['Acid_High']
+Pedroni Vineyard Cabernet Franc,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Chicken', 'Pair_Maturated Cheese']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']","['Acid_High', 'Acid_Medium']"
+Premiere Napa Valley Cabernet Sauvignon,"['Pair_Lamb', 'Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Maturated Cheese', 'Pair_Hard Cheese']","['Body_Very full-bodied', 'Type_Red', 'Acid_High']","['Acid_Medium', 'Body_Very full-bodied', 'Acid_High']"
+Private Reserve Riesling,"['Pair_Goat Cheese', 'Pair_Veal', 'Pair_Cold Cuts']","['Type_White', 'Body_Light-bodied', 'Acid_High']",['Acid_High']
+Pinot Noir,"['Pair_Beef', 'Pair_Veal', 'Pair_Game Meat', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Medium-bodied']",['Acid_High']
+Zweigelt,"['Pair_Beef', 'Pair_Game Meat', 'Pair_Pork', 'Pair_Lamb']","['Type_Red', 'Body_Medium-bodied', 'Acid_High']","['Acid_High', 'Body_Full-bodied', 'Body_Medium-bodied']"
+Cuvée Alexander Rose de Pinot Extra Brut,"['Pair_Snack', 'Pair_Shellfish', 'Pair_Rich Fish', 'Pair_Appetizer']","['Body_Medium-bodied', 'Type_Sparkling', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Kormilitsa Red,"['Pair_Beef', 'Pair_Spicy Food', 'Pair_Lamb', 'Pair_Poultry']","['Acid_Medium', 'Type_Red', 'Body_Full-bodied']","['Acid_High', 'Body_Full-bodied']"
+Select Rosé Brut,"['Pair_Snack', 'Pair_Lean Fish', 'Pair_Appetizer', 'Pair_Shellfish']","['Body_Medium-bodied', 'Type_Sparkling', 'Acid_High']","['Acid_High', 'Body_Medium-bodied']"
+Kallisto,"['Pair_Blue Cheese', 'Pair_Lean Fish', 'Pair_Shellfish', 'Pair_Poultry']","['Type_White', 'Acid_High', 'Body_Full-bodied']","['Acid_High', 'Body_Light-bodied', 'Body_Medium-bodied']"
+The Falcon Pinot Gris,"['Pair_Pork', 'Pair_Spicy Food', 'Pair_Vegetarian', 'Pair_Mushrooms']","['Body_Medium-bodied', 'Type_White', 'Acid_High']",['Acid_High']
